@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SceneDelegate.h
 //  ModuleBox
 //
 //  Created by ZZG on 2020/4/28.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
+@property (strong, nonatomic) UIWindow * window;
 
 @end
 
