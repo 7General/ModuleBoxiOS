@@ -1,0 +1,16 @@
+PODS:
+  - MSProgress (0.0.2)
+
+DEPENDENCIES:
+  - MSProgress
+
+SPEC REPOS:
+  trunk:
+    - MSProgress
+
+SPEC CHECKSUMS:
+  MSProgress: ccacd50da0bed4fc3e5f3dc88dc1b0a091c09798
+
+PODFILE CHECKSUM: f31d4b77196ff360fee2afa60a653b257df56096
+
+COCOAPODS: 1.9.1

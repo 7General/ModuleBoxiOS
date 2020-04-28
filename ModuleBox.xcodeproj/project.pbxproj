@@ -16,6 +16,7 @@
 		22EA104D2458048700EA23F2 /* ModuleBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA104C2458048700EA23F2 /* ModuleBoxTests.m */; };
 		22EA10582458048700EA23F2 /* ModuleBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA10572458048700EA23F2 /* ModuleBoxUITests.m */; };
 		22EA10672458050400EA23F2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA10662458050400EA23F2 /* MainViewController.m */; };
+		43F47FFF3807BA38C591682B /* libPods-ModuleBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE48618099489838423646F /* libPods-ModuleBox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		22EA10592458048700EA23F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22EA10652458050400EA23F2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		22EA10662458050400EA23F2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.release.xcconfig"; path = "Target Support Files/Pods-ModuleBox/Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
+		DEE48618099489838423646F /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.debug.xcconfig"; path = "Target Support Files/Pods-ModuleBox/Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F47FFF3807BA38C591682B /* libPods-ModuleBox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				22EA104B2458048700EA23F2 /* ModuleBoxTests */,
 				22EA10562458048700EA23F2 /* ModuleBoxUITests */,
 				22EA102E2458048600EA23F2 /* Products */,
+				78AC61ADA3FA3755BB2352A2 /* Pods */,
+				A9EBB59BA4E8D061808DEF30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +144,24 @@
 			path = ModuleBoxUITests;
 			sourceTree = "<group>";
 		};
+		78AC61ADA3FA3755BB2352A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */,
+				2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9EBB59BA4E8D061808DEF30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE48618099489838423646F /* libPods-ModuleBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22EA105C2458048700EA23F2 /* Build configuration list for PBXNativeTarget "ModuleBox" */;
 			buildPhases = (
+				C1D526F5D2501E2AD39154FC /* [CP] Check Pods Manifest.lock */,
 				22EA10292458048600EA23F2 /* Sources */,
 				22EA102A2458048600EA23F2 /* Frameworks */,
 				22EA102B2458048600EA23F2 /* Resources */,
+				4063F1D7027378AEFCFCA2BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +288,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4063F1D7027378AEFCFCA2BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuleBox/Pods-ModuleBox-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuleBox/Pods-ModuleBox-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModuleBox/Pods-ModuleBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D526F5D2501E2AD39154FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModuleBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22EA10292458048600EA23F2 /* Sources */ = {
@@ -437,6 +506,7 @@
 		};
 		22EA105D2458048700EA23F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +523,7 @@
 		};
 		22EA105E2458048700EA23F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
