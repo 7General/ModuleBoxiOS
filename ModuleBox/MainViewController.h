@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  MainViewController.h
 //  ModuleBox
 //
 //  Created by ZZG on 2020/4/28.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface MainViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
