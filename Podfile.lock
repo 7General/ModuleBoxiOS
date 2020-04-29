@@ -1,16 +1,16 @@
 PODS:
-  - MSProgress (0.0.2)
+  - ModuleCenter (1.0)
 
 DEPENDENCIES:
-  - MSProgress
+  - ModuleCenter (from `ModuleCenter`)
 
-SPEC REPOS:
-  trunk:
-    - MSProgress
+EXTERNAL SOURCES:
+  ModuleCenter:
+    :path: ModuleCenter
 
 SPEC CHECKSUMS:
-  MSProgress: ccacd50da0bed4fc3e5f3dc88dc1b0a091c09798
+  ModuleCenter: a1d9944d062975863c46bb0cab4f05ccae2a8617
 
-PODFILE CHECKSUM: f31d4b77196ff360fee2afa60a653b257df56096
+PODFILE CHECKSUM: ab5a3d4ba701e137ac6780d88dade5b7612a999b
 
 COCOAPODS: 1.9.1

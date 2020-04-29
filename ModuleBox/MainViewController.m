@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "ModuleCenter.h"
 
 @interface MainViewController ()
 
@@ -18,7 +19,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"----%s",__func__);
-    
+    ModuleCenter * mc = [[ModuleCenter alloc] init];
+    [mc test];
 }
 
 

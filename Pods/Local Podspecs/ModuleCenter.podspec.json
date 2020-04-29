@@ -1,0 +1,25 @@
+{
+  "name": "ModuleCenter",
+  "version": "1.0",
+  "summary": "模块",
+  "description": "模块",
+  "homepage": "https://github.com/7General/ModuleBoxiOS.git",
+  "license": "private",
+  "authors": {
+    "wangHZ": "wanghuizhou21@163.com"
+  },
+  "source": {
+    "git": ".",
+    "tag": "1.0"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "USE_HEADERMAP": false
+  }
+}
