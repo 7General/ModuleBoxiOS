@@ -57,6 +57,8 @@
 		22EA10662458050400EA23F2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.release.xcconfig"; path = "Target Support Files/Pods-ModuleBox/Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
 		DEE48618099489838423646F /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleBox/Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
+		F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleBox/Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
 		FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.debug.xcconfig"; path = "Target Support Files/Pods-ModuleBox/Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,8 @@
 			children = (
 				FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */,
 				2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */,
+				F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */,
+				F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -294,15 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ModuleBox-checkManifestLockResult.txt",
 			);
@@ -488,7 +488,7 @@
 		};
 		22EA105D2458048700EA23F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */;
+			baseConfigurationReference = F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -505,7 +505,7 @@
 		};
 		22EA105E2458048700EA23F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */;
+			baseConfigurationReference = F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

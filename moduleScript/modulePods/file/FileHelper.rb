@@ -18,11 +18,11 @@ class FileHelper
     end
 
 
-    def say_read_config(installer)
-        # puts GZCONFIG_STD_CONFIG_LIST
-        # puts GZCONFIG_STD_CONFIG_LIST2
-        puts "say_read_configsay_read_configsay_read_config"
-        puts installer
-    end
+    # def say_read_config(installer)
+    #     # puts GZCONFIG_STD_CONFIG_LIST
+    #     # puts GZCONFIG_STD_CONFIG_LIST2
+    #     puts "say_read_configsay_read_configsay_read_config"
+    #     puts installer
+    # end
 
 end

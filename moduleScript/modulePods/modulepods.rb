@@ -125,5 +125,5 @@ end
 file = FileHelper.new
 file.say_file
 
-file.say_read_config
+# file.say_read_config
 
