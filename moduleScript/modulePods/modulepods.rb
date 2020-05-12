@@ -1,6 +1,11 @@
 
 # require 'installpods/installpodsHelper'
 require_relative 'installpods/installpodsHelper'
+# 创建类
+require_relative 'rbBasic/Person'
+require_relative 'rbBasic/Block'
+require_relative 'rbBasic/SupportModule'
+
 
 
 print("Hello,Ruby!\n")
@@ -36,4 +41,68 @@ end
 
 def setup_common_child
     puts "setup_common_child"
+    # objc = Person.new
+    # objc.sayHello
 end
+
+objc = Person.new("1223")
+objc.sayHello
+objc.sayGlobbal
+objc.say_detail()
+objc.say_const
+objc.say_currentName
+
+puts  objc.sayIOSCount
+puts "=====begin========="
+puts Person::MR_IOS_COUNT
+puts ::MR_IOS_COUNT
+puts "=====end=========\n\n\n\n"
+
+
+objc.say_ifelse(1)
+
+objc.say_condition
+objc.say_unless(2)
+objc.say_unless_more
+objc.say_case(2)
+objc.say_case(15)
+objc.say_case(200)
+
+objc.say_case_more
+
+
+objc.say_while
+objc.say_while_more
+objc.say_until
+objc.say_until_more
+objc.say_for
+objc.say_for_more
+
+puts objc.returnFuncation
+
+objc.samplefuncation("11","22","33","44")
+objc.samplefuncation "55","66","77"
+
+Person.classfuncation("qq","ww","ee","rr")
+
+objc.AABBCC
+
+
+block = Block.new
+block.say_block{
+    puts "在,modulepods.rb文件内"
+}
+puts "===================="
+block.say_block_param { 
+    |itemA,itemB|
+    puts "block内部传入的参数循环,#{itemA}内\n"
+    puts "block内部传入的参数循环,#{itemB}内"
+}
+block.say_block_input_parma{
+    (0..5).each do |item|
+        puts "向block内部传入的参数循环,#{item}内\n"
+    end
+}
+
+SupportModulePlusInfo::SupportModulePlusContext.instance.say_module_sunshine
+SupportModulePlusInfo.sayHello

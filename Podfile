@@ -2,7 +2,12 @@
 require_relative './moduleScript/modulePods/modulepods'
 
 def setup_module_common
-     mods 'ModuleCenter'
+     mods 'ModuleCenter' # 模块中心
+     mods 'ModuleUIStack' # UIStak
+     mods 'ModuleAppMain' # main模块
+     mods 'ModuleCommonUI' # 基础UI模块
+     mods 'ModuleHome' # 首页
+     mods 'ModuleMine' # 个人中心
      
 end
 

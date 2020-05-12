@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "ModuleMainViewController.h"
+#import "ModuleUIStackManager.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +22,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    MainViewController * main = [[MainViewController alloc] init];
-    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:main];
-    self.window.rootViewController = nav;
+    ModuleMainViewController * tabbar = [[ModuleMainViewController alloc] init];
+    [[ModuleUIStackManager shareInstance] setTabBarController:tabbar];
+    
+    self.window.rootViewController = tabbar;
     [self.window makeKeyAndVisible];
     
     
