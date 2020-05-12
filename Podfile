@@ -19,12 +19,16 @@ target 'ModuleBox' do
 end
 
 
-#post_install do |installer|
+post_install do |installer|
+  say_mods installer
 #  installer.pods_project.targets.each do |target|
+#    puts "============installerinstallerinstallerinstallerinstaller"
 #    puts "#{target.name}"
-#  end
-#  plugin_installer installer
-#end
+#    say_read_config target
+#  say_mods target
+  end
+  
+end
 
 
 

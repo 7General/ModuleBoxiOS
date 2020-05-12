@@ -5,6 +5,10 @@ require_relative 'installpods/installpodsHelper'
 require_relative 'rbBasic/Person'
 require_relative 'rbBasic/Block'
 require_relative 'rbBasic/SupportModule'
+require_relative 'rbBasic/String'
+require_relative 'rbBasic/NSArray'
+# 文件读写
+require_relative 'file/FileHelper'
 
 
 
@@ -106,3 +110,20 @@ block.say_block_input_parma{
 
 SupportModulePlusInfo::SupportModulePlusContext.instance.say_module_sunshine
 SupportModulePlusInfo.sayHello
+
+
+objcStr = String.new
+objcStr.say_string
+
+
+objArray = NSArray.new
+objArray.say_array.each do |item|
+    puts "items,#{item}"
+end
+
+
+file = FileHelper.new
+file.say_file
+
+file.say_read_config
+
