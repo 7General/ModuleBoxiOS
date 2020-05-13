@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225562BA246BFBB8000B3D8F /* env in Resources */ = {isa = PBXBuildFile; fileRef = 225562B9246BFBB8000B3D8F /* env */; };
 		22EA10322458048600EA23F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA10312458048600EA23F2 /* AppDelegate.m */; };
 		22EA10382458048600EA23F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA10372458048600EA23F2 /* ViewController.m */; };
 		22EA103B2458048600EA23F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EA10392458048600EA23F2 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225562B9246BFBB8000B3D8F /* env */ = {isa = PBXFileReference; lastKnownFileType = folder; path = env; sourceTree = "<group>"; };
 		22EA102D2458048600EA23F2 /* ModuleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EA10302458048600EA23F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22EA10312458048600EA23F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		22EA10242458048600EA23F2 = {
 			isa = PBXGroup;
 			children = (
+				225562B9246BFBB8000B3D8F /* env */,
 				22EA102F2458048600EA23F2 /* ModuleBox */,
 				22EA104B2458048700EA23F2 /* ModuleBoxTests */,
 				22EA10562458048700EA23F2 /* ModuleBoxUITests */,
@@ -154,7 +157,6 @@
 				F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */,
 				F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,6 +179,7 @@
 				22EA10292458048600EA23F2 /* Sources */,
 				22EA102A2458048600EA23F2 /* Frameworks */,
 				22EA102B2458048600EA23F2 /* Resources */,
+				0850EB8CE435569D2C66C869 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225562BA246BFBB8000B3D8F /* env in Resources */,
 				22EA10402458048700EA23F2 /* LaunchScreen.storyboard in Resources */,
 				22EA103D2458048700EA23F2 /* Assets.xcassets in Resources */,
 				22EA103B2458048600EA23F2 /* Main.storyboard in Resources */,
@@ -293,6 +297,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0850EB8CE435569D2C66C869 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuleBox/Pods-ModuleBox-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuleBox/Pods-ModuleBox-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModuleBox/Pods-ModuleBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C1D526F5D2501E2AD39154FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,7 +509,7 @@
 		};
 		22EA105D2458048700EA23F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */;
+			baseConfigurationReference = FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -505,7 +526,7 @@
 		};
 		22EA105E2458048700EA23F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */;
+			baseConfigurationReference = 2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

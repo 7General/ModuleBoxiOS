@@ -20,8 +20,7 @@
     ModuleHomeController * homeVC = [[ModuleHomeController alloc] init];
     homeVC.title=@"ww";
     [self setViewControllers:@[homeVC]];
-    
-    
+    NSLog(@"===============%@",BaiduWebLBSAPIAK);
     
     
 }

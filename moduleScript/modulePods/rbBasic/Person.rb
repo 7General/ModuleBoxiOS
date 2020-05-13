@@ -93,6 +93,11 @@ class Person
 
     ### unless
     def say_unless(inputs)
+
+        # unless式和 if式作用相反，即如果 conditional 为假，则执行 code。
+        # 如果 conditional 为真，则执行 else 子句中指定的 code。
+        puts "say_unlesssay_unlesssay_unless" unless inputs > 1
+        
         unless inputs > 2
             puts "inputs > 2"
         else

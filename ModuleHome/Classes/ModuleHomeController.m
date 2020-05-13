@@ -15,7 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    BaiduWebLBSAPIAK;
+//    BaiduWebLBSAPIAK;
 }
 
 

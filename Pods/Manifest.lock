@@ -8,6 +8,7 @@ PODS:
   - ModuleHome (1.0)
   - ModuleMine (1.0)
   - ModuleUIStack (1.0)
+  - MSProgress (0.0.2)
 
 DEPENDENCIES:
   - ModuleAppMain (from `ModuleAppMain`)
@@ -16,6 +17,11 @@ DEPENDENCIES:
   - ModuleHome (from `ModuleHome`)
   - ModuleMine (from `ModuleMine`)
   - ModuleUIStack (from `ModuleUIStack`)
+  - MSProgress
+
+SPEC REPOS:
+  trunk:
+    - MSProgress
 
 EXTERNAL SOURCES:
   ModuleAppMain:
@@ -38,7 +44,8 @@ SPEC CHECKSUMS:
   ModuleHome: 7b0ccb723074b128f882ea0f0cab1f6853272230
   ModuleMine: 2fe3c9c7583f6fbf5b87c87fd5b02b1847886c4d
   ModuleUIStack: 5132a3ebf579526451e8a6c5516ef7d29d92e8ba
+  MSProgress: ccacd50da0bed4fc3e5f3dc88dc1b0a091c09798
 
-PODFILE CHECKSUM: 8cfaf7d3d9a0da7716d94bc730bad6b7cff04738
+PODFILE CHECKSUM: be0b77b3e23666adf824845efc47d8d4d4c6701a
 
 COCOAPODS: 1.9.1

@@ -13,19 +13,23 @@ end
 
 
 target 'ModuleBox' do
+  _module_self_work_path __dir__
+  _self_project 'ModuleBox'
+  _self_enviromennt 'main'
+  
   setup_common
   setup_module_common
- 
+  pod 'MSProgress'
 end
 
 
 post_install do |installer|
-  
-  installer.pods_project.targets.each do |target|
-    puts "============installerinstallerinstallerinstallerinstaller"
-    puts "#{target.name}"
-    say_mods target
-  end
+  _self_module_installer installer
+#  installer.pods_project.targets.each do |target|
+##    puts "============installerinstallerinstallerinstallerinstaller"
+#    puts "#{target.name}"
+#    say_mods target
+#  end
 end
 
 

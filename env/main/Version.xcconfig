@@ -1,0 +1,10 @@
+//
+//  Version.xcconfig
+//  ModuleBox
+//
+//  Created by ZZG on 2020/5/13.
+//  Copyright © 2020 ZZG. All rights reserved.
+//
+
+
+GZC_BUILD_NUMBER = 0
