@@ -94,6 +94,7 @@ class Person
     ### unless
     def say_unless(inputs)
 
+        # next 跳到循环的下一个迭代。如果在块内调用，则终止块的执行（yield 表达式返回 nil）。
         # unless式和 if式作用相反，即如果 conditional 为假，则执行 code。
         # 如果 conditional 为真，则执行 else 子句中指定的 code。
         puts "say_unlesssay_unlesssay_unless" unless inputs > 1

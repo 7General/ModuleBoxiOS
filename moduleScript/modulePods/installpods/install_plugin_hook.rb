@@ -44,8 +44,7 @@ end
 
 
 def _self_module_installer(installer)
-    # puts MBoxconfig::MBoxconfigContext.instance.config_file_list
-    ModuleBox::ModuleBoxInstaller.new.inject(installer,MBoxconfig::MBoxconfigContext.instance.config_file_list)
+    MBoxconfig::MBoxconfigInstaller.new.inject(installer,MBoxconfig::MBoxconfigContext.instance.config_file_list)
 end
 
 
