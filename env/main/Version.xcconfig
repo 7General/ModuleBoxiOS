@@ -7,4 +7,8 @@
 //
 
 
-GZC_BUILD_NUMBER = 0
+GZC_BUILD_NUMBER |= 0
+
+GZC_BUILD_OWNER |= \@\"jiangxiduhufu\"
+
+GZC_BUILD_DATE |= \@\"TODAY\"

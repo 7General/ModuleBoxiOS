@@ -10,6 +10,7 @@
 #import "MainViewController.h"
 #import "ModuleMainViewController.h"
 #import "ModuleUIStackManager.h"
+#import "UINavigationController+OpenApiCore.h"
 
 @interface AppDelegate ()
 
@@ -32,6 +33,26 @@
     return YES;
 }
 
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSLog(@"从哪个app跳转而来 Bundle ID: %@", sourceApplication);
+    NSLog(@"URL scheme:%@", [url scheme]);
+    NSLog(@"URL path:%@", [url path]);
+    
+    return true;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    NSLog(@"从哪个app跳转而来 Bundle ID: %@", options);
+    NSLog(@"URL scheme:%@", [url scheme]);
+    NSLog(@"URL path:%@", [url path]);
+    
+    UINavigationController * nav = [[ModuleUIStackManager shareInstance] getCurrentNavigation];
+    [nav pushModule:@"/index/vc1" animated:YES withParams:@{@"tttt":@"oooooo"} callback:^(NSDictionary * _Nonnull moduleInfo) {
+        NSLog(@"moduleInfomoduleInfo--%@",moduleInfo);
+    }];
+    return true;
+}
 
 
 
