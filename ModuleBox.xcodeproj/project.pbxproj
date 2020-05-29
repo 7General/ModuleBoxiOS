@@ -73,8 +73,6 @@
 		22F73D79247E730300A002B8 /* UINavigationController+OpenApiCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+OpenApiCore.m"; sourceTree = "<group>"; };
 		2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.release.xcconfig"; path = "Target Support Files/Pods-ModuleBox/Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
 		DEE48618099489838423646F /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleBox/Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
-		F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleBox/Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
 		FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleBox.debug.xcconfig"; path = "Target Support Files/Pods-ModuleBox/Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,8 +184,6 @@
 			children = (
 				FAAE0019495E8C37780C6B1C /* Pods-ModuleBox.debug.xcconfig */,
 				2E68212F13572E16F0A50C61 /* Pods-ModuleBox.release.xcconfig */,
-				F16C3760EB6C575B8E19052E /* Pods-ModuleBox.debug.xcconfig */,
-				F6710C6ED46FF045BA94406A /* Pods-ModuleBox.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";

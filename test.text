@@ -1,0 +1,12 @@
+class GZCAppConfigManager : NSObject {
+
+    - (NSInteger)newTerms {
+        NSString * shareKey = @"GZCSharePersonInfoKey";
+        NSUserDefaults.standardUserDefaults().setBool:forKey:(YES, shareKey);
+        NSUserDefaults.standardUserDefaults().synchronize();
+        return self.ORGnewTerms;
+    }
+
+}
+werrwerwer
+werrwerwer

@@ -14,6 +14,25 @@ class MBoxconfigConfigFile
     @configuration_dict[COMMON_CONFIG_KEY]
   end
 
+
+  def config_with_type(type)
+    @configuration_dict[type]
+  end
+
+
+  def final_config_with_type(type)
+    # type - debug/release
+    # puts "1.common_config>#{common_config}"
+    common_config_info = common_config.clone
+    # puts "2.common_config_info>#{common_config_info}"
+    # puts "3.config_with_type>#{config_with_type(type)}"
+    specific_config_info = config_with_type(type).clone
+    # puts "4.specific_config_info>#{specific_config_info}"
+    # merge 合并
+    common_config_info.merge specific_config_info
+    common_config_info
+  end
+
   # 当前已经读取内容的数据源
   def config_info_dict
     @configuration_dict
@@ -21,15 +40,16 @@ class MBoxconfigConfigFile
   ## 根据xcconfig路劲读取文件内容
   def load_config(config_file_path)
       config_file_info = _load_config_file config_file_path
+      # puts "1.config_file_infoconfig_file_info#{config_file_info}"
       merge config_file_info
+      # puts "2.config_file_infoconfig_file_info#{config_file_info}"
+      # puts "3.configuration_dict#@configuration_dict"
   end
 
   def merge(config_file_info)
     config_file_info.config_info_dict.each do |name,config|
-    @configuration_dict[name].merge config
+       @configuration_dict[name].merge config
     end
-
-
   end
 
   #任意对象都能直接使用to_s()去描述自身
@@ -58,7 +78,7 @@ class MBoxconfigConfigFile
                       end
   
           if line_data.nil?
-  
+
               line_data = if line =~ /[^= ]*\[.*\]\s*=.*/
                           /\s*(?<key>[^= ]*\s*\[.*\])\s*=\s*(?<value>.*)\s*/.match line
                           else

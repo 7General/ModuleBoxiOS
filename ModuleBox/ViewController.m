@@ -26,6 +26,8 @@
     // 555
     // revert
     // 7-7
+//    -DBAIDUMAPKEY=\@\"BAIDUMAPEEEEEEEEEEEE\"
+    NSLog(@"DBAIDUMAPKEYDBAIDUMAPKEY->%@",BAIDUMAPKEY);
 }
 
 
