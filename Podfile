@@ -15,6 +15,7 @@ end
 target 'ModuleBox' do
   _module_self_work_path __dir__
   _self_project 'ModuleBox'
+  # 该方法必须调用，要获取xcconfig文件路径信息
   _self_enviromennt 'main'
   
   setup_common

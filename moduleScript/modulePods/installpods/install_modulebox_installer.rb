@@ -13,11 +13,53 @@ module MBoxconfig
         def inject(installer,config_file_list)
             # 首先向壳工程添加注入信息
             inject_project config_file_list
+            inject_module(installer,config_file_list)
+        end
+
+        # 向注册的module中注入信息
+        def inject_module(installer,config_file_list)
+            # 读取配置文件中内容合并返回
+            config_file_info = load_configs config_file_list
+            # 获取所有的module
+            installer.pods_project.targets.each do |target|
+                next unless MBoxconfigContext.instance.value_all_modules.uniq.include? target.name
+                
+
+                target.build_configurations.each do |configurations|
+                    
+                    config_info = config_file_info.final_config_with_type configurations.name
+                    cflags_string = cgflag_with_config config_info.macro_dict
+                    cflags_string = cflags_string.strip!
+
+
+                    target.build_settings(configurations.name)['OTHER_CFLAGS'] = "$(inherrited) #{cflags_string}" unless cflags_string.nil? || cflags_string.empty?
+
+                    #
+                    # name,Debug,
+                    # setting{
+                    #     "SDKROOT"=>"iphoneos", 
+                    #     "CODE_SIGN_IDENTITY"=>"iPhone Developer", 
+                    #     "OTHER_LDFLAGS"=>"", 
+                    #     "SKIP_INSTALL"=>"YES", 
+                    #     "TARGETED_DEVICE_FAMILY"=>"1,2", 
+                    #     "IPHONEOS_DEPLOYMENT_TARGET"=>"8.0", 
+                    #     "OTHER_LIBTOOLFLAGS"=>"", 
+                    #     "PRIVATE_HEADERS_FOLDER_PATH"=>"", 
+                    #     "PUBLIC_HEADERS_FOLDER_PATH"=>"", 
+                    #     "PRODUCT_NAME"=>"ModuleUIStack", 
+                    #     "PRODUCT_MODULE_NAME"=>"ModuleUIStack", 
+                    #     "CODE_SIGN_IDENTITY[sdk=appletvos*]"=>"", 
+                    #     "CODE_SIGN_IDENTITY[sdk=iphoneos*]"=>"", 
+                    #     "CODE_SIGN_IDENTITY[sdk=watchos*]"=>"", 
+                    #     "SWIFT_ACTIVE_COMPILATION_CONDITIONS"=>"$(inherited) ", 
+                    #     "GCC_PREFIX_HEADER"=>"Target Support Files/ModuleUIStack/ModuleUIStack-prefix.pch"
+                    # }
+                end
+            end
+
         end
 
 
-
-        
 
         # 配置文件路劲-》向壳工程（主工程中添加注入信息）
         def inject_project(config_file_list)
