@@ -6,63 +6,53 @@
 	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1A487119C0AFDD3C9E75677D4FFC1649 /* ModuleMine */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = C071944D03C8A199C1BBB4B4FBF697E9 /* Build configuration list for PBXAggregateTarget "ModuleMine" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = ModuleMine;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		01A4BAD1978F29A2A83EEE0ECE4B673C /* NSObject+MLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3A66828B9C35BDBEC245B0B3C7A427 /* NSObject+MLFinder.m */; };
-		0ADCCC1DFA4FE057A21F8809BA5964E2 /* ModuleMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA836EC461EEE3F51374D135B108E39 /* ModuleMainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		17AE61A84EBB12BECD7BDED6F750B39B /* ModuleTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90C07C27C38E756928681951E7BADD0 /* ModuleTabbarViewController.m */; };
-		18B58053566D9368FED0D55CA1C96005 /* ModuleTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D87B79D58683AD2C966E2A4D6DDAE672 /* ModuleTabbarViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01215BFE627CAB29779027E35150F7B4 /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1CADEFC79066CD360497A560931A7AA8 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ADCAAC5AE4D382CAA7720A98902430 /* success@2x.png */; };
 		1D24381DC2533C811F588D1F152A2E20 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E66998CF198C0681864077FD29C85D /* success@3x.png */; };
-		1E8D3405978F0CA483F6E5BE8DA86E32 /* ModuleAppMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10F7515A48EAD339A1557AF5086ED4 /* ModuleAppMain-dummy.m */; };
-		273BADECEE282EEB8BD0F797AAB6F958 /* ModuleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475D425858445D91E63051C41271D5D /* ModuleMainViewController.m */; };
-		2AA17C9332DA5B524C2FE45DE2A39887 /* ModuleCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 433CC981A1A50A80344926BF87E3949D /* ModuleCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A84B7300F048DCBB45C632E201FB695 /* ModuleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */; };
+		31C1F3394976828E6093C4EDB7A06235 /* NSObject+MLFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */; };
 		38ABB60E1A0A70A31D9FCDB9C8A3A7E0 /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4103A13F8CFD35FAC4428BEF3878BF /* UIView+UIViewUtils.m */; };
-		3BD5F11A8814549E9A6537A472D6925C /* ModuleNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCEBA0FD877A140C5FE8808E530F73 /* ModuleNavgationController.m */; };
+		431448E4E2934B664DC83D19178966D2 /* ModuleHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1574E3E90861ACF298069001447AFA0F /* ModuleHomeController.m */; };
+		4469418540D85259D19DB2CF858C4B51 /* ModuleAppMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */; };
+		45C6C79AF0A215D40D4E1CF7FC7EE401 /* ModuleTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		461BECAEEC3834F5E4E376F24A2416C7 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5FD5072ADF079F37FD9B42B687897 /* error@2x.png */; };
+		4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55B2722310022BC40137247EADEE51C8 /* NSObject+MLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */; };
+		5AF5C34FAA2F7A3D769D94913AC6B2C1 /* ModuleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		603269A42E7C49AEA9EEE8242DFCD050 /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C380195B81E93AF174EBC175E75D6 /* MSProgressHUD.m */; };
-		7077BB12C2485F69A03D13A478FA19D5 /* ModuleHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 416AD06694AFFC0C6358D6E3FBE83A08 /* ModuleHomeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		76254FC560A58C08CD9FF940E9308E6F /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C79758785F990C82FE4E896693ED6D /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		77040C0DD7299789F76C49B36EF59C6F /* ModuleCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EC69BB2CAF1951EF7F1DDF9A041CBF /* ModuleCenter-dummy.m */; };
-		8F0A659CC934AAC447438262C495DA30 /* ModuleUIStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DCBC1A1078029000B7D85F96E3EF2A /* ModuleUIStack-dummy.m */; };
-		925EFD5E451179C1179D964ADAD4028B /* ModuleUIStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9391983583343189A54AC6B77AB9BCFA /* ModuleUIStackManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9632555BE308E7C31F785C6CEAE24F0E /* ModuleUIStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A08800AC21898D28A6D717BE9804E2 /* ModuleUIStackManager.m */; };
-		9EA671F19890A3D8CA6B8A4F11C0DF38 /* ModuleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AE01EA62FF0D49E048FCB6F5385E7F /* ModuleCollectionViewCell.m */; };
-		AF18F43AFA67F116C84E1A952BC6F28F /* ModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4421869251CF84FE6CB1919388708F20 /* ModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BCD3C75A5FB525249D60550E9FB4F36A /* ModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EA4DDC01B33756B297A81CB7990CFE /* ModuleCenter.m */; };
-		CA32B3A3115F8DEE6FEAC2F337BA38D4 /* ModuleNavgationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B144BB0F9485BE27F6271495AA0695E /* ModuleNavgationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B55ABE343400E2294A13B39008EFD75 /* ModuleCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */; };
+		82329847D8CD406A66A4CF79EABFC4F1 /* ModuleMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */; };
+		A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */; };
+		A957C23BDF891E4E97E12D084A3B5693 /* ModuleTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */; };
+		AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */; };
+		B02C2601420575A4A0F85D6A02234585 /* ModuleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */; };
+		B6C4281839EF96D5AA721AD9F32FE94B /* ModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */; };
+		B9AFAA5D1B88D74F3CD72B9CC6421325 /* ModuleTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0D9C8E7090F46CAC59467F9A5354474 /* ModuleUIStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1992D7633B6994B9AE8C84ED25E1FDE /* ModuleHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE367ABD9424C23E847041086731FFC /* ModuleHome-dummy.m */; };
+		C5B44772D630454FEA6BDE03C03AE735 /* ModuleNavgationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA74600D82698178AC82560F6B43BE96 /* ModuleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A164A6FBC5193B7A379219D89532F6BD /* ModuleCollectionViewCell.m */; };
+		CCA0A003481DD17C107E871BC1EAFD31 /* ModuleMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4E649CB09BACD228EFB89EF3965BBF9 /* ModuleTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */; };
 		D59D223116373A567A16834E8A79B31E /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D029BC02039FD5625E8E50DB65A26F /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DD3D8C3E3DD5625B0EEB5D33FB6931FF /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C52B60E0ED8B0940A25D905565D6F /* MSProgress-dummy.m */; };
-		DF0C35ABE5C830752D0A796B8DBE0F79 /* ModuleCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E482DA39612079A2AA3F134AA213E3F4 /* ModuleCommonUI-dummy.m */; };
+		E1E9940029F3055AE98D51AF2FC39890 /* ModuleCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */; };
 		E4A1E2B242352A17A9DF525131F15561 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3B79A7F40F22C17FB116EE8C4BC78F /* error@3x.png */; };
 		E56AEB26B800348C7114B156B1720D25 /* jiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF48B414D851397EBB725DFD1364B27 /* jiazai.png */; };
-		E805B3EAB7EA91FEFE96576E688864E5 /* ModuleHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE315CDC721E4250DCAFB8932421122 /* ModuleHomeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC3A38336BD6AAADB6E199A178F9BB9A /* ModuleHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E4FD6DE003A3DA369A958041A65CB4 /* ModuleHome-dummy.m */; };
-		EDE8301BA9C9A51B72E3085AF970D463 /* ModuleHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EC6361D545E151526AB1C4643DB918 /* ModuleHomeController.m */; };
-		F12DAC782B445109069879231B95E9B2 /* NSObject+MLFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1D70DAFD62DBE8D0AA0D12225A9992 /* NSObject+MLFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7FD966D059DA2FA3FBFC8A0A242200E /* ModuleCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 44133C6A057B9AFDBAE7094DBD51CE50 /* ModuleCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAB728F1C743ED25CE964EE8AC52AA8B /* ModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB0B34191EFBBE1C32837DE1F216382D /* ModuleMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */; };
+		F29B0165593BCCFF519068B7733BAFC2 /* ModuleHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CA543E435FEE02181C336EEB247DB9 /* ModuleHomeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3009E9C9AFA754F72F749D3AD455863 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */; };
 		F340649BAB853291DDD4510847475DC5 /* Pods-ModuleBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41480A20F415F9916BF44F88BB595963 /* Pods-ModuleBox-dummy.m */; };
+		F3CAABB5649498542FF83FC2FC7DA367 /* ModuleHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7231B9E3E9052B0FD7518CF89F63B57 /* ModuleHomeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A608FC3E0089431F3A20373453E5C68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B96C4FC8611055D1B30AA0A0B50B5B37;
-			remoteInfo = ModuleCommonUI;
-		};
-		21230DAE44B928B6F118E5E3F09420F6 /* PBXContainerItemProxy */ = {
+		1F4795C572E8D0CCC70687A11453A7FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -104,12 +94,12 @@
 			remoteGlobalIDString = 9F5F944D99729DF0E215135D650A86A4;
 			remoteInfo = ModuleCenter;
 		};
-		A4310DF05A003E7CB51BD51C3846A7E0 /* PBXContainerItemProxy */ = {
+		B595832E3231F355E0A6B37E2FAB9505 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 118C32AE6E42ACAC372650D54A4B3746;
-			remoteInfo = ModuleUIStack;
+			remoteGlobalIDString = 1A487119C0AFDD3C9E75677D4FFC1649;
+			remoteInfo = ModuleMine;
 		};
 		B60640B2E47AD38159F0FB804D19E8E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -118,12 +108,26 @@
 			remoteGlobalIDString = EF8F662DFD32CAA619E43E259B1DD515;
 			remoteInfo = "MSProgress-MSProgress";
 		};
+		CAB9F1D9E5DDE136CF2120EEA7986A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118C32AE6E42ACAC372650D54A4B3746;
+			remoteInfo = ModuleUIStack;
+		};
 		D3BEEDC7CD87E38527CE89BB632B3C8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A487119C0AFDD3C9E75677D4FFC1649;
 			remoteInfo = ModuleMine;
+		};
+		E5314FFDCD98AAFBBD363AF84C42E0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96C4FC8611055D1B30AA0A0B50B5B37;
+			remoteInfo = ModuleCommonUI;
 		};
 		EB6F57C4B5AC288AC1385CC52CC09B89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -132,87 +136,126 @@
 			remoteGlobalIDString = 015CAB5FD6D1B9B8AC1519DED1362575;
 			remoteInfo = MSProgress;
 		};
+		ED0613E587CE3EE3DF0D0EE7D9D279DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5F944D99729DF0E215135D650A86A4;
+			remoteInfo = ModuleCenter;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleUIStack.a; path = libModuleUIStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleAppMain-dummy.m"; sourceTree = "<group>"; };
 		04D543E81B6F254AE62A80ECF760B71B /* MSProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.debug.xcconfig; sourceTree = "<group>"; };
-		04E9C4BB5ADA4494760954439EEF3498 /* ModuleCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.debug.xcconfig; sourceTree = "<group>"; };
-		1475D425858445D91E63051C41271D5D /* ModuleMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMainViewController.m; path = Classes/ModuleMainViewController.m; sourceTree = "<group>"; };
+		0599672B5897E32B7E279CFFFED5B573 /* ModuleMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleMine-prefix.pch"; sourceTree = "<group>"; };
+		0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.release.xcconfig; sourceTree = "<group>"; };
+		0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCenter.h; path = Classes/ModuleCenter.h; sourceTree = "<group>"; };
+		1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLFinder.m"; path = "Classes/NSObject+MLFinder.m"; sourceTree = "<group>"; };
+		1574E3E90861ACF298069001447AFA0F /* ModuleHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleHomeController.m; path = Classes/ModuleHomeController.m; sourceTree = "<group>"; };
 		1D6C52B60E0ED8B0940A25D905565D6F /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
-		25A08800AC21898D28A6D717BE9804E2 /* ModuleUIStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleUIStackManager.m; path = Classes/ModuleUIStackManager.m; sourceTree = "<group>"; };
-		25AE01EA62FF0D49E048FCB6F5385E7F /* ModuleCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCollectionViewCell.m; path = Classes/ModuleCollectionViewCell.m; sourceTree = "<group>"; };
+		1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleNavgationController.m; path = Classes/ModuleNavgationController.m; sourceTree = "<group>"; };
 		290C8C19656D9434D1961F5E22C6D5EA /* Pods-ModuleBox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleBox-acknowledgements.plist"; sourceTree = "<group>"; };
-		2937995CE8D15981F1F484AE4DAF1EDD /* ModuleAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.debug.xcconfig; sourceTree = "<group>"; };
+		2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMineViewController.m; path = Classes/ModuleMineViewController.m; sourceTree = "<group>"; };
 		29D029BC02039FD5625E8E50DB65A26F /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
+		2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleUIStackManager.h; path = Classes/ModuleUIStackManager.h; sourceTree = "<group>"; };
 		2F4103A13F8CFD35FAC4428BEF3878BF /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
-		2FE315CDC721E4250DCAFB8932421122 /* ModuleHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeController.h; path = Classes/ModuleHomeController.h; sourceTree = "<group>"; };
-		31EA4DDC01B33756B297A81CB7990CFE /* ModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCenter.m; path = Classes/ModuleCenter.m; sourceTree = "<group>"; };
-		3230B4169442708E3BEB6FE0C048C76C /* ModuleHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.release.xcconfig; sourceTree = "<group>"; };
-		3B144BB0F9485BE27F6271495AA0695E /* ModuleNavgationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleNavgationController.h; path = Classes/ModuleNavgationController.h; sourceTree = "<group>"; };
+		30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.release.xcconfig; sourceTree = "<group>"; };
+		3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.release.xcconfig; sourceTree = "<group>"; };
+		3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.debug.xcconfig; sourceTree = "<group>"; };
 		3F393D63691CD0A405B5F64EF849D484 /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
 		41480A20F415F9916BF44F88BB595963 /* Pods-ModuleBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModuleBox-dummy.m"; sourceTree = "<group>"; };
-		416AD06694AFFC0C6358D6E3FBE83A08 /* ModuleHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeHeader.h; path = Classes/ModuleHomeHeader.h; sourceTree = "<group>"; };
 		4192E302F388B223FB15420028AC02FA /* libModuleCommonUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleCommonUI.a; path = libModuleCommonUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		433CC981A1A50A80344926BF87E3949D /* ModuleCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCollectionViewCell.h; path = Classes/ModuleCollectionViewCell.h; sourceTree = "<group>"; };
-		43EC6361D545E151526AB1C4643DB918 /* ModuleHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleHomeController.m; path = Classes/ModuleHomeController.m; sourceTree = "<group>"; };
-		4421869251CF84FE6CB1919388708F20 /* ModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCenter.h; path = Classes/ModuleCenter.h; sourceTree = "<group>"; };
+		4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMainViewController.h; path = Classes/ModuleMainViewController.h; sourceTree = "<group>"; };
+		44133C6A057B9AFDBAE7094DBD51CE50 /* ModuleCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCollectionViewCell.h; path = Classes/ModuleCollectionViewCell.h; sourceTree = "<group>"; };
 		446C380195B81E93AF174EBC175E75D6 /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
-		449EBB1915200FB6B2CA915CF5B024B5 /* ModuleAppMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleAppMain-prefix.pch"; sourceTree = "<group>"; };
+		466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.release.xcconfig; sourceTree = "<group>"; };
 		4B257F2C37D3A1308FF782603F7FD789 /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
-		4EC9D32D97DF80C4F67889CDB2B0E3DF /* ModuleCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.debug.xcconfig; sourceTree = "<group>"; };
-		53EE2A3D2E1614C49E088EF497497058 /* ModuleMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		58DCBC1A1078029000B7D85F96E3EF2A /* ModuleUIStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleUIStack-dummy.m"; sourceTree = "<group>"; };
-		5AB1BBFE0960D1E94E54A2AA665A1D4A /* ModuleCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCommonUI-prefix.pch"; sourceTree = "<group>"; };
+		4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBarButton.m; path = Classes/ModuleTabBarButton.m; sourceTree = "<group>"; };
+		4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCenter-dummy.m"; sourceTree = "<group>"; };
+		528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.release.xcconfig; sourceTree = "<group>"; };
+		5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleUIStack-dummy.m"; sourceTree = "<group>"; };
+		5685AB1326C2D3199E1A117E17BB6048 /* ModuleHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleHome-prefix.pch"; sourceTree = "<group>"; };
+		572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBar.h; path = Classes/ModuleTabBar.h; sourceTree = "<group>"; };
 		5B06AFE8CE48B1E036864395F7046F9E /* libModuleHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleHome.a; path = libModuleHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B7A4A0925FC86E0D2755F63DC3BABED /* ModuleHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.debug.xcconfig; sourceTree = "<group>"; };
 		60C79758785F990C82FE4E896693ED6D /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
-		6CA836EC461EEE3F51374D135B108E39 /* ModuleMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMainViewController.h; path = Classes/ModuleMainViewController.h; sourceTree = "<group>"; };
+		62B9747F888B5D4042B2EAEFEF6CA5F4 /* ModuleCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCommonUI-prefix.pch"; sourceTree = "<group>"; };
+		62CA543E435FEE02181C336EEB247DB9 /* ModuleHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeHeader.h; path = Classes/ModuleHomeHeader.h; sourceTree = "<group>"; };
+		646998EB36B872AD2AA0C7CE85804895 /* ModuleAppMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleAppMain-prefix.pch"; sourceTree = "<group>"; };
+		6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabbarViewController.m; path = Classes/ModuleTabbarViewController.m; sourceTree = "<group>"; };
+		6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "Classes/UIView+Addition.m"; sourceTree = "<group>"; };
+		6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBar.m; path = Classes/ModuleTabBar.m; sourceTree = "<group>"; };
 		6CD5FD5072ADF079F37FD9B42B687897 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "MSProgress/Assets/error@2x.png"; sourceTree = "<group>"; };
 		6E62687E476E17E16BAFEA3B6564F9A5 /* ResourceBundle-MSProgress-MSProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProgress-MSProgress-Info.plist"; sourceTree = "<group>"; };
+		6E99E6F5429B08C3EC0418E2A525C257 /* ModuleUIStack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleUIStack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70ADCAAC5AE4D382CAA7720A98902430 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "MSProgress/Assets/success@2x.png"; sourceTree = "<group>"; };
-		74B47737BFC30D6C5B6799D4E09D814D /* ModuleUIStack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleUIStack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCommonUI-dummy.m"; sourceTree = "<group>"; };
+		79A9F46F517CC22C11F7EA5C848D957E /* ModuleMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A8C3339E09B57A3059F628210E2602B /* ModuleCommonUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCommonUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7AF48B414D851397EBB725DFD1364B27 /* jiazai.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai.png; path = MSProgress/Assets/jiazai.png; sourceTree = "<group>"; };
-		7B21FCEDD5B51290C59AF7AF5E5A6634 /* ModuleCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.release.xcconfig; sourceTree = "<group>"; };
-		8174A311E11D860989F60244658AA935 /* ModuleCommonUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCommonUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84158A00EEB172E8E6960F6E387604ED /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ModuleBox.a"; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8487AA47673CBC34161AB8A555A3470D /* ModuleAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.release.xcconfig; sourceTree = "<group>"; };
-		85A9ECD8168E0AB649CC0D0ED7ACB883 /* ModuleAppMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleAppMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85E66998CF198C0681864077FD29C85D /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "MSProgress/Assets/success@3x.png"; sourceTree = "<group>"; };
-		891E30BC1FD13D348034EEB013891141 /* ModuleCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.release.xcconfig; sourceTree = "<group>"; };
-		8FCCEBA0FD877A140C5FE8808E530F73 /* ModuleNavgationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleNavgationController.m; path = Classes/ModuleNavgationController.m; sourceTree = "<group>"; };
-		91451D1F3BDD5A6F906E6CD4635E5253 /* ModuleHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		92DD6C026B6F1C07F58073348997BA0E /* ModuleCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCenter-prefix.pch"; sourceTree = "<group>"; };
-		9391983583343189A54AC6B77AB9BCFA /* ModuleUIStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleUIStackManager.h; path = Classes/ModuleUIStackManager.h; sourceTree = "<group>"; };
-		956EC0DD2F94DC31324EED8D930D155D /* ModuleCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97D7F3A57333D14CF5AA3BB2EDCDA5F8 /* ModuleUIStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.release.xcconfig; sourceTree = "<group>"; };
+		8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.debug.xcconfig; sourceTree = "<group>"; };
+		95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBarButton.h; path = Classes/ModuleTabBarButton.h; sourceTree = "<group>"; };
+		99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMineViewController.h; path = Classes/ModuleMineViewController.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1142503CBEA35585F1BD01BE9498601 /* MSProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.release.xcconfig; sourceTree = "<group>"; };
+		A164A6FBC5193B7A379219D89532F6BD /* ModuleCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCollectionViewCell.m; path = Classes/ModuleCollectionViewCell.m; sourceTree = "<group>"; };
 		A2B5EE508B888BAA4D87321A150DB441 /* Pods-ModuleBox-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuleBox-resources.sh"; sourceTree = "<group>"; };
 		AB170718E24F09BAD928223CE52C7B15 /* libModuleAppMain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleAppMain.a; path = libModuleAppMain.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD10F7515A48EAD339A1557AF5086ED4 /* ModuleAppMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleAppMain-dummy.m"; sourceTree = "<group>"; };
-		B7437B72D8E65CA79BB3627AA1DC9561 /* ModuleMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.debug.xcconfig; sourceTree = "<group>"; };
-		B90C07C27C38E756928681951E7BADD0 /* ModuleTabbarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabbarViewController.m; path = Classes/ModuleTabbarViewController.m; sourceTree = "<group>"; };
+		AC113FF349F55C4EDAEA5B804BCC40DC /* ModuleCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFE367ABD9424C23E847041086731FFC /* ModuleHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleHome-dummy.m"; sourceTree = "<group>"; };
+		B00CD10B8451CDF4C78018AFCCABD30C /* ModuleAppMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleAppMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "Classes/UIView+Addition.h"; sourceTree = "<group>"; };
+		B72FDF8DA6D8F289C4DF0F438DDCBC0F /* libModuleMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleMine.a; path = libModuleMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1935BA7499E9BEF3E605FC8311D26F /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MSProgress.bundle; path = "MSProgress-MSProgress.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA1D70DAFD62DBE8D0AA0D12225A9992 /* NSObject+MLFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLFinder.h"; path = "Classes/NSObject+MLFinder.h"; sourceTree = "<group>"; };
-		CC85B85715D2D2988157874A06A2DD43 /* ModuleMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.release.xcconfig; sourceTree = "<group>"; };
+		C362B625BD2B9E45F1F26752A3CD1E01 /* ModuleCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCenter-prefix.pch"; sourceTree = "<group>"; };
+		C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMainViewController.m; path = Classes/ModuleMainViewController.m; sourceTree = "<group>"; };
 		CD6A8953EC2BEE80CDD112A058E0B77A /* libModuleCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleCenter.a; path = libModuleCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1985EC5A4F3A82BF36F97887F22FE54 /* ModuleHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleUIStackManager.m; path = Classes/ModuleUIStackManager.m; sourceTree = "<group>"; };
+		D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleNavgationController.h; path = Classes/ModuleNavgationController.h; sourceTree = "<group>"; };
 		D7043178299269F1B2818E12430FBABB /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSProgress.a; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87B79D58683AD2C966E2A4D6DDAE672 /* ModuleTabbarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabbarViewController.h; path = Classes/ModuleTabbarViewController.h; sourceTree = "<group>"; };
-		D8EC69BB2CAF1951EF7F1DDF9A041CBF /* ModuleCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCenter-dummy.m"; sourceTree = "<group>"; };
-		E482DA39612079A2AA3F134AA213E3F4 /* ModuleCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCommonUI-dummy.m"; sourceTree = "<group>"; };
+		DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCenter.m; path = Classes/ModuleCenter.m; sourceTree = "<group>"; };
+		DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.debug.xcconfig; sourceTree = "<group>"; };
+		E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.debug.xcconfig; sourceTree = "<group>"; };
+		EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleMine-dummy.m"; sourceTree = "<group>"; };
 		EF508B1297DC8C7524EADF8AD1D8674D /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
-		F0E4FD6DE003A3DA369A958041A65CB4 /* ModuleHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleHome-dummy.m"; sourceTree = "<group>"; };
+		EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabbarViewController.h; path = Classes/ModuleTabbarViewController.h; sourceTree = "<group>"; };
 		F1C4AE52C9AEB4E08CE34E57DF5C7955 /* Pods-ModuleBox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModuleBox-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F373B907DA6B3808B58B390ADBD5BD01 /* ModuleHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleHome-prefix.pch"; sourceTree = "<group>"; };
-		F58EC13734841351C910061DA329E405 /* ModuleUIStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleUIStack-prefix.pch"; sourceTree = "<group>"; };
-		F86CC766CB2E87D7DDA52BD2CBB751CB /* ModuleUIStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.debug.xcconfig; sourceTree = "<group>"; };
-		FB3A66828B9C35BDBEC245B0B3C7A427 /* NSObject+MLFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLFinder.m"; path = "Classes/NSObject+MLFinder.m"; sourceTree = "<group>"; };
+		F22D62547B260AE694F172061E0E82D0 /* ModuleHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.debug.xcconfig; sourceTree = "<group>"; };
+		F6E6BD210CB8A493E4D17369C0D94815 /* ModuleUIStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleUIStack-prefix.pch"; sourceTree = "<group>"; };
+		F7231B9E3E9052B0FD7518CF89F63B57 /* ModuleHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeController.h; path = Classes/ModuleHomeController.h; sourceTree = "<group>"; };
 		FC3B79A7F40F22C17FB116EE8C4BC78F /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "MSProgress/Assets/error@3x.png"; sourceTree = "<group>"; };
+		FD7BC269AE781BDE4C2E679068AA605D /* ModuleHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.release.xcconfig; sourceTree = "<group>"; };
+		FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLFinder.h"; path = "Classes/NSObject+MLFinder.h"; sourceTree = "<group>"; };
+		FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E7E2D6B5A4D4FD7BEB73B7A689B7BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED3E6447F9434A0B9D568D950DDF926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20962BA218423B2217F9B22BF324B9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E95FAC7DBC2DF6F198D3DC2BBB7A4E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,35 +276,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEABBFE580C83491B6BC5E1D8A115EDF /* Frameworks */ = {
+		A60A1C3E95FED9053770696DD147394F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEAE5E82EABEACF7A973A3D64783CF6C /* Frameworks */ = {
+		C3F55FAA89E393197C7F0250489CCC25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0965F3E2A6832617C6157466872018D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAC9BF7A1A438803837CAB3B70BD931A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1B5BDFABDEF3AF6A4C5355987CC8342 /* Frameworks */ = {
+		FAF6BF3640321395F4AF04C1C1EB5B13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,19 +300,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D847B388DB792313D12BABC90DA8231 /* ModuleHome */ = {
+		0E6E3C36E97380DB8B798C2C0FF1D683 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				433CC981A1A50A80344926BF87E3949D /* ModuleCollectionViewCell.h */,
-				25AE01EA62FF0D49E048FCB6F5385E7F /* ModuleCollectionViewCell.m */,
-				2FE315CDC721E4250DCAFB8932421122 /* ModuleHomeController.h */,
-				43EC6361D545E151526AB1C4643DB918 /* ModuleHomeController.m */,
-				416AD06694AFFC0C6358D6E3FBE83A08 /* ModuleHomeHeader.h */,
-				26E3158CCFBE1D91C8EB924B41F1627E /* Pod */,
-				D5471A84958B6197384F855DA4C0A0D3 /* Support Files */,
+				6E99E6F5429B08C3EC0418E2A525C257 /* ModuleUIStack.podspec */,
 			);
-			name = ModuleHome;
-			path = ../ModuleHome;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		10B4D6E10ECC67E9102831B52CAEF895 /* Pods-ModuleBox */ = {
@@ -300,6 +322,32 @@
 			path = "Target Support Files/Pods-ModuleBox";
 			sourceTree = "<group>";
 		};
+		1917725FFEA1D6E116BD3D2F78CD0D9A /* ModuleUIStack */ = {
+			isa = PBXGroup;
+			children = (
+				D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */,
+				1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */,
+				2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */,
+				D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */,
+				0E6E3C36E97380DB8B798C2C0FF1D683 /* Pod */,
+				D227682926C715038A97934102C03CC9 /* Support Files */,
+			);
+			name = ModuleUIStack;
+			path = ../ModuleUIStack;
+			sourceTree = "<group>";
+		};
+		1AB1C99D9CE43B966A8F7BBA6A34ABE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */,
+				646998EB36B872AD2AA0C7CE85804895 /* ModuleAppMain-prefix.pch */,
+				3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */,
+				0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleAppMain";
+			sourceTree = "<group>";
+		};
 		23918CC696B07D69A24935466734E9F2 /* MSProgress */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,28 +362,6 @@
 			path = MSProgress;
 			sourceTree = "<group>";
 		};
-		24F5FEA76CC29733E6C305B217A06C1B /* ModuleUIStack */ = {
-			isa = PBXGroup;
-			children = (
-				3B144BB0F9485BE27F6271495AA0695E /* ModuleNavgationController.h */,
-				8FCCEBA0FD877A140C5FE8808E530F73 /* ModuleNavgationController.m */,
-				9391983583343189A54AC6B77AB9BCFA /* ModuleUIStackManager.h */,
-				25A08800AC21898D28A6D717BE9804E2 /* ModuleUIStackManager.m */,
-				88D31700B1FA384E023D0E7A2EE96D95 /* Pod */,
-				CDC9FD58715000B1E59BC53ED6493087 /* Support Files */,
-			);
-			name = ModuleUIStack;
-			path = ../ModuleUIStack;
-			sourceTree = "<group>";
-		};
-		26E3158CCFBE1D91C8EB924B41F1627E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				91451D1F3BDD5A6F906E6CD4635E5253 /* ModuleHome.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2AB46018D05DA7E25C80D3F00848699D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,28 +370,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2DE75CA7B380BF6B6A003E383CD7B68C /* Pod */ = {
+		2FAE93EC5F97533319FE84B2C9DD8764 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8174A311E11D860989F60244658AA935 /* ModuleCommonUI.podspec */,
+				AFE367ABD9424C23E847041086731FFC /* ModuleHome-dummy.m */,
+				5685AB1326C2D3199E1A117E17BB6048 /* ModuleHome-prefix.pch */,
+				F22D62547B260AE694F172061E0E82D0 /* ModuleHome.debug.xcconfig */,
+				FD7BC269AE781BDE4C2E679068AA605D /* ModuleHome.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleHome";
+			sourceTree = "<group>";
+		};
+		3C9F028AEE13E3A033B3BA99C8E428F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B00CD10B8451CDF4C78018AFCCABD30C /* ModuleAppMain.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		45F04ECB9A8409BE4FAA7BF65D7A5766 /* Pod */ = {
+		4DE26B1EBA8AB8C1222D6997A3E2DE24 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53EE2A3D2E1614C49E088EF497497058 /* ModuleMine.podspec */,
+				CD27E18DA133BAF9267C5F94056650FA /* ModuleAppMain */,
+				A13692A8C9D92E5CA9C1A286A57979D7 /* ModuleCenter */,
+				76392B801EDA0D2CA1A8E2F98CAB5438 /* ModuleCommonUI */,
+				55754772FBF4EE35EFFCCD7CD522BECD /* ModuleHome */,
+				7B7A724FB4DD473A2197133AF8398433 /* ModuleMine */,
+				1917725FFEA1D6E116BD3D2F78CD0D9A /* ModuleUIStack */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5176E14EAB95114FBABC42375E4D93CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C3339E09B57A3059F628210E2602B /* ModuleCommonUI.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		58307DA4660180585C1DB49CB1A70806 /* Pod */ = {
+		55754772FBF4EE35EFFCCD7CD522BECD /* ModuleHome */ = {
 			isa = PBXGroup;
 			children = (
-				956EC0DD2F94DC31324EED8D930D155D /* ModuleCenter.podspec */,
+				44133C6A057B9AFDBAE7094DBD51CE50 /* ModuleCollectionViewCell.h */,
+				A164A6FBC5193B7A379219D89532F6BD /* ModuleCollectionViewCell.m */,
+				F7231B9E3E9052B0FD7518CF89F63B57 /* ModuleHomeController.h */,
+				1574E3E90861ACF298069001447AFA0F /* ModuleHomeController.m */,
+				62CA543E435FEE02181C336EEB247DB9 /* ModuleHomeHeader.h */,
+				94E409B6D00AB0A86C10A052015B6B27 /* Pod */,
+				2FAE93EC5F97533319FE84B2C9DD8764 /* Support Files */,
 			);
-			name = Pod;
+			name = ModuleHome;
+			path = ../ModuleHome;
 			sourceTree = "<group>";
 		};
 		600CFA40443CAFFD730F50E612D3FCED /* Resources */ = {
@@ -380,130 +438,160 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		66C79E5FB4E107ABAF09C24F061F39C4 /* Support Files */ = {
+		6D77A9AC7676095FBE8F7A173BF075AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8EC69BB2CAF1951EF7F1DDF9A041CBF /* ModuleCenter-dummy.m */,
-				92DD6C026B6F1C07F58073348997BA0E /* ModuleCenter-prefix.pch */,
-				04E9C4BB5ADA4494760954439EEF3498 /* ModuleCenter.debug.xcconfig */,
-				7B21FCEDD5B51290C59AF7AF5E5A6634 /* ModuleCenter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleCenter";
-			sourceTree = "<group>";
-		};
-		6CAC341B255D6E467C38567E316A8DFD /* ModuleCommonUI */ = {
-			isa = PBXGroup;
-			children = (
-				D87B79D58683AD2C966E2A4D6DDAE672 /* ModuleTabbarViewController.h */,
-				B90C07C27C38E756928681951E7BADD0 /* ModuleTabbarViewController.m */,
-				2DE75CA7B380BF6B6A003E383CD7B68C /* Pod */,
-				852117D3C55E0059D5622C7D9F70BFD8 /* Support Files */,
-			);
-			name = ModuleCommonUI;
-			path = ../ModuleCommonUI;
-			sourceTree = "<group>";
-		};
-		6D4FB173C2BD21BBDD3D1B097889B72B /* ModuleCenter */ = {
-			isa = PBXGroup;
-			children = (
-				4421869251CF84FE6CB1919388708F20 /* ModuleCenter.h */,
-				31EA4DDC01B33756B297A81CB7990CFE /* ModuleCenter.m */,
-				BA1D70DAFD62DBE8D0AA0D12225A9992 /* NSObject+MLFinder.h */,
-				FB3A66828B9C35BDBEC245B0B3C7A427 /* NSObject+MLFinder.m */,
-				58307DA4660180585C1DB49CB1A70806 /* Pod */,
-				66C79E5FB4E107ABAF09C24F061F39C4 /* Support Files */,
-			);
-			name = ModuleCenter;
-			path = ../ModuleCenter;
-			sourceTree = "<group>";
-		};
-		852117D3C55E0059D5622C7D9F70BFD8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E482DA39612079A2AA3F134AA213E3F4 /* ModuleCommonUI-dummy.m */,
-				5AB1BBFE0960D1E94E54A2AA665A1D4A /* ModuleCommonUI-prefix.pch */,
-				4EC9D32D97DF80C4F67889CDB2B0E3DF /* ModuleCommonUI.debug.xcconfig */,
-				891E30BC1FD13D348034EEB013891141 /* ModuleCommonUI.release.xcconfig */,
+				71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */,
+				62B9747F888B5D4042B2EAEFEF6CA5F4 /* ModuleCommonUI-prefix.pch */,
+				FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */,
+				30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/ModuleCommonUI";
 			sourceTree = "<group>";
 		};
-		88D31700B1FA384E023D0E7A2EE96D95 /* Pod */ = {
+		76392B801EDA0D2CA1A8E2F98CAB5438 /* ModuleCommonUI */ = {
 			isa = PBXGroup;
 			children = (
-				74B47737BFC30D6C5B6799D4E09D814D /* ModuleUIStack.podspec */,
+				572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */,
+				6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */,
+				95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */,
+				4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */,
+				EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */,
+				6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */,
+				5176E14EAB95114FBABC42375E4D93CF /* Pod */,
+				6D77A9AC7676095FBE8F7A173BF075AD /* Support Files */,
 			);
-			name = Pod;
+			name = ModuleCommonUI;
+			path = ../ModuleCommonUI;
 			sourceTree = "<group>";
 		};
-		8EC799CDC8DBC43803F244D1186DE8CF /* Support Files */ = {
+		7B7A724FB4DD473A2197133AF8398433 /* ModuleMine */ = {
 			isa = PBXGroup;
 			children = (
-				B7437B72D8E65CA79BB3627AA1DC9561 /* ModuleMine.debug.xcconfig */,
-				CC85B85715D2D2988157874A06A2DD43 /* ModuleMine.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleMine";
-			sourceTree = "<group>";
-		};
-		AC05927D2343D2F2D17D3AD09BFB9FB1 /* ModuleMine */ = {
-			isa = PBXGroup;
-			children = (
-				45F04ECB9A8409BE4FAA7BF65D7A5766 /* Pod */,
-				8EC799CDC8DBC43803F244D1186DE8CF /* Support Files */,
+				99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */,
+				2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */,
+				94143177F1B2CD102BD481048F087286 /* Pod */,
+				AB338835FDAE7C65C2B44EDAA38DAD87 /* Support Files */,
 			);
 			name = ModuleMine;
 			path = ../ModuleMine;
 			sourceTree = "<group>";
 		};
-		B9A42C9F5415BCDA6FDAC379325B13A0 /* Support Files */ = {
+		94143177F1B2CD102BD481048F087286 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AD10F7515A48EAD339A1557AF5086ED4 /* ModuleAppMain-dummy.m */,
-				449EBB1915200FB6B2CA915CF5B024B5 /* ModuleAppMain-prefix.pch */,
-				2937995CE8D15981F1F484AE4DAF1EDD /* ModuleAppMain.debug.xcconfig */,
-				8487AA47673CBC34161AB8A555A3470D /* ModuleAppMain.release.xcconfig */,
+				79A9F46F517CC22C11F7EA5C848D957E /* ModuleMine.podspec */,
 			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleAppMain";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		C244EA35CDCE435E2C769700B6CAB2D5 /* ModuleAppMain */ = {
+		94E409B6D00AB0A86C10A052015B6B27 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6CA836EC461EEE3F51374D135B108E39 /* ModuleMainViewController.h */,
-				1475D425858445D91E63051C41271D5D /* ModuleMainViewController.m */,
-				D5921D7B8E972B0C0F78497B8AF92232 /* Pod */,
-				B9A42C9F5415BCDA6FDAC379325B13A0 /* Support Files */,
+				D1985EC5A4F3A82BF36F97887F22FE54 /* ModuleHome.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A13692A8C9D92E5CA9C1A286A57979D7 /* ModuleCenter */ = {
+			isa = PBXGroup;
+			children = (
+				0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */,
+				DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */,
+				FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */,
+				1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */,
+				B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */,
+				6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */,
+				ABCF6B3D825CF391588F09C897A41FBB /* Pod */,
+				CCEEBC8D475C06DF665F0CF8AFAA6955 /* Support Files */,
+			);
+			name = ModuleCenter;
+			path = ../ModuleCenter;
+			sourceTree = "<group>";
+		};
+		AB338835FDAE7C65C2B44EDAA38DAD87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */,
+				0599672B5897E32B7E279CFFFED5B573 /* ModuleMine-prefix.pch */,
+				8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */,
+				466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleMine";
+			sourceTree = "<group>";
+		};
+		ABCF6B3D825CF391588F09C897A41FBB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC113FF349F55C4EDAEA5B804BCC40DC /* ModuleCenter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B996A5596445B1B00C072406E3DA6E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB170718E24F09BAD928223CE52C7B15 /* libModuleAppMain.a */,
+				CD6A8953EC2BEE80CDD112A058E0B77A /* libModuleCenter.a */,
+				4192E302F388B223FB15420028AC02FA /* libModuleCommonUI.a */,
+				5B06AFE8CE48B1E036864395F7046F9E /* libModuleHome.a */,
+				B72FDF8DA6D8F289C4DF0F438DDCBC0F /* libModuleMine.a */,
+				00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */,
+				D7043178299269F1B2818E12430FBABB /* libMSProgress.a */,
+				84158A00EEB172E8E6960F6E387604ED /* libPods-ModuleBox.a */,
+				BA1935BA7499E9BEF3E605FC8311D26F /* MSProgress.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEEBC8D475C06DF665F0CF8AFAA6955 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */,
+				C362B625BD2B9E45F1F26752A3CD1E01 /* ModuleCenter-prefix.pch */,
+				E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */,
+				528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleCenter";
+			sourceTree = "<group>";
+		};
+		CD27E18DA133BAF9267C5F94056650FA /* ModuleAppMain */ = {
+			isa = PBXGroup;
+			children = (
+				4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */,
+				C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */,
+				3C9F028AEE13E3A033B3BA99C8E428F0 /* Pod */,
+				1AB1C99D9CE43B966A8F7BBA6A34ABE7 /* Support Files */,
 			);
 			name = ModuleAppMain;
 			path = ../ModuleAppMain;
-			sourceTree = "<group>";
-		};
-		CDC9FD58715000B1E59BC53ED6493087 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				58DCBC1A1078029000B7D85F96E3EF2A /* ModuleUIStack-dummy.m */,
-				F58EC13734841351C910061DA329E405 /* ModuleUIStack-prefix.pch */,
-				F86CC766CB2E87D7DDA52BD2CBB751CB /* ModuleUIStack.debug.xcconfig */,
-				97D7F3A57333D14CF5AA3BB2EDCDA5F8 /* ModuleUIStack.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleUIStack";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E4EFEF49CB4A0CE6C25B67605E2EABCF /* Development Pods */,
+				4DE26B1EBA8AB8C1222D6997A3E2DE24 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				D52891D6D3F390AC70D85E82212DC64C /* Pods */,
-				F1AC706A75843A0542D54C6BB0CD7383 /* Products */,
+				B996A5596445B1B00C072406E3DA6E30 /* Products */,
 				2AB46018D05DA7E25C80D3F00848699D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D227682926C715038A97934102C03CC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */,
+				F6E6BD210CB8A493E4D17369C0D94815 /* ModuleUIStack-prefix.pch */,
+				DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */,
+				3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleUIStack";
 			sourceTree = "<group>";
 		};
 		D52891D6D3F390AC70D85E82212DC64C /* Pods */ = {
@@ -514,44 +602,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D5471A84958B6197384F855DA4C0A0D3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0E4FD6DE003A3DA369A958041A65CB4 /* ModuleHome-dummy.m */,
-				F373B907DA6B3808B58B390ADBD5BD01 /* ModuleHome-prefix.pch */,
-				5B7A4A0925FC86E0D2755F63DC3BABED /* ModuleHome.debug.xcconfig */,
-				3230B4169442708E3BEB6FE0C048C76C /* ModuleHome.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleHome";
-			sourceTree = "<group>";
-		};
-		D5921D7B8E972B0C0F78497B8AF92232 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				85A9ECD8168E0AB649CC0D0ED7ACB883 /* ModuleAppMain.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4EFEF49CB4A0CE6C25B67605E2EABCF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C244EA35CDCE435E2C769700B6CAB2D5 /* ModuleAppMain */,
-				6D4FB173C2BD21BBDD3D1B097889B72B /* ModuleCenter */,
-				6CAC341B255D6E467C38567E316A8DFD /* ModuleCommonUI */,
-				0D847B388DB792313D12BABC90DA8231 /* ModuleHome */,
-				AC05927D2343D2F2D17D3AD09BFB9FB1 /* ModuleMine */,
-				24F5FEA76CC29733E6C305B217A06C1B /* ModuleUIStack */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EC66A8EC89235C36CFACCF28C01DB9CE /* Support Files */ = {
@@ -567,47 +622,16 @@
 			path = "../Target Support Files/MSProgress";
 			sourceTree = "<group>";
 		};
-		F1AC706A75843A0542D54C6BB0CD7383 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AB170718E24F09BAD928223CE52C7B15 /* libModuleAppMain.a */,
-				CD6A8953EC2BEE80CDD112A058E0B77A /* libModuleCenter.a */,
-				4192E302F388B223FB15420028AC02FA /* libModuleCommonUI.a */,
-				5B06AFE8CE48B1E036864395F7046F9E /* libModuleHome.a */,
-				00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */,
-				D7043178299269F1B2818E12430FBABB /* libMSProgress.a */,
-				84158A00EEB172E8E6960F6E387604ED /* libPods-ModuleBox.a */,
-				BA1935BA7499E9BEF3E605FC8311D26F /* MSProgress.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C5D21A65F4280E49B7515082FB63ECC /* Headers */ = {
+		15E64A37DB070F1136B9D9FA142E013F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA32B3A3115F8DEE6FEAC2F337BA38D4 /* ModuleNavgationController.h in Headers */,
-				925EFD5E451179C1179D964ADAD4028B /* ModuleUIStackManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3422C7406B655619C8541C8A2E000CF7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18B58053566D9368FED0D55CA1C96005 /* ModuleTabbarViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3668B7AB075C432B3E9DF91C03D49886 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF18F43AFA67F116C84E1A952BC6F28F /* ModuleCenter.h in Headers */,
-				F12DAC782B445109069879231B95E9B2 /* NSObject+MLFinder.h in Headers */,
+				EAB728F1C743ED25CE964EE8AC52AA8B /* ModuleCenter.h in Headers */,
+				31C1F3394976828E6093C4EDB7A06235 /* NSObject+MLFinder.h in Headers */,
+				01215BFE627CAB29779027E35150F7B4 /* UIView+Addition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +644,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C5FDD88F1CBD3F59D3DB2756EBF7CC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA0A003481DD17C107E871BC1EAFD31 /* ModuleMineViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76F677364FEC61F6B279C39EE5AD25BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -627,21 +659,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C406E70A29225295805C83BFD30AF5D2 /* Headers */ = {
+		8902C9AFA62219EF568B4FA0C0CAF42F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA17C9332DA5B524C2FE45DE2A39887 /* ModuleCollectionViewCell.h in Headers */,
-				E805B3EAB7EA91FEFE96576E688864E5 /* ModuleHomeController.h in Headers */,
-				7077BB12C2485F69A03D13A478FA19D5 /* ModuleHomeHeader.h in Headers */,
+				5AF5C34FAA2F7A3D769D94913AC6B2C1 /* ModuleTabBar.h in Headers */,
+				45C6C79AF0A215D40D4E1CF7FC7EE401 /* ModuleTabBarButton.h in Headers */,
+				B9AFAA5D1B88D74F3CD72B9CC6421325 /* ModuleTabbarViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEED746516A4D15AB26375B99C5D6DB3 /* Headers */ = {
+		8A4DEAA925F3CB4EF84C128EA0725B69 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADCCC1DFA4FE057A21F8809BA5964E2 /* ModuleMainViewController.h in Headers */,
+				E7FD966D059DA2FA3FBFC8A0A242200E /* ModuleCollectionViewCell.h in Headers */,
+				F3CAABB5649498542FF83FC2FC7DA367 /* ModuleHomeController.h in Headers */,
+				F29B0165593BCCFF519068B7733BAFC2 /* ModuleHomeHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B464F043386D51106CB1F89AF1A1545 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B44772D630454FEA6BDE03C03AE735 /* ModuleNavgationController.h in Headers */,
+				C0D9C8E7090F46CAC59467F9A5354474 /* ModuleUIStackManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16B3515D72CACF13AF5133085CD67CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,11 +719,11 @@
 		};
 		118C32AE6E42ACAC372650D54A4B3746 /* ModuleUIStack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66E2E222440E254F5A54EFE844057D4D /* Build configuration list for PBXNativeTarget "ModuleUIStack" */;
+			buildConfigurationList = 1A6A4CE254FBCB305ECA789394B90D2A /* Build configuration list for PBXNativeTarget "ModuleUIStack" */;
 			buildPhases = (
-				2C5D21A65F4280E49B7515082FB63ECC /* Headers */,
-				5E1429679134EC0BB9ADBA0188DCA64A /* Sources */,
-				CAC9BF7A1A438803837CAB3B70BD931A /* Frameworks */,
+				9B464F043386D51106CB1F89AF1A1545 /* Headers */,
+				D329A74877B4CF6CF10E1847F08E5E51 /* Sources */,
+				FAF6BF3640321395F4AF04C1C1EB5B13 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -683,13 +734,30 @@
 			productReference = 00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		1A487119C0AFDD3C9E75677D4FFC1649 /* ModuleMine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7932EE552390EA8BC7457EE87EBD73 /* Build configuration list for PBXNativeTarget "ModuleMine" */;
+			buildPhases = (
+				5C5FDD88F1CBD3F59D3DB2756EBF7CC7 /* Headers */,
+				F38C642031392782E0DFAE2929893D4D /* Sources */,
+				A60A1C3E95FED9053770696DD147394F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModuleMine;
+			productName = ModuleMine;
+			productReference = B72FDF8DA6D8F289C4DF0F438DDCBC0F /* libModuleMine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2701A8B8EC8A3A8148723FABF34F8242 /* ModuleHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A98E36159F19E1CD1A1BFE1ED1364F4F /* Build configuration list for PBXNativeTarget "ModuleHome" */;
+			buildConfigurationList = 91CDE71A92AE8F895D37538C118A0128 /* Build configuration list for PBXNativeTarget "ModuleHome" */;
 			buildPhases = (
-				C406E70A29225295805C83BFD30AF5D2 /* Headers */,
-				BD2F714C7BB3D27A656121178CD1FDC6 /* Sources */,
-				E1B5BDFABDEF3AF6A4C5355987CC8342 /* Frameworks */,
+				8A4DEAA925F3CB4EF84C128EA0725B69 /* Headers */,
+				A88AD6340D02FD52CE48375BC37E274E /* Sources */,
+				C3F55FAA89E393197C7F0250489CCC25 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -702,17 +770,18 @@
 		};
 		50341D3698DD5052B0FA1558C13DF34D /* ModuleAppMain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2951DD76241E46E909A167F384CDEE4B /* Build configuration list for PBXNativeTarget "ModuleAppMain" */;
+			buildConfigurationList = 8C96317CD1A5EB85D4D7DB262F7962BC /* Build configuration list for PBXNativeTarget "ModuleAppMain" */;
 			buildPhases = (
-				EEED746516A4D15AB26375B99C5D6DB3 /* Headers */,
-				E8EED02FDC204AFE39477E1E3952C494 /* Sources */,
-				AEAE5E82EABEACF7A973A3D64783CF6C /* Frameworks */,
+				E16B3515D72CACF13AF5133085CD67CE /* Headers */,
+				B629B1DC33C91B5A11F20DF11ABB5F08 /* Sources */,
+				0ED3E6447F9434A0B9D568D950DDF926 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F451A58EC0CA6738ECDC43010C423188 /* PBXTargetDependency */,
-				C164E11524EB9E2E91FB29404E1C0899 /* PBXTargetDependency */,
+				8C8D08A29776D3A4F258307DB5FD3692 /* PBXTargetDependency */,
+				D06962CF2A4751E8E03F48E048CD5612 /* PBXTargetDependency */,
+				AAC5FE30EE773AC9CD78170098ECFCA1 /* PBXTargetDependency */,
 			);
 			name = ModuleAppMain;
 			productName = ModuleAppMain;
@@ -745,11 +814,11 @@
 		};
 		9F5F944D99729DF0E215135D650A86A4 /* ModuleCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E96F2FA386937E82547DACB5050F340D /* Build configuration list for PBXNativeTarget "ModuleCenter" */;
+			buildConfigurationList = F38C129B75381CD57DD36401B0FBA8CB /* Build configuration list for PBXNativeTarget "ModuleCenter" */;
 			buildPhases = (
-				3668B7AB075C432B3E9DF91C03D49886 /* Headers */,
-				B66D200483B8F7819BA069D007D9498F /* Sources */,
-				C0965F3E2A6832617C6157466872018D /* Frameworks */,
+				15E64A37DB070F1136B9D9FA142E013F /* Headers */,
+				1291404A223BB5C45EAC00F40DB91CC3 /* Sources */,
+				3E95FAC7DBC2DF6F198D3DC2BBB7A4E5 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -762,16 +831,17 @@
 		};
 		B96C4FC8611055D1B30AA0A0B50B5B37 /* ModuleCommonUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B9B5A87CD16045AD8A0A5D6A0688361 /* Build configuration list for PBXNativeTarget "ModuleCommonUI" */;
+			buildConfigurationList = F78FD4CD8B04FB9B45223DEB6EF04892 /* Build configuration list for PBXNativeTarget "ModuleCommonUI" */;
 			buildPhases = (
-				3422C7406B655619C8541C8A2E000CF7 /* Headers */,
-				70B93213CF0D2DF96D8C9ADBEFB5544A /* Sources */,
-				AEABBFE580C83491B6BC5E1D8A115EDF /* Frameworks */,
+				8902C9AFA62219EF568B4FA0C0CAF42F /* Headers */,
+				7DB25D229F46405FDDA11C4A22DA3572 /* Sources */,
+				20962BA218423B2217F9B22BF324B9AF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2DD3A7C7E654BF4CEE8915923DE057E /* PBXTargetDependency */,
+				35CD953DE46D852EDA914FE3200B5449 /* PBXTargetDependency */,
+				57DBCB1D3B4E7E02B4030DCC8A44CA9A /* PBXTargetDependency */,
 			);
 			name = ModuleCommonUI;
 			productName = ModuleCommonUI;
@@ -813,7 +883,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F1AC706A75843A0542D54C6BB0CD7383 /* Products */;
+			productRefGroup = B996A5596445B1B00C072406E3DA6E30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -846,30 +916,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1291404A223BB5C45EAC00F40DB91CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E9940029F3055AE98D51AF2FC39890 /* ModuleCenter-dummy.m in Sources */,
+				B6C4281839EF96D5AA721AD9F32FE94B /* ModuleCenter.m in Sources */,
+				55B2722310022BC40137247EADEE51C8 /* NSObject+MLFinder.m in Sources */,
+				F3009E9C9AFA754F72F749D3AD455863 /* UIView+Addition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59CCF6D41AED1111BB0B2F947A25B375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F340649BAB853291DDD4510847475DC5 /* Pods-ModuleBox-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E1429679134EC0BB9ADBA0188DCA64A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BD5F11A8814549E9A6537A472D6925C /* ModuleNavgationController.m in Sources */,
-				8F0A659CC934AAC447438262C495DA30 /* ModuleUIStack-dummy.m in Sources */,
-				9632555BE308E7C31F785C6CEAE24F0E /* ModuleUIStackManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70B93213CF0D2DF96D8C9ADBEFB5544A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF0C35ABE5C830752D0A796B8DBE0F79 /* ModuleCommonUI-dummy.m in Sources */,
-				17AE61A84EBB12BECD7BDED6F750B39B /* ModuleTabbarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,32 +952,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B66D200483B8F7819BA069D007D9498F /* Sources */ = {
+		7DB25D229F46405FDDA11C4A22DA3572 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77040C0DD7299789F76C49B36EF59C6F /* ModuleCenter-dummy.m in Sources */,
-				BCD3C75A5FB525249D60550E9FB4F36A /* ModuleCenter.m in Sources */,
-				01A4BAD1978F29A2A83EEE0ECE4B673C /* NSObject+MLFinder.m in Sources */,
+				7B55ABE343400E2294A13B39008EFD75 /* ModuleCommonUI-dummy.m in Sources */,
+				2A84B7300F048DCBB45C632E201FB695 /* ModuleTabBar.m in Sources */,
+				D4E649CB09BACD228EFB89EF3965BBF9 /* ModuleTabBarButton.m in Sources */,
+				A957C23BDF891E4E97E12D084A3B5693 /* ModuleTabbarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD2F714C7BB3D27A656121178CD1FDC6 /* Sources */ = {
+		A88AD6340D02FD52CE48375BC37E274E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA671F19890A3D8CA6B8A4F11C0DF38 /* ModuleCollectionViewCell.m in Sources */,
-				EC3A38336BD6AAADB6E199A178F9BB9A /* ModuleHome-dummy.m in Sources */,
-				EDE8301BA9C9A51B72E3085AF970D463 /* ModuleHomeController.m in Sources */,
+				CA74600D82698178AC82560F6B43BE96 /* ModuleCollectionViewCell.m in Sources */,
+				C1992D7633B6994B9AE8C84ED25E1FDE /* ModuleHome-dummy.m in Sources */,
+				431448E4E2934B664DC83D19178966D2 /* ModuleHomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8EED02FDC204AFE39477E1E3952C494 /* Sources */ = {
+		B629B1DC33C91B5A11F20DF11ABB5F08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E8D3405978F0CA483F6E5BE8DA86E32 /* ModuleAppMain-dummy.m in Sources */,
-				273BADECEE282EEB8BD0F797AAB6F958 /* ModuleMainViewController.m in Sources */,
+				4469418540D85259D19DB2CF858C4B51 /* ModuleAppMain-dummy.m in Sources */,
+				B02C2601420575A4A0F85D6A02234585 /* ModuleMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D329A74877B4CF6CF10E1847F08E5E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */,
+				A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */,
+				AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38C642031392782E0DFAE2929893D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82329847D8CD406A66A4CF79EABFC4F1 /* ModuleMine-dummy.m in Sources */,
+				EB0B34191EFBBE1C32837DE1F216382D /* ModuleMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,11 +1028,23 @@
 			target = EF8F662DFD32CAA619E43E259B1DD515 /* MSProgress-MSProgress */;
 			targetProxy = B60640B2E47AD38159F0FB804D19E8E5 /* PBXContainerItemProxy */;
 		};
+		35CD953DE46D852EDA914FE3200B5449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleCenter;
+			target = 9F5F944D99729DF0E215135D650A86A4 /* ModuleCenter */;
+			targetProxy = ED0613E587CE3EE3DF0D0EE7D9D279DE /* PBXContainerItemProxy */;
+		};
 		56F0FB32DEC385727A2C8EC887819AFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ModuleCenter;
 			target = 9F5F944D99729DF0E215135D650A86A4 /* ModuleCenter */;
 			targetProxy = 93899683A8055EB77EECD1C609B43310 /* PBXContainerItemProxy */;
+		};
+		57DBCB1D3B4E7E02B4030DCC8A44CA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleUIStack;
+			target = 118C32AE6E42ACAC372650D54A4B3746 /* ModuleUIStack */;
+			targetProxy = CAB9F1D9E5DDE136CF2120EEA7986A99 /* PBXContainerItemProxy */;
 		};
 		700C3735A32D92F3A3FB7CA61D543AA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -958,17 +1052,23 @@
 			target = 118C32AE6E42ACAC372650D54A4B3746 /* ModuleUIStack */;
 			targetProxy = 2C545AF3B5C20AACDBA30D0022F08AE1 /* PBXContainerItemProxy */;
 		};
-		B2DD3A7C7E654BF4CEE8915923DE057E /* PBXTargetDependency */ = {
+		8C8D08A29776D3A4F258307DB5FD3692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ModuleUIStack;
-			target = 118C32AE6E42ACAC372650D54A4B3746 /* ModuleUIStack */;
-			targetProxy = A4310DF05A003E7CB51BD51C3846A7E0 /* PBXContainerItemProxy */;
+			name = ModuleCommonUI;
+			target = B96C4FC8611055D1B30AA0A0B50B5B37 /* ModuleCommonUI */;
+			targetProxy = E5314FFDCD98AAFBBD363AF84C42E0A8 /* PBXContainerItemProxy */;
 		};
-		C164E11524EB9E2E91FB29404E1C0899 /* PBXTargetDependency */ = {
+		AAC5FE30EE773AC9CD78170098ECFCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleMine;
+			target = 1A487119C0AFDD3C9E75677D4FFC1649 /* ModuleMine */;
+			targetProxy = B595832E3231F355E0A6B37E2FAB9505 /* PBXContainerItemProxy */;
+		};
+		D06962CF2A4751E8E03F48E048CD5612 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ModuleHome;
 			target = 2701A8B8EC8A3A8148723FABF34F8242 /* ModuleHome */;
-			targetProxy = 21230DAE44B928B6F118E5E3F09420F6 /* PBXContainerItemProxy */;
+			targetProxy = 1F4795C572E8D0CCC70687A11453A7FE /* PBXContainerItemProxy */;
 		};
 		D1C207472D02D4DC7C051D7F5A62C566 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -982,92 +1082,12 @@
 			target = 2701A8B8EC8A3A8148723FABF34F8242 /* ModuleHome */;
 			targetProxy = 41BAE3DE4C6633FA0F2EDB6A83E5C228 /* PBXContainerItemProxy */;
 		};
-		F451A58EC0CA6738ECDC43010C423188 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ModuleCommonUI;
-			target = B96C4FC8611055D1B30AA0A0B50B5B37 /* ModuleCommonUI */;
-			targetProxy = 0A608FC3E0089431F3A20373453E5C68 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04C43AEA7C5F01DAAFAADB16DDC29164 /* Release */ = {
+		2BE7AD86FBCE7D2BD43B5C88871180F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97D7F3A57333D14CF5AA3BB2EDCDA5F8 /* ModuleUIStack.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleUIStack/ModuleUIStack-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_CFLAGS = (
-					"$(inherrited)",
-					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
-					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
-					"-DGZC_BUILD_NUMBER=0",
-					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
-					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
-					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
-					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
-					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleUIStack;
-				PRODUCT_NAME = ModuleUIStack;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1C28026298159829CBEE05847FB9E35F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B21FCEDD5B51290C59AF7AF5E5A6634 /* ModuleCenter.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleCenter/ModuleCenter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_CFLAGS = (
-					"$(inherrited)",
-					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
-					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
-					"-DGZC_BUILD_NUMBER=0",
-					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
-					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
-					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
-					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
-					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleCenter;
-				PRODUCT_NAME = ModuleCenter;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		281618A3D8F0AD99E89ACD441DAA2FA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EC9D32D97DF80C4F67889CDB2B0E3DF /* ModuleCommonUI.debug.xcconfig */;
+			baseConfigurationReference = 30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1084,9 +1104,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1098,8 +1118,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		389A1027C40A71BD10EB1F7BBAEEE3B0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1118,15 +1139,15 @@
 			};
 			name = Release;
 		};
-		39FC7B052F346D29BC8729E7F7F9CB7A /* Release */ = {
+		395DC2338F42A00CA9760933FAE3802D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 891E30BC1FD13D348034EEB013891141 /* ModuleCommonUI.release.xcconfig */;
+			baseConfigurationReference = DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleCommonUI/ModuleCommonUI-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleUIStack/ModuleUIStack-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"$(inherrited)",
@@ -1137,35 +1158,33 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleCommonUI;
-				PRODUCT_NAME = ModuleCommonUI;
+				PRODUCT_MODULE_NAME = ModuleUIStack;
+				PRODUCT_NAME = ModuleUIStack;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		3A5D8CF7A6B244127387C3F800AE85FB /* Release */ = {
+		3FDEE72B5FE8E0866058EE3CE6AA0477 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC85B85715D2D2988157874A06A2DD43 /* ModuleMine.release.xcconfig */;
+			baseConfigurationReference = F22D62547B260AE694F172061E0E82D0 /* ModuleHome.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleHome/ModuleHome-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
 				OTHER_CFLAGS = (
 					"$(inherrited)",
 					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
@@ -1175,15 +1194,22 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleHome;
+				PRODUCT_NAME = ModuleHome;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1332,9 +1358,45 @@
 			};
 			name = Release;
 		};
-		96E3E9D47344A2BF95604A28E55E9281 /* Release */ = {
+		910B030E3AC0B15076B4B7A2D375B9BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8487AA47673CBC34161AB8A555A3470D /* ModuleAppMain.release.xcconfig */;
+			baseConfigurationReference = FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleCommonUI/ModuleCommonUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"$(inherrited)",
+					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
+					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
+					"-DGZC_BUILD_NUMBER=0",
+					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
+					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
+					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
+					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleCommonUI;
+				PRODUCT_NAME = ModuleCommonUI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93BD82B048D37B9AA368790723121E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1351,9 +1413,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1368,42 +1430,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		9DD5BB794CD38D226B318A2BE001EFD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7A4A0925FC86E0D2755F63DC3BABED /* ModuleHome.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleHome/ModuleHome-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_CFLAGS = (
-					"$(inherrited)",
-					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
-					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
-					"-DGZC_BUILD_NUMBER=0",
-					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
-					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
-					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
-					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
-					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleHome;
-				PRODUCT_NAME = ModuleHome;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		A4A48092411306FBEE4C1D808FA6871E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1422,44 +1448,15 @@
 			};
 			name = Debug;
 		};
-		A4F338B820A1593E7FA403BA0D6F0C49 /* Debug */ = {
+		A8F04363A9610BF4C0B85830F64E2A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7437B72D8E65CA79BB3627AA1DC9561 /* ModuleMine.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherrited)",
-					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
-					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
-					"-DGZC_BUILD_NUMBER=0",
-					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
-					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
-					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
-					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
-					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BEA761105C81A044B7BAA5E2CFC71A81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3230B4169442708E3BEB6FE0C048C76C /* ModuleHome.release.xcconfig */;
+			baseConfigurationReference = 8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleHome/ModuleHome-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleMine/ModuleMine-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"$(inherrited)",
@@ -1470,15 +1467,51 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleHome;
-				PRODUCT_NAME = ModuleHome;
+				PRODUCT_MODULE_NAME = ModuleMine;
+				PRODUCT_NAME = ModuleMine;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8FEBA3E4401730E9610F8C7238B5107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleUIStack/ModuleUIStack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"$(inherrited)",
+					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
+					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
+					"-DGZC_BUILD_NUMBER=0",
+					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
+					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
+					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
+					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleUIStack;
+				PRODUCT_NAME = ModuleUIStack;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1487,42 +1520,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		C0BD006A1B2D41D126062BD463806536 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2937995CE8D15981F1F484AE4DAF1EDD /* ModuleAppMain.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleAppMain/ModuleAppMain-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_CFLAGS = (
-					"$(inherrited)",
-					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
-					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
-					"-DGZC_BUILD_NUMBER=0",
-					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
-					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
-					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
-					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
-					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleAppMain;
-				PRODUCT_NAME = ModuleAppMain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		CB45EF15186F564E1B02984947855E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1546,15 +1543,15 @@
 			};
 			name = Debug;
 		};
-		CCFFE14D22018BB08E931BF8D160DC8F /* Debug */ = {
+		CE8A54D87E687CAEEAE5ADD97A01FECF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F86CC766CB2E87D7DDA52BD2CBB751CB /* ModuleUIStack.debug.xcconfig */;
+			baseConfigurationReference = 466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleUIStack/ModuleUIStack-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleMine/ModuleMine-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"$(inherrited)",
@@ -1565,22 +1562,60 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleUIStack;
-				PRODUCT_NAME = ModuleUIStack;
+				PRODUCT_MODULE_NAME = ModuleMine;
+				PRODUCT_NAME = ModuleMine;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
+		};
+		D2645EDDAD83CC0240E11A63CCF7A87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7BC269AE781BDE4C2E679068AA605D /* ModuleHome.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleHome/ModuleHome-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"$(inherrited)",
+					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
+					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
+					"-DGZC_BUILD_NUMBER=0",
+					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
+					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
+					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
+					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleHome;
+				PRODUCT_NAME = ModuleHome;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		D9EA32938AB25E6AF4392439541B685A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1597,6 +1632,79 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = MSProgress;
 				PRODUCT_NAME = MSProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC2DD30C40FD86FB87F871E78A02B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleAppMain/ModuleAppMain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"$(inherrited)",
+					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
+					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
+					"-DGZC_BUILD_NUMBER=0",
+					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
+					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
+					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
+					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleAppMain;
+				PRODUCT_NAME = ModuleAppMain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E124841B924023EF6B04CAE53D8A762F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleCenter/ModuleCenter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"$(inherrited)",
+					"-DBAIDUMAPKEY=\\@\\\"BAIDUMAPEEEEEEEEEEEE\\\"",
+					"-DWECHATKEY=\\@\\\"WECHATEEEEEEEEEEEE\\\"",
+					"-DGZC_BUILD_NUMBER=0",
+					"-DGZC_BUILD_OWNER=\\@\\\"jiangxiduhufu\\\"",
+					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
+					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
+					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleCenter;
+				PRODUCT_NAME = ModuleCenter;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1629,9 +1737,9 @@
 			};
 			name = Release;
 		};
-		FBD327BF149184339A6701850463E10E /* Debug */ = {
+		FA143B65F0C9022B27799B832FB5BA9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04E9C4BB5ADA4494760954439EEF3498 /* ModuleCenter.debug.xcconfig */;
+			baseConfigurationReference = E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1648,9 +1756,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_0764bf0\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1668,20 +1776,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B9B5A87CD16045AD8A0A5D6A0688361 /* Build configuration list for PBXNativeTarget "ModuleCommonUI" */ = {
+		1A6A4CE254FBCB305ECA789394B90D2A /* Build configuration list for PBXNativeTarget "ModuleUIStack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				281618A3D8F0AD99E89ACD441DAA2FA8 /* Debug */,
-				39FC7B052F346D29BC8729E7F7F9CB7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2951DD76241E46E909A167F384CDEE4B /* Build configuration list for PBXNativeTarget "ModuleAppMain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0BD006A1B2D41D126062BD463806536 /* Debug */,
-				96E3E9D47344A2BF95604A28E55E9281 /* Release */,
+				395DC2338F42A00CA9760933FAE3802D /* Debug */,
+				A8FEBA3E4401730E9610F8C7238B5107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1691,6 +1790,15 @@
 			buildConfigurations = (
 				7691D0331D4FA773A5856B8B3A50BB08 /* Debug */,
 				D9EA32938AB25E6AF4392439541B685A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7932EE552390EA8BC7457EE87EBD73 /* Build configuration list for PBXNativeTarget "ModuleMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F04363A9610BF4C0B85830F64E2A74 /* Debug */,
+				CE8A54D87E687CAEEAE5ADD97A01FECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1713,38 +1821,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66E2E222440E254F5A54EFE844057D4D /* Build configuration list for PBXNativeTarget "ModuleUIStack" */ = {
+		8C96317CD1A5EB85D4D7DB262F7962BC /* Build configuration list for PBXNativeTarget "ModuleAppMain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCFFE14D22018BB08E931BF8D160DC8F /* Debug */,
-				04C43AEA7C5F01DAAFAADB16DDC29164 /* Release */,
+				DCC2DD30C40FD86FB87F871E78A02B65 /* Debug */,
+				93BD82B048D37B9AA368790723121E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A98E36159F19E1CD1A1BFE1ED1364F4F /* Build configuration list for PBXNativeTarget "ModuleHome" */ = {
+		91CDE71A92AE8F895D37538C118A0128 /* Build configuration list for PBXNativeTarget "ModuleHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DD5BB794CD38D226B318A2BE001EFD9 /* Debug */,
-				BEA761105C81A044B7BAA5E2CFC71A81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C071944D03C8A199C1BBB4B4FBF697E9 /* Build configuration list for PBXAggregateTarget "ModuleMine" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4F338B820A1593E7FA403BA0D6F0C49 /* Debug */,
-				3A5D8CF7A6B244127387C3F800AE85FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E96F2FA386937E82547DACB5050F340D /* Build configuration list for PBXNativeTarget "ModuleCenter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FBD327BF149184339A6701850463E10E /* Debug */,
-				1C28026298159829CBEE05847FB9E35F /* Release */,
+				3FDEE72B5FE8E0866058EE3CE6AA0477 /* Debug */,
+				D2645EDDAD83CC0240E11A63CCF7A87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1754,6 +1844,24 @@
 			buildConfigurations = (
 				A4A48092411306FBEE4C1D808FA6871E /* Debug */,
 				389A1027C40A71BD10EB1F7BBAEEE3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38C129B75381CD57DD36401B0FBA8CB /* Build configuration list for PBXNativeTarget "ModuleCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA143B65F0C9022B27799B832FB5BA9C /* Debug */,
+				E124841B924023EF6B04CAE53D8A762F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78FD4CD8B04FB9B45223DEB6EF04892 /* Build configuration list for PBXNativeTarget "ModuleCommonUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910B030E3AC0B15076B4B7A2D375B9BE /* Debug */,
+				2BE7AD86FBCE7D2BD43B5C88871180F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

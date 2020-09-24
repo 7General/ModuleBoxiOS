@@ -6,10 +6,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModuleTabBar.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ModuleTabbarViewController : UITabBarController
+
+@property (nonatomic,strong) ModuleTabBar *mainCustomTabBar;
+
 
 @end
 

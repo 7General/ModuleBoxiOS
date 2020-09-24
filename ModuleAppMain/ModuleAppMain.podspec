@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {'USE_HEADERMAP' => false}
   spec.dependency    'ModuleCommonUI'
   spec.dependency    'ModuleHome'
+  spec.dependency    'ModuleMine'
 
 end

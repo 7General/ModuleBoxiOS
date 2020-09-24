@@ -18,5 +18,6 @@ Pod::Spec.new do |spec|
   
   spec.framework    = "UIKit"
   spec.dependency    'ModuleUIStack'
+  spec.dependency    'ModuleCenter'
 
 end

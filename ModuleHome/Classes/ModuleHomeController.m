@@ -22,7 +22,7 @@
     
     [self.navigationController.navigationBar setHidden:YES];
     
-    
+    NSLog(@"%s",__func__);
     return;
     
     NSLog(@"haijie%d",HAIJIEVERSION);
@@ -56,46 +56,46 @@
 }
 
 -(void) deleteContent:(NSIndexPath *)_indexPath{
-
-//Remove items from array on delete
-//    [itemArr removeObjectAtIndex:_indexPath.row];
-
-//Reload the items of UICollectionView performBatchUpdates Block
+    
+    //Remove items from array on delete
+    //    [itemArr removeObjectAtIndex:_indexPath.row];
+    
+    //Reload the items of UICollectionView performBatchUpdates Block
     [self.mainCollectionView performBatchUpdates:^{
-//        [self.mainCollectionView deleteItemsAtIndexPaths:@[_indexPath]];
+        //        [self.mainCollectionView deleteItemsAtIndexPaths:@[_indexPath]];
     } completion:nil];
-
-
+    
+    
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"====%ld",indexPath.item);
     NSIndexPath *lIndexPath = [NSIndexPath indexPathForRow:indexPath.row inSection:0];
-
-    UICollectionViewCell *cell = [self.mainCollectionView cellForItemAtIndexPath:lIndexPath];
-
     
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    context = UIGraphicsGetCurrentContext();
-//    [UIView beginAnimations:nil context:context];
-//    [UIView setAnimationDuration:2];
-//    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:cell cache:YES];
-//    [UIView commitAnimations];
-//
-//    //Implementation of GCD to delete a flip item
-//    double delay = 2/2;
-//    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delay * NSEC_PER_SEC);
-//    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-//        //code to be executed on the main queue after delay
-//        [self deleteContent:indexPath];
-//    });
+    UICollectionViewCell *cell = [self.mainCollectionView cellForItemAtIndexPath:lIndexPath];
+    
+    
+    //    CGContextRef context = UIGraphicsGetCurrentContext();
+    //    context = UIGraphicsGetCurrentContext();
+    //    [UIView beginAnimations:nil context:context];
+    //    [UIView setAnimationDuration:2];
+    //    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:cell cache:YES];
+    //    [UIView commitAnimations];
+    //
+    //    //Implementation of GCD to delete a flip item
+    //    double delay = 2/2;
+    //    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delay * NSEC_PER_SEC);
+    //    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+    //        //code to be executed on the main queue after delay
+    //        [self deleteContent:indexPath];
+    //    });
     
     [UIView transitionWithView:cell duration:2 options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             cell.backgroundColor = [UIColor greenColor];
         });
     } completion:^(BOOL finished) {
-//        [self.mainCollectionView reloadData];
+        //        [self.mainCollectionView reloadData];
     }];
 }
 

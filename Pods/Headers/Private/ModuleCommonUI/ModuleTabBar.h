@@ -1,0 +1,1 @@
+../../../../ModuleCommonUI/Classes/ModuleTabBar.h
