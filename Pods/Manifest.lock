@@ -41,7 +41,7 @@ SPEC CHECKSUMS:
   ModuleAppMain: 0fa9b484dca5a2ffaf4383db65c3e88b17c54e7b
   ModuleCenter: a1d9944d062975863c46bb0cab4f05ccae2a8617
   ModuleCommonUI: c19b04a97ebac08c91d88f2e6f645a164cfba390
-  ModuleHome: 7b0ccb723074b128f882ea0f0cab1f6853272230
+  ModuleHome: ad301f8cb7f3187cd2af8e05669bffe0b3e801b0
   ModuleMine: 2fe3c9c7583f6fbf5b87c87fd5b02b1847886c4d
   ModuleUIStack: 5132a3ebf579526451e8a6c5516ef7d29d92e8ba
   MSProgress: ccacd50da0bed4fc3e5f3dc88dc1b0a091c09798

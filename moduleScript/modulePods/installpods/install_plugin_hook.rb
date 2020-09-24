@@ -46,18 +46,3 @@ end
 def _self_module_installer(installer)
     MBoxconfig::MBoxconfigInstaller.new.inject(installer,MBoxconfig::MBoxconfigContext.instance.config_file_list)
 end
-
-
-
-def say_mods(target)
-    # target.build_configurations.each do |configuration|
-    #     puts "name----------------"+configuration.name + "#{ENV['PODFILE_TYPE']}"
-    #     # target.build_settings(configuration.name)['OTHER_CFLAGS'] = "$(inherited) #{cflags_string}" unless cflags_string.nil? || cflags_string.empty?
-    #     # target.build_settings(configuration.name)['OTHER_CFLAGS'] = "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIRtttt}/ModuleCommonUIttt\" "
-    #     # $(inherited) -ObjC -l"ModuleAppMain" -l"ModuleCenter" -l"ModuleCommonUI" -l"ModuleHome" -l"ModuleUIStack" -framework "UIKit" 
-    #     vars = "-DBaiduWebLBSAPIAK=\\@\\\"hhhhhhhhhhhhhZZZZZZZZZZZZZZZZ\\\""
-    #     target.build_settings(configuration.name)['OTHER_CFLAGS'] = "$(inherited) #{vars}"
-
-    
-    # end
-end 
