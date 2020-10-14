@@ -71,7 +71,7 @@
 }
 
 - (void)tabBarView:(ModuleTabBar *)tabBarView didSelectIndex:(NSUInteger )selectIndex lastSelectIndex:(NSUInteger)lastSelectIndex {
-    NSLog(@"------%ld",selectIndex);
+//    NSLog(@"------%ld",selectIndex);
     [self changeTabForSelectIndex:selectIndex];
 }
 

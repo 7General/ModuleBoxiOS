@@ -1,5 +1,5 @@
 GZ_PACKAGE_BUILDER |= \@\"wanghuizhou\"
 GZ_PACKAGE_ENV |= \@\"main\"
-GZ_PACKAGE_ID |= \@\"master_ce7e00d\"
+GZ_PACKAGE_ID |= \@\"master_04ae882\"
 GZ_PACKAGE_DESC |= \@\"\"
-GZ_CODE_IDENTIFIER |= \@\"master_ce7e00d\"
+GZ_CODE_IDENTIFIER |= \@\"master_04ae882\"

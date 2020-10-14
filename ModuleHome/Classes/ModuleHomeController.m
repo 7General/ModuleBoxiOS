@@ -8,9 +8,22 @@
 #import "ModuleHomeController.h"
 #import "ModuleCollectionViewCell.h"
 
-@interface ModuleHomeController () <UICollectionViewDelegate,UICollectionViewDataSource>
+@interface ModuleFuncation : NSObject
+
+@property (nonatomic, strong) NSString * cellText;
+@property (nonatomic, strong) NSString * viewControllerName;
+@end
+
+@implementation ModuleFuncation
+
+@end
+
+@interface ModuleHomeController () <UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic, strong) UICollectionView *mainCollectionView;
+
+@property (nonatomic, strong) UITableView *homeTableView;
+@property (nonatomic, strong) NSMutableArray *dataSource;
 
 @end
 
@@ -18,30 +31,62 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
     
     [self.navigationController.navigationBar setHidden:YES];
     
     NSLog(@"%s",__func__);
-    return;
+    self.homeTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.homeTableView.delegate = self;
+    self.homeTableView.dataSource = self;
+    [self.view addSubview:self.homeTableView];
     
-    NSLog(@"haijie%d",HAIJIEVERSION);
+    // 初始化数据源
+    self.dataSource = [NSMutableArray array];
     
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-    [layout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    layout.minimumLineSpacing = 5;
-    layout.minimumInteritemSpacing = 10;
-    //    layout.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15);
+    ModuleFuncation * redGitInfo = [[ModuleFuncation alloc] init];
+    redGitInfo.viewControllerName = @"";
+    redGitInfo.cellText = @"读取git信息";
+    [self.dataSource addObject:redGitInfo];
     
-    self.mainCollectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
     
-    self.mainCollectionView.showsHorizontalScrollIndicator = NO;
-    self.mainCollectionView.showsVerticalScrollIndicator = NO;
-    [self.mainCollectionView registerClass:[ModuleCollectionViewCell class] forCellWithReuseIdentifier:@"ModuleCollectionViewCell"];
-    self.mainCollectionView.backgroundColor = [UIColor whiteColor];
-    self.mainCollectionView.delegate   = self;
-    self.mainCollectionView.dataSource = self;
-    [self.view addSubview:self.mainCollectionView];
+    
+    
+    
+//    return;
+//
+//    NSLog(@"haijie%d",HAIJIEVERSION);
+//
+//    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+//    [layout setScrollDirection:UICollectionViewScrollDirectionVertical];
+//    layout.minimumLineSpacing = 5;
+//    layout.minimumInteritemSpacing = 10;
+//    //    layout.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15);
+//
+//    self.mainCollectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+//
+//    self.mainCollectionView.showsHorizontalScrollIndicator = NO;
+//    self.mainCollectionView.showsVerticalScrollIndicator = NO;
+//    [self.mainCollectionView registerClass:[ModuleCollectionViewCell class] forCellWithReuseIdentifier:@"ModuleCollectionViewCell"];
+//    self.mainCollectionView.backgroundColor = [UIColor whiteColor];
+//    self.mainCollectionView.delegate   = self;
+//    self.mainCollectionView.dataSource = self;
+//    [self.view addSubview:self.mainCollectionView];
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataSource.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"ids"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ids"];
+    }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    ModuleFuncation * mFuncation = self.dataSource[indexPath.row];
+    cell.textLabel.text = mFuncation.cellText;
+    return cell;
 }
 
 

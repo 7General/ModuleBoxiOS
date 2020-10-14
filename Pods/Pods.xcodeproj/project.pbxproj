@@ -7,48 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01215BFE627CAB29779027E35150F7B4 /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01215BFE627CAB29779027E35150F7B4 /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F01A129392B78AFE52763176017E37C /* UIView+Addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0246087EDFCEA95DA30A1F49E451949B /* ModuleMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A356E8BD9E952EA7264EBC36D376D13D /* ModuleMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1CADEFC79066CD360497A560931A7AA8 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ADCAAC5AE4D382CAA7720A98902430 /* success@2x.png */; };
 		1D24381DC2533C811F588D1F152A2E20 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E66998CF198C0681864077FD29C85D /* success@3x.png */; };
-		2A84B7300F048DCBB45C632E201FB695 /* ModuleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */; };
-		31C1F3394976828E6093C4EDB7A06235 /* NSObject+MLFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */; };
+		2A84B7300F048DCBB45C632E201FB695 /* ModuleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B55CB5098E3E6F4BC507BC94E397E5 /* ModuleTabBar.m */; };
+		31C1F3394976828E6093C4EDB7A06235 /* NSObject+MLFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 078B18D1997807382D21FAE3F946A948 /* NSObject+MLFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B870936EBC396AA8F0BF161F043FE88 /* ModuleNavgationController.m */; };
 		38ABB60E1A0A70A31D9FCDB9C8A3A7E0 /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4103A13F8CFD35FAC4428BEF3878BF /* UIView+UIViewUtils.m */; };
-		431448E4E2934B664DC83D19178966D2 /* ModuleHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1574E3E90861ACF298069001447AFA0F /* ModuleHomeController.m */; };
-		4469418540D85259D19DB2CF858C4B51 /* ModuleAppMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */; };
-		45C6C79AF0A215D40D4E1CF7FC7EE401 /* ModuleTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		431448E4E2934B664DC83D19178966D2 /* ModuleHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7127F165E619215B7F87AF6B7BC0628 /* ModuleHomeController.m */; };
+		4469418540D85259D19DB2CF858C4B51 /* ModuleAppMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80EF1CBF37AFF1306BDBFEA11E5D69B /* ModuleAppMain-dummy.m */; };
+		45C6C79AF0A215D40D4E1CF7FC7EE401 /* ModuleTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 32739C399CC453733812C3E94D3FB677 /* ModuleTabBarButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		461BECAEEC3834F5E4E376F24A2416C7 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5FD5072ADF079F37FD9B42B687897 /* error@2x.png */; };
-		4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55B2722310022BC40137247EADEE51C8 /* NSObject+MLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */; };
-		5AF5C34FAA2F7A3D769D94913AC6B2C1 /* ModuleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6F7E59FDAB8B8888D84311CA576053 /* ModuleMainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55B2722310022BC40137247EADEE51C8 /* NSObject+MLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA5268CC2DFDE78DF26366AEE1CDFE /* NSObject+MLFinder.m */; };
+		5AF5C34FAA2F7A3D769D94913AC6B2C1 /* ModuleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC06A22CB31CE91933F80C6FDDA0FE39 /* ModuleTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		603269A42E7C49AEA9EEE8242DFCD050 /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C380195B81E93AF174EBC175E75D6 /* MSProgressHUD.m */; };
 		76254FC560A58C08CD9FF940E9308E6F /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C79758785F990C82FE4E896693ED6D /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B55ABE343400E2294A13B39008EFD75 /* ModuleCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */; };
-		82329847D8CD406A66A4CF79EABFC4F1 /* ModuleMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */; };
-		A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */; };
-		A957C23BDF891E4E97E12D084A3B5693 /* ModuleTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */; };
-		AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */; };
-		B02C2601420575A4A0F85D6A02234585 /* ModuleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */; };
-		B6C4281839EF96D5AA721AD9F32FE94B /* ModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */; };
-		B9AFAA5D1B88D74F3CD72B9CC6421325 /* ModuleTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C0D9C8E7090F46CAC59467F9A5354474 /* ModuleUIStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1992D7633B6994B9AE8C84ED25E1FDE /* ModuleHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE367ABD9424C23E847041086731FFC /* ModuleHome-dummy.m */; };
-		C5B44772D630454FEA6BDE03C03AE735 /* ModuleNavgationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA74600D82698178AC82560F6B43BE96 /* ModuleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A164A6FBC5193B7A379219D89532F6BD /* ModuleCollectionViewCell.m */; };
-		CCA0A003481DD17C107E871BC1EAFD31 /* ModuleMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D4E649CB09BACD228EFB89EF3965BBF9 /* ModuleTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */; };
+		7B55ABE343400E2294A13B39008EFD75 /* ModuleCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A88E1657403A8D5A7AB216CC9643E094 /* ModuleCommonUI-dummy.m */; };
+		8007B1598FCFBA1FC33E1133D8B2AE29 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 992B6CBAA2ECEA1DCB76E3795F19B494 /* NSData+Base64.m */; };
+		89F60348BF519C6CDA16586A72B5785B /* ModuleMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741BF815377E8579331A1DFA7CCD243 /* ModuleMineViewController.m */; };
+		A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1874FCE34BF02EF42A5A5BB250EDC5 /* ModuleUIStack-dummy.m */; };
+		A957C23BDF891E4E97E12D084A3B5693 /* ModuleTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D8F81C29F340E1CEE581C2AA06E9A6 /* ModuleTabbarViewController.m */; };
+		AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CE7CE1066D6B7FEE8A9A5AEA218B3 /* ModuleUIStackManager.m */; };
+		B02C2601420575A4A0F85D6A02234585 /* ModuleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C415E7E53EFFC04192F0164D67E445 /* ModuleMainViewController.m */; };
+		B6C4281839EF96D5AA721AD9F32FE94B /* ModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0F495953D943B0ED069B5D2B15215 /* ModuleCenter.m */; };
+		B9AFAA5D1B88D74F3CD72B9CC6421325 /* ModuleTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1C4EFFD9AD4F7E44F2A86AB13078D3 /* ModuleTabbarViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0D9C8E7090F46CAC59467F9A5354474 /* ModuleUIStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC6153FFA5D6E0AD505D9208C538CE2 /* ModuleUIStackManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1992D7633B6994B9AE8C84ED25E1FDE /* ModuleHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A505D6B3EA11F4E219605FF27FDC5531 /* ModuleHome-dummy.m */; };
+		C5B44772D630454FEA6BDE03C03AE735 /* ModuleNavgationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 608F5DED6B987454B40ABE8D95662010 /* ModuleNavgationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA74600D82698178AC82560F6B43BE96 /* ModuleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A802CDFFEF70591D370F69C0A781740C /* ModuleCollectionViewCell.m */; };
+		D4E649CB09BACD228EFB89EF3965BBF9 /* ModuleTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF0D55C465C10E77C77134D8FE72DC /* ModuleTabBarButton.m */; };
 		D59D223116373A567A16834E8A79B31E /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D029BC02039FD5625E8E50DB65A26F /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DD3D8C3E3DD5625B0EEB5D33FB6931FF /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C52B60E0ED8B0940A25D905565D6F /* MSProgress-dummy.m */; };
-		E1E9940029F3055AE98D51AF2FC39890 /* ModuleCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */; };
+		E1E9940029F3055AE98D51AF2FC39890 /* ModuleCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C742E4D9A92DD0D4B842E7B6F85334 /* ModuleCenter-dummy.m */; };
+		E3F520AA1C3B3AD01F62F759026F1DEF /* ModuleMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B654A656FC82A2278946CAD65A1E208B /* ModuleMine-dummy.m */; };
 		E4A1E2B242352A17A9DF525131F15561 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3B79A7F40F22C17FB116EE8C4BC78F /* error@3x.png */; };
 		E56AEB26B800348C7114B156B1720D25 /* jiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF48B414D851397EBB725DFD1364B27 /* jiazai.png */; };
-		E7FD966D059DA2FA3FBFC8A0A242200E /* ModuleCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 44133C6A057B9AFDBAE7094DBD51CE50 /* ModuleCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EAB728F1C743ED25CE964EE8AC52AA8B /* ModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB0B34191EFBBE1C32837DE1F216382D /* ModuleMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */; };
-		F29B0165593BCCFF519068B7733BAFC2 /* ModuleHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CA543E435FEE02181C336EEB247DB9 /* ModuleHomeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3009E9C9AFA754F72F749D3AD455863 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */; };
+		E71CB564F060CF8FFA357120369634DF /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF13A3181EEF4B606538A74B6F0E7A3 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7FD966D059DA2FA3FBFC8A0A242200E /* ModuleCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B81C10DCB35AE06637055E1B04C66579 /* ModuleCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAB728F1C743ED25CE964EE8AC52AA8B /* ModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4F1DF52B1897DCA047AF15F9D871A5 /* ModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F29B0165593BCCFF519068B7733BAFC2 /* ModuleHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA36AF066FB8443FC1887374BC42C8 /* ModuleHomeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3009E9C9AFA754F72F749D3AD455863 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B29AA94D18C9622B7C1CD1C9895C20 /* UIView+Addition.m */; };
 		F340649BAB853291DDD4510847475DC5 /* Pods-ModuleBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41480A20F415F9916BF44F88BB595963 /* Pods-ModuleBox-dummy.m */; };
-		F3CAABB5649498542FF83FC2FC7DA367 /* ModuleHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7231B9E3E9052B0FD7518CF89F63B57 /* ModuleHomeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3CAABB5649498542FF83FC2FC7DA367 /* ModuleHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C3EFEAE23FAAC0416535210259E493 /* ModuleHomeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,90 +149,92 @@
 
 /* Begin PBXFileReference section */
 		00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleUIStack.a; path = libModuleUIStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleAppMain-dummy.m"; sourceTree = "<group>"; };
+		02D8F81C29F340E1CEE581C2AA06E9A6 /* ModuleTabbarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabbarViewController.m; path = Classes/ModuleTabbarViewController.m; sourceTree = "<group>"; };
+		03EA36AF066FB8443FC1887374BC42C8 /* ModuleHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeHeader.h; path = Classes/ModuleHomeHeader.h; sourceTree = "<group>"; };
+		04D05292E382CA8807BFF3D3B88F5CA5 /* ModuleAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.debug.xcconfig; sourceTree = "<group>"; };
 		04D543E81B6F254AE62A80ECF760B71B /* MSProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.debug.xcconfig; sourceTree = "<group>"; };
-		0599672B5897E32B7E279CFFFED5B573 /* ModuleMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleMine-prefix.pch"; sourceTree = "<group>"; };
-		0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.release.xcconfig; sourceTree = "<group>"; };
-		0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCenter.h; path = Classes/ModuleCenter.h; sourceTree = "<group>"; };
-		1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLFinder.m"; path = "Classes/NSObject+MLFinder.m"; sourceTree = "<group>"; };
-		1574E3E90861ACF298069001447AFA0F /* ModuleHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleHomeController.m; path = Classes/ModuleHomeController.m; sourceTree = "<group>"; };
+		078B18D1997807382D21FAE3F946A948 /* NSObject+MLFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLFinder.h"; path = "Classes/NSObject+MLFinder.h"; sourceTree = "<group>"; };
+		0B870936EBC396AA8F0BF161F043FE88 /* ModuleNavgationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleNavgationController.m; path = Classes/ModuleNavgationController.m; sourceTree = "<group>"; };
 		1D6C52B60E0ED8B0940A25D905565D6F /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
-		1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleNavgationController.m; path = Classes/ModuleNavgationController.m; sourceTree = "<group>"; };
+		25171C5F2852FEBF0925ABA708F4DCC5 /* ModuleMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleMine-prefix.pch"; sourceTree = "<group>"; };
+		2703846B4A5FF221ECE988C08949162A /* ModuleAppMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleAppMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		290C8C19656D9434D1961F5E22C6D5EA /* Pods-ModuleBox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleBox-acknowledgements.plist"; sourceTree = "<group>"; };
-		2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMineViewController.m; path = Classes/ModuleMineViewController.m; sourceTree = "<group>"; };
 		29D029BC02039FD5625E8E50DB65A26F /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
-		2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleUIStackManager.h; path = Classes/ModuleUIStackManager.h; sourceTree = "<group>"; };
 		2F4103A13F8CFD35FAC4428BEF3878BF /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
-		30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.release.xcconfig; sourceTree = "<group>"; };
-		3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.release.xcconfig; sourceTree = "<group>"; };
-		3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.debug.xcconfig; sourceTree = "<group>"; };
+		32739C399CC453733812C3E94D3FB677 /* ModuleTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBarButton.h; path = Classes/ModuleTabBarButton.h; sourceTree = "<group>"; };
+		32EEC8754B3203A966F4C61D18B0DECB /* ModuleUIStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.debug.xcconfig; sourceTree = "<group>"; };
+		3EC6153FFA5D6E0AD505D9208C538CE2 /* ModuleUIStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleUIStackManager.h; path = Classes/ModuleUIStackManager.h; sourceTree = "<group>"; };
 		3F393D63691CD0A405B5F64EF849D484 /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
 		41480A20F415F9916BF44F88BB595963 /* Pods-ModuleBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModuleBox-dummy.m"; sourceTree = "<group>"; };
 		4192E302F388B223FB15420028AC02FA /* libModuleCommonUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleCommonUI.a; path = libModuleCommonUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMainViewController.h; path = Classes/ModuleMainViewController.h; sourceTree = "<group>"; };
-		44133C6A057B9AFDBAE7094DBD51CE50 /* ModuleCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCollectionViewCell.h; path = Classes/ModuleCollectionViewCell.h; sourceTree = "<group>"; };
 		446C380195B81E93AF174EBC175E75D6 /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
-		466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.release.xcconfig; sourceTree = "<group>"; };
+		4AA2D17C70FC0D235BD6BEF3BECD94AB /* ModuleUIStack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleUIStack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4B257F2C37D3A1308FF782603F7FD789 /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
-		4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBarButton.m; path = Classes/ModuleTabBarButton.m; sourceTree = "<group>"; };
-		4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCenter-dummy.m"; sourceTree = "<group>"; };
-		528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.release.xcconfig; sourceTree = "<group>"; };
-		5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleUIStack-dummy.m"; sourceTree = "<group>"; };
-		5685AB1326C2D3199E1A117E17BB6048 /* ModuleHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleHome-prefix.pch"; sourceTree = "<group>"; };
-		572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBar.h; path = Classes/ModuleTabBar.h; sourceTree = "<group>"; };
+		4C4F1DF52B1897DCA047AF15F9D871A5 /* ModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCenter.h; path = Classes/ModuleCenter.h; sourceTree = "<group>"; };
+		50C072F21471976648A67B230E0D6755 /* ModuleCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCenter-prefix.pch"; sourceTree = "<group>"; };
+		5382094785CC0F9F15A2BE7E594CFC79 /* ModuleUIStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleUIStack-prefix.pch"; sourceTree = "<group>"; };
+		58B29AA94D18C9622B7C1CD1C9895C20 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "Classes/UIView+Addition.m"; sourceTree = "<group>"; };
 		5B06AFE8CE48B1E036864395F7046F9E /* libModuleHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleHome.a; path = libModuleHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F5DED6B987454B40ABE8D95662010 /* ModuleNavgationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleNavgationController.h; path = Classes/ModuleNavgationController.h; sourceTree = "<group>"; };
 		60C79758785F990C82FE4E896693ED6D /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
-		62B9747F888B5D4042B2EAEFEF6CA5F4 /* ModuleCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCommonUI-prefix.pch"; sourceTree = "<group>"; };
-		62CA543E435FEE02181C336EEB247DB9 /* ModuleHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeHeader.h; path = Classes/ModuleHomeHeader.h; sourceTree = "<group>"; };
-		646998EB36B872AD2AA0C7CE85804895 /* ModuleAppMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleAppMain-prefix.pch"; sourceTree = "<group>"; };
-		6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabbarViewController.m; path = Classes/ModuleTabbarViewController.m; sourceTree = "<group>"; };
-		6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "Classes/UIView+Addition.m"; sourceTree = "<group>"; };
-		6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBar.m; path = Classes/ModuleTabBar.m; sourceTree = "<group>"; };
 		6CD5FD5072ADF079F37FD9B42B687897 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "MSProgress/Assets/error@2x.png"; sourceTree = "<group>"; };
 		6E62687E476E17E16BAFEA3B6564F9A5 /* ResourceBundle-MSProgress-MSProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProgress-MSProgress-Info.plist"; sourceTree = "<group>"; };
-		6E99E6F5429B08C3EC0418E2A525C257 /* ModuleUIStack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleUIStack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F01A129392B78AFE52763176017E37C /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "Classes/UIView+Addition.h"; sourceTree = "<group>"; };
 		70ADCAAC5AE4D382CAA7720A98902430 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "MSProgress/Assets/success@2x.png"; sourceTree = "<group>"; };
-		71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCommonUI-dummy.m"; sourceTree = "<group>"; };
-		79A9F46F517CC22C11F7EA5C848D957E /* ModuleMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7A8C3339E09B57A3059F628210E2602B /* ModuleCommonUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCommonUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72C415E7E53EFFC04192F0164D67E445 /* ModuleMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMainViewController.m; path = Classes/ModuleMainViewController.m; sourceTree = "<group>"; };
 		7AF48B414D851397EBB725DFD1364B27 /* jiazai.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai.png; path = MSProgress/Assets/jiazai.png; sourceTree = "<group>"; };
+		7B1874FCE34BF02EF42A5A5BB250EDC5 /* ModuleUIStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleUIStack-dummy.m"; sourceTree = "<group>"; };
 		84158A00EEB172E8E6960F6E387604ED /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ModuleBox.a"; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD5F5370A79F9A8DC104778214D1BD /* ModuleMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85E66998CF198C0681864077FD29C85D /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "MSProgress/Assets/success@3x.png"; sourceTree = "<group>"; };
-		8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.debug.xcconfig; sourceTree = "<group>"; };
-		95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBarButton.h; path = Classes/ModuleTabBarButton.h; sourceTree = "<group>"; };
-		99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMineViewController.h; path = Classes/ModuleMineViewController.h; sourceTree = "<group>"; };
+		87E6EB930DFCAAB4B8359FDE0F9D8EDA /* ModuleCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.debug.xcconfig; sourceTree = "<group>"; };
+		888AB8ACD64AAECC902F2F7C67C3866E /* ModuleCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCommonUI-prefix.pch"; sourceTree = "<group>"; };
+		88CBE43D57DADDF592CC9709AA4DA816 /* ModuleAppMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleAppMain-prefix.pch"; sourceTree = "<group>"; };
+		8AFC6B3FB3319C3F82CD6AED96F490F2 /* ModuleMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.release.xcconfig; sourceTree = "<group>"; };
+		909F8DDA8AC21F0BE9E449A1AF165CE0 /* ModuleHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9365DE609C4C3D037A6ABD3623DB0C23 /* ModuleMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.debug.xcconfig; sourceTree = "<group>"; };
+		992B6CBAA2ECEA1DCB76E3795F19B494 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "Classes/NSData+Base64.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04CE7CE1066D6B7FEE8A9A5AEA218B3 /* ModuleUIStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleUIStackManager.m; path = Classes/ModuleUIStackManager.m; sourceTree = "<group>"; };
 		A1142503CBEA35585F1BD01BE9498601 /* MSProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.release.xcconfig; sourceTree = "<group>"; };
-		A164A6FBC5193B7A379219D89532F6BD /* ModuleCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCollectionViewCell.m; path = Classes/ModuleCollectionViewCell.m; sourceTree = "<group>"; };
 		A2B5EE508B888BAA4D87321A150DB441 /* Pods-ModuleBox-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuleBox-resources.sh"; sourceTree = "<group>"; };
+		A356E8BD9E952EA7264EBC36D376D13D /* ModuleMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMineViewController.h; path = Classes/ModuleMineViewController.h; sourceTree = "<group>"; };
+		A3C742E4D9A92DD0D4B842E7B6F85334 /* ModuleCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCenter-dummy.m"; sourceTree = "<group>"; };
+		A505D6B3EA11F4E219605FF27FDC5531 /* ModuleHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleHome-dummy.m"; sourceTree = "<group>"; };
+		A7127F165E619215B7F87AF6B7BC0628 /* ModuleHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleHomeController.m; path = Classes/ModuleHomeController.m; sourceTree = "<group>"; };
+		A802CDFFEF70591D370F69C0A781740C /* ModuleCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCollectionViewCell.m; path = Classes/ModuleCollectionViewCell.m; sourceTree = "<group>"; };
+		A88E1657403A8D5A7AB216CC9643E094 /* ModuleCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCommonUI-dummy.m"; sourceTree = "<group>"; };
 		AB170718E24F09BAD928223CE52C7B15 /* libModuleAppMain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleAppMain.a; path = libModuleAppMain.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC113FF349F55C4EDAEA5B804BCC40DC /* ModuleCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFE367ABD9424C23E847041086731FFC /* ModuleHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleHome-dummy.m"; sourceTree = "<group>"; };
-		B00CD10B8451CDF4C78018AFCCABD30C /* ModuleAppMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleAppMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "Classes/UIView+Addition.h"; sourceTree = "<group>"; };
+		AB6AE41ED3AEC486200EAC210F997CFA /* ModuleAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.release.xcconfig; sourceTree = "<group>"; };
+		B654A656FC82A2278946CAD65A1E208B /* ModuleMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleMine-dummy.m"; sourceTree = "<group>"; };
 		B72FDF8DA6D8F289C4DF0F438DDCBC0F /* libModuleMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleMine.a; path = libModuleMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B55CB5098E3E6F4BC507BC94E397E5 /* ModuleTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBar.m; path = Classes/ModuleTabBar.m; sourceTree = "<group>"; };
+		B81C10DCB35AE06637055E1B04C66579 /* ModuleCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCollectionViewCell.h; path = Classes/ModuleCollectionViewCell.h; sourceTree = "<group>"; };
 		BA1935BA7499E9BEF3E605FC8311D26F /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MSProgress.bundle; path = "MSProgress-MSProgress.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C362B625BD2B9E45F1F26752A3CD1E01 /* ModuleCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCenter-prefix.pch"; sourceTree = "<group>"; };
-		C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMainViewController.m; path = Classes/ModuleMainViewController.m; sourceTree = "<group>"; };
+		BAB1FDAEB741FA7543D0C4AEA0507ABC /* ModuleCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC06A22CB31CE91933F80C6FDDA0FE39 /* ModuleTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBar.h; path = Classes/ModuleTabBar.h; sourceTree = "<group>"; };
+		BCB0F495953D943B0ED069B5D2B15215 /* ModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCenter.m; path = Classes/ModuleCenter.m; sourceTree = "<group>"; };
+		BFAF90E039A19E8DDE52484BD35FC93E /* ModuleHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.debug.xcconfig; sourceTree = "<group>"; };
+		C7FA5268CC2DFDE78DF26366AEE1CDFE /* NSObject+MLFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLFinder.m"; path = "Classes/NSObject+MLFinder.m"; sourceTree = "<group>"; };
+		C80EF1CBF37AFF1306BDBFEA11E5D69B /* ModuleAppMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleAppMain-dummy.m"; sourceTree = "<group>"; };
+		CA48B5967B7BE5A3F6E18FC8F44AB30F /* ModuleHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.release.xcconfig; sourceTree = "<group>"; };
+		CA6F7E59FDAB8B8888D84311CA576053 /* ModuleMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMainViewController.h; path = Classes/ModuleMainViewController.h; sourceTree = "<group>"; };
 		CD6A8953EC2BEE80CDD112A058E0B77A /* libModuleCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleCenter.a; path = libModuleCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1985EC5A4F3A82BF36F97887F22FE54 /* ModuleHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleUIStackManager.m; path = Classes/ModuleUIStackManager.m; sourceTree = "<group>"; };
-		D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleNavgationController.h; path = Classes/ModuleNavgationController.h; sourceTree = "<group>"; };
+		CF1C4EFFD9AD4F7E44F2A86AB13078D3 /* ModuleTabbarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabbarViewController.h; path = Classes/ModuleTabbarViewController.h; sourceTree = "<group>"; };
+		D129B2963D70D9A316C2E1AF56EE2DE5 /* ModuleCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.release.xcconfig; sourceTree = "<group>"; };
+		D5C3EFEAE23FAAC0416535210259E493 /* ModuleHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeController.h; path = Classes/ModuleHomeController.h; sourceTree = "<group>"; };
 		D7043178299269F1B2818E12430FBABB /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSProgress.a; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCenter.m; path = Classes/ModuleCenter.m; sourceTree = "<group>"; };
-		DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.debug.xcconfig; sourceTree = "<group>"; };
-		E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.debug.xcconfig; sourceTree = "<group>"; };
-		EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleMine-dummy.m"; sourceTree = "<group>"; };
+		E741BF815377E8579331A1DFA7CCD243 /* ModuleMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMineViewController.m; path = Classes/ModuleMineViewController.m; sourceTree = "<group>"; };
+		E9DF0D55C465C10E77C77134D8FE72DC /* ModuleTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBarButton.m; path = Classes/ModuleTabBarButton.m; sourceTree = "<group>"; };
 		EF508B1297DC8C7524EADF8AD1D8674D /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
-		EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabbarViewController.h; path = Classes/ModuleTabbarViewController.h; sourceTree = "<group>"; };
 		F1C4AE52C9AEB4E08CE34E57DF5C7955 /* Pods-ModuleBox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModuleBox-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F22D62547B260AE694F172061E0E82D0 /* ModuleHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.debug.xcconfig; sourceTree = "<group>"; };
-		F6E6BD210CB8A493E4D17369C0D94815 /* ModuleUIStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleUIStack-prefix.pch"; sourceTree = "<group>"; };
-		F7231B9E3E9052B0FD7518CF89F63B57 /* ModuleHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeController.h; path = Classes/ModuleHomeController.h; sourceTree = "<group>"; };
+		F44B887B1DD57D3BCA21920DD4242933 /* ModuleCommonUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCommonUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6A098145F06AA9361352B36491D46F6 /* ModuleCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.release.xcconfig; sourceTree = "<group>"; };
+		F8E9443A1399FE29DBCFAD4163F49190 /* ModuleHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleHome-prefix.pch"; sourceTree = "<group>"; };
+		FA44FF03E072C4B32D32D8230369F11E /* ModuleCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.debug.xcconfig; sourceTree = "<group>"; };
+		FBFE1830B4926B2888C3CA9F4D16E510 /* ModuleUIStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.release.xcconfig; sourceTree = "<group>"; };
 		FC3B79A7F40F22C17FB116EE8C4BC78F /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "MSProgress/Assets/error@3x.png"; sourceTree = "<group>"; };
-		FD7BC269AE781BDE4C2E679068AA605D /* ModuleHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.release.xcconfig; sourceTree = "<group>"; };
-		FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLFinder.h"; path = "Classes/NSObject+MLFinder.h"; sourceTree = "<group>"; };
-		FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.debug.xcconfig; sourceTree = "<group>"; };
+		FDF13A3181EEF4B606538A74B6F0E7A3 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "Classes/NSData+Base64.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,12 +304,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E6E3C36E97380DB8B798C2C0FF1D683 /* Pod */ = {
+		09BBEDD762B85F8680D82A1B5F8391C2 /* ModuleCenter */ = {
 			isa = PBXGroup;
 			children = (
-				6E99E6F5429B08C3EC0418E2A525C257 /* ModuleUIStack.podspec */,
+				4C4F1DF52B1897DCA047AF15F9D871A5 /* ModuleCenter.h */,
+				BCB0F495953D943B0ED069B5D2B15215 /* ModuleCenter.m */,
+				078B18D1997807382D21FAE3F946A948 /* NSObject+MLFinder.h */,
+				C7FA5268CC2DFDE78DF26366AEE1CDFE /* NSObject+MLFinder.m */,
+				6F01A129392B78AFE52763176017E37C /* UIView+Addition.h */,
+				58B29AA94D18C9622B7C1CD1C9895C20 /* UIView+Addition.m */,
+				82B79E2232E39914102297F41D765144 /* Pod */,
+				D137F0353E88005F656A588DBC7942D7 /* Support Files */,
 			);
-			name = Pod;
+			name = ModuleCenter;
+			path = ../ModuleCenter;
 			sourceTree = "<group>";
 		};
 		10B4D6E10ECC67E9102831B52CAEF895 /* Pods-ModuleBox */ = {
@@ -322,32 +334,6 @@
 			path = "Target Support Files/Pods-ModuleBox";
 			sourceTree = "<group>";
 		};
-		1917725FFEA1D6E116BD3D2F78CD0D9A /* ModuleUIStack */ = {
-			isa = PBXGroup;
-			children = (
-				D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */,
-				1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */,
-				2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */,
-				D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */,
-				0E6E3C36E97380DB8B798C2C0FF1D683 /* Pod */,
-				D227682926C715038A97934102C03CC9 /* Support Files */,
-			);
-			name = ModuleUIStack;
-			path = ../ModuleUIStack;
-			sourceTree = "<group>";
-		};
-		1AB1C99D9CE43B966A8F7BBA6A34ABE7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */,
-				646998EB36B872AD2AA0C7CE85804895 /* ModuleAppMain-prefix.pch */,
-				3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */,
-				0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleAppMain";
-			sourceTree = "<group>";
-		};
 		23918CC696B07D69A24935466734E9F2 /* MSProgress */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +348,18 @@
 			path = MSProgress;
 			sourceTree = "<group>";
 		};
+		261D644B21FB418112B3D3BD9EA00C96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A505D6B3EA11F4E219605FF27FDC5531 /* ModuleHome-dummy.m */,
+				F8E9443A1399FE29DBCFAD4163F49190 /* ModuleHome-prefix.pch */,
+				BFAF90E039A19E8DDE52484BD35FC93E /* ModuleHome.debug.xcconfig */,
+				CA48B5967B7BE5A3F6E18FC8F44AB30F /* ModuleHome.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleHome";
+			sourceTree = "<group>";
+		};
 		2AB46018D05DA7E25C80D3F00848699D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,60 +368,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2FAE93EC5F97533319FE84B2C9DD8764 /* Support Files */ = {
+		31D395B36BCEAB1C9644396434135141 /* ModuleUIStack */ = {
 			isa = PBXGroup;
 			children = (
-				AFE367ABD9424C23E847041086731FFC /* ModuleHome-dummy.m */,
-				5685AB1326C2D3199E1A117E17BB6048 /* ModuleHome-prefix.pch */,
-				F22D62547B260AE694F172061E0E82D0 /* ModuleHome.debug.xcconfig */,
-				FD7BC269AE781BDE4C2E679068AA605D /* ModuleHome.release.xcconfig */,
+				608F5DED6B987454B40ABE8D95662010 /* ModuleNavgationController.h */,
+				0B870936EBC396AA8F0BF161F043FE88 /* ModuleNavgationController.m */,
+				3EC6153FFA5D6E0AD505D9208C538CE2 /* ModuleUIStackManager.h */,
+				A04CE7CE1066D6B7FEE8A9A5AEA218B3 /* ModuleUIStackManager.m */,
+				37BE3168FDCA8DDAA8D5FE1024319FC3 /* Pod */,
+				AF77D876AD9E41A5C29640ED49D6609E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleHome";
+			name = ModuleUIStack;
+			path = ../ModuleUIStack;
 			sourceTree = "<group>";
 		};
-		3C9F028AEE13E3A033B3BA99C8E428F0 /* Pod */ = {
+		37BE3168FDCA8DDAA8D5FE1024319FC3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B00CD10B8451CDF4C78018AFCCABD30C /* ModuleAppMain.podspec */,
+				4AA2D17C70FC0D235BD6BEF3BECD94AB /* ModuleUIStack.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4DE26B1EBA8AB8C1222D6997A3E2DE24 /* Development Pods */ = {
+		456D974C8CB8C4D894276A1C00F9CECD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CD27E18DA133BAF9267C5F94056650FA /* ModuleAppMain */,
-				A13692A8C9D92E5CA9C1A286A57979D7 /* ModuleCenter */,
-				76392B801EDA0D2CA1A8E2F98CAB5438 /* ModuleCommonUI */,
-				55754772FBF4EE35EFFCCD7CD522BECD /* ModuleHome */,
-				7B7A724FB4DD473A2197133AF8398433 /* ModuleMine */,
-				1917725FFEA1D6E116BD3D2F78CD0D9A /* ModuleUIStack */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5176E14EAB95114FBABC42375E4D93CF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7A8C3339E09B57A3059F628210E2602B /* ModuleCommonUI.podspec */,
+				F44B887B1DD57D3BCA21920DD4242933 /* ModuleCommonUI.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		55754772FBF4EE35EFFCCD7CD522BECD /* ModuleHome */ = {
+		485B2813EF1CDBA09EEC6B1FD394A4C4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				44133C6A057B9AFDBAE7094DBD51CE50 /* ModuleCollectionViewCell.h */,
-				A164A6FBC5193B7A379219D89532F6BD /* ModuleCollectionViewCell.m */,
-				F7231B9E3E9052B0FD7518CF89F63B57 /* ModuleHomeController.h */,
-				1574E3E90861ACF298069001447AFA0F /* ModuleHomeController.m */,
-				62CA543E435FEE02181C336EEB247DB9 /* ModuleHomeHeader.h */,
-				94E409B6D00AB0A86C10A052015B6B27 /* Pod */,
-				2FAE93EC5F97533319FE84B2C9DD8764 /* Support Files */,
+				84DD5F5370A79F9A8DC104778214D1BD /* ModuleMine.podspec */,
 			);
-			name = ModuleHome;
-			path = ../ModuleHome;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		600CFA40443CAFFD730F50E612D3FCED /* Resources */ = {
@@ -438,96 +418,71 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6D77A9AC7676095FBE8F7A173BF075AD /* Support Files */ = {
+		6EE0ACCA69D058BBD93317F37E86B643 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */,
-				62B9747F888B5D4042B2EAEFEF6CA5F4 /* ModuleCommonUI-prefix.pch */,
-				FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */,
-				30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */,
+				A88E1657403A8D5A7AB216CC9643E094 /* ModuleCommonUI-dummy.m */,
+				888AB8ACD64AAECC902F2F7C67C3866E /* ModuleCommonUI-prefix.pch */,
+				87E6EB930DFCAAB4B8359FDE0F9D8EDA /* ModuleCommonUI.debug.xcconfig */,
+				D129B2963D70D9A316C2E1AF56EE2DE5 /* ModuleCommonUI.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/ModuleCommonUI";
 			sourceTree = "<group>";
 		};
-		76392B801EDA0D2CA1A8E2F98CAB5438 /* ModuleCommonUI */ = {
+		7D2CBBB0EB40BBA99E1497819BD956C1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */,
-				6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */,
-				95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */,
-				4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */,
-				EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */,
-				6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */,
-				5176E14EAB95114FBABC42375E4D93CF /* Pod */,
-				6D77A9AC7676095FBE8F7A173BF075AD /* Support Files */,
+				D60AD321F8C82F8D1FA62466251B8271 /* ModuleAppMain */,
+				09BBEDD762B85F8680D82A1B5F8391C2 /* ModuleCenter */,
+				E6D80FA7B491DD3DB8C44EA93E320778 /* ModuleCommonUI */,
+				FA9148B044CAE0A063BC8ECD4A278FB3 /* ModuleHome */,
+				AF8121FD7D6FE2CD5FAAC29A660C48FC /* ModuleMine */,
+				31D395B36BCEAB1C9644396434135141 /* ModuleUIStack */,
 			);
-			name = ModuleCommonUI;
-			path = ../ModuleCommonUI;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7B7A724FB4DD473A2197133AF8398433 /* ModuleMine */ = {
+		82B79E2232E39914102297F41D765144 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */,
-				2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */,
-				94143177F1B2CD102BD481048F087286 /* Pod */,
-				AB338835FDAE7C65C2B44EDAA38DAD87 /* Support Files */,
+				BAB1FDAEB741FA7543D0C4AEA0507ABC /* ModuleCenter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8DA7C9B3CB92A8B422AF940106203404 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2703846B4A5FF221ECE988C08949162A /* ModuleAppMain.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF77D876AD9E41A5C29640ED49D6609E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1874FCE34BF02EF42A5A5BB250EDC5 /* ModuleUIStack-dummy.m */,
+				5382094785CC0F9F15A2BE7E594CFC79 /* ModuleUIStack-prefix.pch */,
+				32EEC8754B3203A966F4C61D18B0DECB /* ModuleUIStack.debug.xcconfig */,
+				FBFE1830B4926B2888C3CA9F4D16E510 /* ModuleUIStack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleUIStack";
+			sourceTree = "<group>";
+		};
+		AF8121FD7D6FE2CD5FAAC29A660C48FC /* ModuleMine */ = {
+			isa = PBXGroup;
+			children = (
+				A356E8BD9E952EA7264EBC36D376D13D /* ModuleMineViewController.h */,
+				E741BF815377E8579331A1DFA7CCD243 /* ModuleMineViewController.m */,
+				FDF13A3181EEF4B606538A74B6F0E7A3 /* NSData+Base64.h */,
+				992B6CBAA2ECEA1DCB76E3795F19B494 /* NSData+Base64.m */,
+				485B2813EF1CDBA09EEC6B1FD394A4C4 /* Pod */,
+				F9152BC0DECD3675FD6CF12AC0845E09 /* Support Files */,
 			);
 			name = ModuleMine;
 			path = ../ModuleMine;
-			sourceTree = "<group>";
-		};
-		94143177F1B2CD102BD481048F087286 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				79A9F46F517CC22C11F7EA5C848D957E /* ModuleMine.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		94E409B6D00AB0A86C10A052015B6B27 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D1985EC5A4F3A82BF36F97887F22FE54 /* ModuleHome.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A13692A8C9D92E5CA9C1A286A57979D7 /* ModuleCenter */ = {
-			isa = PBXGroup;
-			children = (
-				0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */,
-				DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */,
-				FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */,
-				1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */,
-				B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */,
-				6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */,
-				ABCF6B3D825CF391588F09C897A41FBB /* Pod */,
-				CCEEBC8D475C06DF665F0CF8AFAA6955 /* Support Files */,
-			);
-			name = ModuleCenter;
-			path = ../ModuleCenter;
-			sourceTree = "<group>";
-		};
-		AB338835FDAE7C65C2B44EDAA38DAD87 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */,
-				0599672B5897E32B7E279CFFFED5B573 /* ModuleMine-prefix.pch */,
-				8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */,
-				466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleMine";
-			sourceTree = "<group>";
-		};
-		ABCF6B3D825CF391588F09C897A41FBB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AC113FF349F55C4EDAEA5B804BCC40DC /* ModuleCenter.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B996A5596445B1B00C072406E3DA6E30 /* Products */ = {
@@ -546,35 +501,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCEEBC8D475C06DF665F0CF8AFAA6955 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */,
-				C362B625BD2B9E45F1F26752A3CD1E01 /* ModuleCenter-prefix.pch */,
-				E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */,
-				528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleCenter";
-			sourceTree = "<group>";
-		};
-		CD27E18DA133BAF9267C5F94056650FA /* ModuleAppMain */ = {
-			isa = PBXGroup;
-			children = (
-				4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */,
-				C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */,
-				3C9F028AEE13E3A033B3BA99C8E428F0 /* Pod */,
-				1AB1C99D9CE43B966A8F7BBA6A34ABE7 /* Support Files */,
-			);
-			name = ModuleAppMain;
-			path = ../ModuleAppMain;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4DE26B1EBA8AB8C1222D6997A3E2DE24 /* Development Pods */,
+				7D2CBBB0EB40BBA99E1497819BD956C1 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				D52891D6D3F390AC70D85E82212DC64C /* Pods */,
 				B996A5596445B1B00C072406E3DA6E30 /* Products */,
@@ -582,16 +513,24 @@
 			);
 			sourceTree = "<group>";
 		};
-		D227682926C715038A97934102C03CC9 /* Support Files */ = {
+		D137F0353E88005F656A588DBC7942D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */,
-				F6E6BD210CB8A493E4D17369C0D94815 /* ModuleUIStack-prefix.pch */,
-				DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */,
-				3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */,
+				A3C742E4D9A92DD0D4B842E7B6F85334 /* ModuleCenter-dummy.m */,
+				50C072F21471976648A67B230E0D6755 /* ModuleCenter-prefix.pch */,
+				FA44FF03E072C4B32D32D8230369F11E /* ModuleCenter.debug.xcconfig */,
+				F6A098145F06AA9361352B36491D46F6 /* ModuleCenter.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleUIStack";
+			path = "../Pods/Target Support Files/ModuleCenter";
+			sourceTree = "<group>";
+		};
+		D183C8D40A3EE22EAE03D9D437C72C45 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				909F8DDA8AC21F0BE9E449A1AF165CE0 /* ModuleHome.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D52891D6D3F390AC70D85E82212DC64C /* Pods */ = {
@@ -602,11 +541,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D60AD321F8C82F8D1FA62466251B8271 /* ModuleAppMain */ = {
+			isa = PBXGroup;
+			children = (
+				CA6F7E59FDAB8B8888D84311CA576053 /* ModuleMainViewController.h */,
+				72C415E7E53EFFC04192F0164D67E445 /* ModuleMainViewController.m */,
+				8DA7C9B3CB92A8B422AF940106203404 /* Pod */,
+				F88E765CFE6545094D7F5ABCD883193D /* Support Files */,
+			);
+			name = ModuleAppMain;
+			path = ../ModuleAppMain;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6D80FA7B491DD3DB8C44EA93E320778 /* ModuleCommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				BC06A22CB31CE91933F80C6FDDA0FE39 /* ModuleTabBar.h */,
+				B7B55CB5098E3E6F4BC507BC94E397E5 /* ModuleTabBar.m */,
+				32739C399CC453733812C3E94D3FB677 /* ModuleTabBarButton.h */,
+				E9DF0D55C465C10E77C77134D8FE72DC /* ModuleTabBarButton.m */,
+				CF1C4EFFD9AD4F7E44F2A86AB13078D3 /* ModuleTabbarViewController.h */,
+				02D8F81C29F340E1CEE581C2AA06E9A6 /* ModuleTabbarViewController.m */,
+				456D974C8CB8C4D894276A1C00F9CECD /* Pod */,
+				6EE0ACCA69D058BBD93317F37E86B643 /* Support Files */,
+			);
+			name = ModuleCommonUI;
+			path = ../ModuleCommonUI;
 			sourceTree = "<group>";
 		};
 		EC66A8EC89235C36CFACCF28C01DB9CE /* Support Files */ = {
@@ -620,6 +587,45 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MSProgress";
+			sourceTree = "<group>";
+		};
+		F88E765CFE6545094D7F5ABCD883193D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80EF1CBF37AFF1306BDBFEA11E5D69B /* ModuleAppMain-dummy.m */,
+				88CBE43D57DADDF592CC9709AA4DA816 /* ModuleAppMain-prefix.pch */,
+				04D05292E382CA8807BFF3D3B88F5CA5 /* ModuleAppMain.debug.xcconfig */,
+				AB6AE41ED3AEC486200EAC210F997CFA /* ModuleAppMain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleAppMain";
+			sourceTree = "<group>";
+		};
+		F9152BC0DECD3675FD6CF12AC0845E09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B654A656FC82A2278946CAD65A1E208B /* ModuleMine-dummy.m */,
+				25171C5F2852FEBF0925ABA708F4DCC5 /* ModuleMine-prefix.pch */,
+				9365DE609C4C3D037A6ABD3623DB0C23 /* ModuleMine.debug.xcconfig */,
+				8AFC6B3FB3319C3F82CD6AED96F490F2 /* ModuleMine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleMine";
+			sourceTree = "<group>";
+		};
+		FA9148B044CAE0A063BC8ECD4A278FB3 /* ModuleHome */ = {
+			isa = PBXGroup;
+			children = (
+				B81C10DCB35AE06637055E1B04C66579 /* ModuleCollectionViewCell.h */,
+				A802CDFFEF70591D370F69C0A781740C /* ModuleCollectionViewCell.m */,
+				D5C3EFEAE23FAAC0416535210259E493 /* ModuleHomeController.h */,
+				A7127F165E619215B7F87AF6B7BC0628 /* ModuleHomeController.m */,
+				03EA36AF066FB8443FC1887374BC42C8 /* ModuleHomeHeader.h */,
+				D183C8D40A3EE22EAE03D9D437C72C45 /* Pod */,
+				261D644B21FB418112B3D3BD9EA00C96 /* Support Files */,
+			);
+			name = ModuleHome;
+			path = ../ModuleHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -641,14 +647,6 @@
 			files = (
 				D59D223116373A567A16834E8A79B31E /* MSProgressHUD.h in Headers */,
 				76254FC560A58C08CD9FF940E9308E6F /* UIView+UIViewUtils.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C5FDD88F1CBD3F59D3DB2756EBF7CC7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCA0A003481DD17C107E871BC1EAFD31 /* ModuleMineViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +694,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB6A317DA2411FF749DE868501980AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0246087EDFCEA95DA30A1F49E451949B /* ModuleMineViewController.h in Headers */,
+				E71CB564F060CF8FFA357120369634DF /* NSData+Base64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -738,8 +745,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7932EE552390EA8BC7457EE87EBD73 /* Build configuration list for PBXNativeTarget "ModuleMine" */;
 			buildPhases = (
-				5C5FDD88F1CBD3F59D3DB2756EBF7CC7 /* Headers */,
-				F38C642031392782E0DFAE2929893D4D /* Sources */,
+				EB6A317DA2411FF749DE868501980AEA /* Headers */,
+				55FCE916B2B234246DC71EDEEA635B04 /* Sources */,
 				A60A1C3E95FED9053770696DD147394F /* Frameworks */,
 			);
 			buildRules = (
@@ -927,6 +934,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55FCE916B2B234246DC71EDEEA635B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F520AA1C3B3AD01F62F759026F1DEF /* ModuleMine-dummy.m in Sources */,
+				89F60348BF519C6CDA16586A72B5785B /* ModuleMineViewController.m in Sources */,
+				8007B1598FCFBA1FC33E1133D8B2AE29 /* NSData+Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59CCF6D41AED1111BB0B2F947A25B375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -989,15 +1006,6 @@
 				35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */,
 				A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */,
 				AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F38C642031392782E0DFAE2929893D4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82329847D8CD406A66A4CF79EABFC4F1 /* ModuleMine-dummy.m in Sources */,
-				EB0B34191EFBBE1C32837DE1F216382D /* ModuleMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1087,7 +1095,7 @@
 /* Begin XCBuildConfiguration section */
 		2BE7AD86FBCE7D2BD43B5C88871180F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */;
+			baseConfigurationReference = D129B2963D70D9A316C2E1AF56EE2DE5 /* ModuleCommonUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1104,9 +1112,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1141,7 +1149,7 @@
 		};
 		395DC2338F42A00CA9760933FAE3802D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */;
+			baseConfigurationReference = 32EEC8754B3203A966F4C61D18B0DECB /* ModuleUIStack.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1158,9 +1166,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1177,7 +1185,7 @@
 		};
 		3FDEE72B5FE8E0866058EE3CE6AA0477 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22D62547B260AE694F172061E0E82D0 /* ModuleHome.debug.xcconfig */;
+			baseConfigurationReference = BFAF90E039A19E8DDE52484BD35FC93E /* ModuleHome.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1194,9 +1202,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1360,7 +1368,7 @@
 		};
 		910B030E3AC0B15076B4B7A2D375B9BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */;
+			baseConfigurationReference = 87E6EB930DFCAAB4B8359FDE0F9D8EDA /* ModuleCommonUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1377,9 +1385,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1396,7 +1404,7 @@
 		};
 		93BD82B048D37B9AA368790723121E40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */;
+			baseConfigurationReference = AB6AE41ED3AEC486200EAC210F997CFA /* ModuleAppMain.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1413,9 +1421,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1450,7 +1458,7 @@
 		};
 		A8F04363A9610BF4C0B85830F64E2A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */;
+			baseConfigurationReference = 9365DE609C4C3D037A6ABD3623DB0C23 /* ModuleMine.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1467,9 +1475,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1486,7 +1494,7 @@
 		};
 		A8FEBA3E4401730E9610F8C7238B5107 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */;
+			baseConfigurationReference = FBFE1830B4926B2888C3CA9F4D16E510 /* ModuleUIStack.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1503,9 +1511,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1545,7 +1553,7 @@
 		};
 		CE8A54D87E687CAEEAE5ADD97A01FECF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */;
+			baseConfigurationReference = 8AFC6B3FB3319C3F82CD6AED96F490F2 /* ModuleMine.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1562,9 +1570,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1582,7 +1590,7 @@
 		};
 		D2645EDDAD83CC0240E11A63CCF7A87D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD7BC269AE781BDE4C2E679068AA605D /* ModuleHome.release.xcconfig */;
+			baseConfigurationReference = CA48B5967B7BE5A3F6E18FC8F44AB30F /* ModuleHome.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1599,9 +1607,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1643,7 +1651,7 @@
 		};
 		DCC2DD30C40FD86FB87F871E78A02B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */;
+			baseConfigurationReference = 04D05292E382CA8807BFF3D3B88F5CA5 /* ModuleAppMain.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1660,9 +1668,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1679,7 +1687,7 @@
 		};
 		E124841B924023EF6B04CAE53D8A762F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */;
+			baseConfigurationReference = F6A098145F06AA9361352B36491D46F6 /* ModuleCenter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1696,9 +1704,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1739,7 +1747,7 @@
 		};
 		FA143B65F0C9022B27799B832FB5BA9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */;
+			baseConfigurationReference = FA44FF03E072C4B32D32D8230369F11E /* ModuleCenter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1756,9 +1764,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_04ae882\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_ce7e00d\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_04ae882\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
