@@ -76,7 +76,9 @@ module MBoxconfig
             branch = rand 0xffffff if branch.start_with?('fatal') || branch.empty?
 
             package_id = "#{branch}_#{hash}"
-            package_desc = ''
+            package_desc = `git log --pretty=format:“%s” #{hash} -1`.strip
+            package_desc = rand 0xffffff if package_desc.start_with?('fatal') || package_desc.empty?
+
 
             puts "5:ext_cfg_path------>#{ext_cfg_path}"
 
@@ -84,7 +86,6 @@ module MBoxconfig
             puts "6:package_info_path------>#{package_info_path}"
             if File.readable? package_info_path
             CSV.foreach(File.join(working_path, GZCONFIG_PACKAGE_INFO_FILE)) do |row|
-
                 next if row[0].nil? || row[1].nil?
 
                 key = row[0].strip
