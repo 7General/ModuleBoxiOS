@@ -107,7 +107,6 @@
     ModuleFuncation * mFuncation = self.dataSource[indexPath.row];
     UIViewController * viewController = [[NSClassFromString(mFuncation.viewControllerName) alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];
-    NSLog(@"---》%@",mFuncation.cellText);
 }
 
 
