@@ -7,6 +7,7 @@
 
 #import "ModuleHomeController.h"
 #import "ModuleCollectionViewCell.h"
+#import "ModuleGitInfoViewController.h"
 
 @interface ModuleFuncation : NSObject
 
@@ -29,10 +30,13 @@
 
 @implementation ModuleHomeController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar setHidden:YES];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.navigationController.navigationBar setHidden:YES];
     
     NSLog(@"%s",__func__);
     self.homeTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
@@ -44,9 +48,19 @@
     self.dataSource = [NSMutableArray array];
     
     ModuleFuncation * redGitInfo = [[ModuleFuncation alloc] init];
-    redGitInfo.viewControllerName = @"";
+    redGitInfo.viewControllerName = @"ModuleGitInfoViewController";
     redGitInfo.cellText = @"读取git信息";
     [self.dataSource addObject:redGitInfo];
+    
+    ModuleFuncation * base64Info = [[ModuleFuncation alloc] init];
+    base64Info.viewControllerName = @"";
+    base64Info.cellText = @"base64读取图片信息(标准和非标准格式)";
+    [self.dataSource addObject:base64Info];
+    
+    ModuleFuncation * collectionInfo = [[ModuleFuncation alloc] init];
+    collectionInfo.viewControllerName = @"";
+    collectionInfo.cellText = @"UICollectionView的基本用法";
+    [self.dataSource addObject:collectionInfo];
     
     
     
@@ -87,6 +101,17 @@
     ModuleFuncation * mFuncation = self.dataSource[indexPath.row];
     cell.textLabel.text = mFuncation.cellText;
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    ModuleFuncation * mFuncation = self.dataSource[indexPath.row];
+    UIViewController * viewController = [[NSClassFromString(mFuncation.viewControllerName) alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 55;
 }
 
 
