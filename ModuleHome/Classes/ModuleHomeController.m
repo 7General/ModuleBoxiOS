@@ -7,6 +7,7 @@
 
 #import "ModuleHomeController.h"
 #import "ModuleCollectionViewCell.h"
+#import "ModuleGitInfoViewController.h"
 
 @interface ModuleFuncation : NSObject
 
@@ -29,10 +30,13 @@
 
 @implementation ModuleHomeController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar setHidden:YES];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.navigationController.navigationBar setHidden:YES];
     
     NSLog(@"%s",__func__);
     self.homeTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
@@ -44,7 +48,7 @@
     self.dataSource = [NSMutableArray array];
     
     ModuleFuncation * redGitInfo = [[ModuleFuncation alloc] init];
-    redGitInfo.viewControllerName = @"";
+    redGitInfo.viewControllerName = @"ModuleGitInfoViewController";
     redGitInfo.cellText = @"读取git信息";
     [self.dataSource addObject:redGitInfo];
     
@@ -101,7 +105,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     ModuleFuncation * mFuncation = self.dataSource[indexPath.row];
-    NSLog(@"---》%@",mFuncation.cellText);
+    UIViewController * viewController = [[NSClassFromString(mFuncation.viewControllerName) alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 
