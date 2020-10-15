@@ -76,8 +76,9 @@ module MBoxconfig
             branch = rand 0xffffff if branch.start_with?('fatal') || branch.empty?
 
             package_id = "#{branch}_#{hash}"
-            package_desc = `git log --pretty=format:“%s” #{hash} -1`.strip
-            package_desc = rand 0xffffff if package_desc.start_with?('fatal') || package_desc.empty?
+            package_desc = ''
+            ## `git log --pretty=format:“%s” #{hash} -1`.strip
+            ## package_desc = rand 0xffffff if package_desc.start_with?('fatal') || package_desc.empty?
 
 
             puts "5:ext_cfg_path------>#{ext_cfg_path}"
