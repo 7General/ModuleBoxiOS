@@ -20,18 +20,21 @@ module MBoxconfig
         def inject_module(installer,config_file_list)
             # 读取配置文件中内容合并返回
             config_file_info = load_configs config_file_list
-            # 获取所有的module
+            # 获取所有的注册的module
             installer.pods_project.targets.each do |target|
                 next unless MBoxconfigContext.instance.value_all_modules.uniq.include? target.name
                 
 
                 target.build_configurations.each do |configurations|
-                    
+                    # configurations DEBUG/RELEASE
                     config_info = config_file_info.final_config_with_type configurations.name
                     cflags_string = cgflag_with_config config_info.macro_dict
                     cflags_string = cflags_string.strip!
-
-
+                    # puts "module_target->Nmae#{target.name}"
+                    # puts "module_target->build_configurations#{target.build_configurations}"
+                    # puts "configurations->Nmae#{configurations.name}"
+                    # puts "target-setting>#{target.build_configurations[0].build_settings}"
+                    # puts "settings-->>#{target.build_settings(configurations.name)}" 
                     target.build_settings(configurations.name)['OTHER_CFLAGS'] = "$(inherrited) #{cflags_string}" unless cflags_string.nil? || cflags_string.empty?
 
                     #
@@ -69,20 +72,21 @@ module MBoxconfig
             plist_set = Set[]
 
             MBoxconfigContext.instance.value_all_projects.uniq.each do |projec_name|
-                puts "projec_name====>>>#{projec_name}"
+                # puts "projec_name====>>>#{projec_name}"
                 # 组装xcodeproj
                 proj_path = "#{projec_name}.xcodeproj"
-                # 获取pod中的xcodeproj的target（代表着整个工程）
+                # 获取pod中的xcodeproj的PBXProject（代表着整个工程）
                 proj_ref = Xcodeproj::Project.open(proj_path)
                 
                 # 获取工程的基本配置（buildConfigurationList代表着针对target的配置项）
                 proj_ref.build_configuration_list.build_configurations.each do |build_configuration_ref|  #(buildConfiguration属性为具体的配置)
-                    
+                    # puts "build_configuration_ref#{build_configuration_ref}"
                     # 依赖的target-ModuleBox\ModuleBoxTests\ModuleBoxUITests
                     # 获取工程创建的target（代表工程创建的target）
                     proj_ref.targets.each do |target_ref|
-                        # target 的配置项target_ref.build_configuration_list.build_configurations
+                        puts "target->Nmae#{target_ref.name}"
                         target_ref.build_configurations.each do |config|
+                            puts "\n\n config-setting#{config.build_settings}"
                             plist_set.add config.build_settings['INFOPLIST_FILE']
                         end
 

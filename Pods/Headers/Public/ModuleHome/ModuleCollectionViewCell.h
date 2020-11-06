@@ -1,1 +1,1 @@
-../../../../ModuleHome/Classes/ModuleCollectionViewCell.h
+../../../../ModuleHome/Classes/GitInfoViewController/ModuleCollectionViewCell.h
