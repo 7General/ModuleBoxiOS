@@ -67,6 +67,13 @@
     collectionInfo.cellText = @"UICollectionView的基本用法";
     [self.dataSource addObject:collectionInfo];
     
+    ModuleFuncation *observerInfo = [[ModuleFuncation alloc] init];
+    observerInfo.viewControllerName = @"";
+    observerInfo.cellText = @"主线程卡顿监控(美团)";
+    [self.dataSource addObject:observerInfo];
+    
+    
+    
 }
 
 
