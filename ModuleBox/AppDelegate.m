@@ -11,6 +11,7 @@
 #import "ModuleMainViewController.h"
 #import "ModuleUIStackManager.h"
 #import "UINavigationController+OpenApiCore.h"
+#import "RAMExport.h"
 
 @interface AppDelegate ()
 
@@ -31,8 +32,13 @@
     self.window.rootViewController = tabbar;
     [self.window makeKeyAndVisible];
     
+   
     
     return YES;
+}
+
+RAM_FUNCTION_EXPORT(A)(void) {
+       printf("\nRAMStageB:test function A");
 }
 
 

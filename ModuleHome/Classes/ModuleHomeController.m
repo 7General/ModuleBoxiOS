@@ -68,10 +68,14 @@
     [self.dataSource addObject:collectionInfo];
     
     ModuleFuncation *observerInfo = [[ModuleFuncation alloc] init];
-    observerInfo.viewControllerName = @"";
+    observerInfo.viewControllerName = @"ModuleMonitorViewController";
     observerInfo.cellText = @"主线程卡顿监控(美团)";
     [self.dataSource addObject:observerInfo];
     
+    ModuleFuncation *mainExportInfo = [[ModuleFuncation alloc] init];
+    mainExportInfo.viewControllerName = @"ModuleRAMExportViewController";
+    mainExportInfo.cellText = @"冷启动优化-注册代码段";
+    [self.dataSource addObject:mainExportInfo];
     
     
 }
