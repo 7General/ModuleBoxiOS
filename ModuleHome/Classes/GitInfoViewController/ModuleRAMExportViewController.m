@@ -5,7 +5,6 @@
 //  Created by ZZG on 2020/11/16.
 //
 
-
 // https://www.cnblogs.com/yuxiaoyiyou/p/13518968.html
 #import "ModuleRAMExportViewController.h"
 #import "RAMExport.h"
@@ -49,6 +48,26 @@ static void HF_Func_##eventType(void)
 HF_Init_Func_For(setup){
        NSLog(@"============================");
 }
+
+//HF_Call_Func_For_([NSString stringWithFormat:@"%@Func",@"setup"]);
+//
+//int HF_Call_Func_For_(NSString *eventType) {
+//    
+//    Dl_info info;
+//    dladdr((const void *)&HF_Call_Func_For_, &info);
+//    struct mach_header_64 * machOHeader = (DTBaseMachHeader *)info.dli_fbase;
+//    uint64_t mach_header = (DTBaseType)info.dli_fbase;
+//    const struct section_64 * section = getsectbynamefromheader_64(machOHeader, "__DATA", eventType.UTF8String);
+//    if (section == NULL) { return -1; }
+//    size_t size = sizeof(void*);
+//    for (uint64_t add = mach_header + section->offset; add < mach_header + section->offset + section->size ; add += size) {
+//　　　　// 注意此处返回为指向函数指针（结构体、基本数据结构等）的指针值
+//        void (**function)(void) = (void (**)(void))add;
+//        (*function)();
+//    }
+//    
+//    return 0;
+//}
 
 
 @end
