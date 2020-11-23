@@ -7,6 +7,21 @@
 
 #import <Foundation/Foundation.h>
 
+// https://www.cnblogs.com/yuxiaoyiyou/p/13518968.html
+// https://www.jianshu.com/p/9dbbdca2515e
+
+//#define SUBCLASS_MUST_OVERRIDE __attribute__((used, section("__DATA,MustOverride" \
+))) static const char *__must_override_entry__ = __func__
+
+/**
+ * 是不是感觉有些长？我们可以将该宏拆分：
+#define SUBCLASS_MUST_OVERRIDE static const char *__must_override_entry__ = __func_
+ __attribute__((used, section("__DATA, MustOverride" )))
+ */
+
+
+
+
 NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 收集实现了该宏的类
 

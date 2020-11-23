@@ -39,6 +39,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // https://mikefighting.github.io/
+    // 从1亿个数里面找出前100个最大的
+    // https://www.jianshu.com/p/119c1ff5ea69
+    
     
     NSLog(@"%s",__func__);
     self.homeTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
@@ -76,6 +80,11 @@
     mainExportInfo.viewControllerName = @"ModuleRAMExportViewController";
     mainExportInfo.cellText = @"冷启动优化-注册代码段";
     [self.dataSource addObject:mainExportInfo];
+    
+    ModuleFuncation *overrideInfo = [[ModuleFuncation alloc] init];
+    overrideInfo.viewControllerName = @"ModuleMustOverrideViewController";
+    overrideInfo.cellText = @"子类必须重写-MustOverride";
+    [self.dataSource addObject:overrideInfo];
     
     
 }
