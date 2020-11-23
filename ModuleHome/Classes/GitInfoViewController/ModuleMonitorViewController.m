@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    /**
+    /** 主线程卡顿监控，实现步骤
      1. 创建一个观察者runLoopObserver，用于观察主线程的runloop状态。
      2. 还要创建一个信号量dispatchSemaphore，用于保证同步操作。
      3. 将观察者runLoopObserver添加到主线程runloop中观察。
