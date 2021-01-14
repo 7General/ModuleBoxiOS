@@ -9,6 +9,9 @@
 
 @implementation ModuleCenter
 
++ (void)load {
+    
+}
 
 - (void)test {
     NSLog(@"---%s",__func__);

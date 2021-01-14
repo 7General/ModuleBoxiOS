@@ -20,6 +20,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"----%s",__func__);
     ModuleCenter * mc = [[ModuleCenter alloc] init];
+//    [mc autorelease];
     [mc test];
 }
 

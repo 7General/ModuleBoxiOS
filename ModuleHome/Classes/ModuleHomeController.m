@@ -87,6 +87,14 @@
     [self.dataSource addObject:overrideInfo];
     
     
+    
+    NSMutableString * str1 = [[NSMutableString alloc] initWithString:@"123"];
+    NSMutableString * str2 = [[NSMutableString alloc] initWithString:@"456"];
+    NSArray * array = @[str1,str2];
+    NSLog(@"----%@",array);
+    [str1 appendString:@"55555"];
+    [str2 appendString:@"9999999"];
+    NSLog(@"----%@",array);
 }
 
 
