@@ -1356,9 +1356,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1410,9 +1410,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1446,9 +1446,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1629,9 +1629,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1665,9 +1665,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1719,9 +1719,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1755,9 +1755,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1814,9 +1814,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1851,9 +1851,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1912,9 +1912,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1948,9 +1948,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2008,9 +2008,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_967a93c\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_967a93c\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";

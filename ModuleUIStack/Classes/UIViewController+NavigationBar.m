@@ -11,7 +11,7 @@
 
 -(void)setNavigationBackButton:(UIViewController *)target withSelector:(SEL)selector {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.backgroundColor = [UIColor redColor];
+    btn.backgroundColor = [UIColor greenColor];
 //    UIImage *iconImg = [UIImage imageNamed:@"nav_back_left_arrow"];
 //    [btn setExclusiveTouch:YES];
 //    btn.showsTouchWhenHighlighted = NO;
@@ -26,7 +26,7 @@
 //                                       initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
 //                                       target:nil action:nil];
 //    negativeSpacer.width = -20;
-    self.navigationItem.leftBarButtonItems = @[ leftBarItem];
+    self.navigationItem.leftBarButtonItems = @[leftBarItem];
 }
 
 @end

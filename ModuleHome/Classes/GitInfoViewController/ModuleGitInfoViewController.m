@@ -31,7 +31,7 @@
 
 @end
 
-@interface ModuleGitInfoViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ModuleGitInfoViewController ()<UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate>
 
 @property (nonatomic, strong) UITableView *GITTABLEVIEW;
 @property (nonatomic, strong) NSMutableArray *dataSource;
@@ -49,13 +49,6 @@
     [super viewDidLoad];
     self.title = @"读取git信息";
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    
-    
-    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:self action:@selector(goBack)];
-    self.navigationItem.leftBarButtonItem = leftButton;
-    
-    
     
     self.GITTABLEVIEW = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.GITTABLEVIEW.delegate = self;
@@ -95,8 +88,22 @@
 }
 
 - (void)goBack {
-    NSLog(@"---");
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"标题" message:@"这是一些信息" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *conform = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了确认按钮");
+        [super goBack];
+    }];
+    
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了取消按钮");
+    }];
+    
+    [alert addAction:conform];
+    [alert addAction:cancel];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
+
 
 
 @end

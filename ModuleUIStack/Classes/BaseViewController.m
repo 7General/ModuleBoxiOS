@@ -17,23 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.backgroundColor = [UIColor redColor];
-    [btn setFrame:CGRectMake(0, 0, 45, 44)];
-    [btn addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    btn.backgroundColor = [UIColor redColor];
+//    [btn setFrame:CGRectMake(0, 0, 45, 44)];
+//    [btn addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
 //    UIBarButtonItem *leftBarItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
-   
-    
-    
-    
+    [self setNavigationBackButton:self withSelector:@selector(goBack)];
 
-//     
-    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(goBacks)];
-    self.navigationItem.leftBarButtonItem = leftButton;
 }
 
 - (void)goBack {
-//    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)goBacks {
     NSLog(@"-----%s",__func__);
