@@ -1,0 +1,1 @@
+../../../../ModuleUIStack/Classes/UIViewController+NavigationBar.h

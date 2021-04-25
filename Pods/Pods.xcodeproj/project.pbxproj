@@ -7,73 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01215BFE627CAB29779027E35150F7B4 /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		04D9AE26728044D4A500E98DEDB3A54C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A52DA29737CB142F8840961708305357 /* NSData+Base64.m */; };
-		09681DD2CA2C1600AD98AF77115E6462 /* ModuleBase64ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3954501A7B7A6943A0BD8478EDAD51F8 /* ModuleBase64ViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		15C95099B538A2D926956DC611D7CE23 /* RAMExport.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4B41DDDD611ACB338DE4B0E69BB84D /* RAMExport.m */; };
-		1981159EB6C9CF6454CEBD2CBC76BB4D /* ModuleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 905610E36EE7DB37AB40E16EE3D2881B /* ModuleCollectionViewCell.m */; };
-		1C1A261682C4B3CA3ECD79406E92D857 /* ModuleRAMExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C60CE9742ECCEE563A9660051AD9CC /* ModuleRAMExportViewController.m */; };
+		0131EF9360850D6C5612260B8D7C1AC3 /* ModuleSwipeActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7153438AC21AEAC8F07863132DBD65 /* ModuleSwipeActionButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		061E60C1E41B595F383016A971A124A5 /* NSObject+MLFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A4DD760596EF1E63189B6B8E9CBD0C /* NSObject+MLFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0713759453C36C887235C7D1946F13E3 /* ModuleSwipeCellAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F0A4DCFE6BF76D05A1D48D2AC4BC09 /* ModuleSwipeCellAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07358E2939274FFE62255B21102FD0AB /* ModuleBase64ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA378D154384734A3BC8E349EA0E8A7C /* ModuleBase64ViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0913EBCAA5913141381C0C2A6D8EF204 /* ModuleHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 116391ECD32F461C65C2E66765CDD0AE /* ModuleHomeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B587AF7311CDB76DAEF1C69C38CDCB1 /* ModuleUIStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA107AA823F6CE231A24D06815461D0 /* ModuleUIStackManager.m */; };
+		0D0C68910F94ADCD1AC38AB55629C69F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F137B79746DA9B28EEB775D76357DD /* TableViewCell.m */; };
+		141338780B2E258558B80E3542456540 /* ModuleSwipeHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C1E0CA493C7F4014146322EFFB67ED /* ModuleSwipeHead.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14F6845E7EA2342D2904DC8D17FD4CBA /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 501C2A1E4831B9E48FBCA18DE322B93A /* NSData+Base64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A0AAF75E80CABA2C1F18C458CB033F7 /* ModuleMustOverride.h in Headers */ = {isa = PBXBuildFile; fileRef = 879AFA9F4335E28751E2576FB96373FF /* ModuleMustOverride.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A6BED68CF6538FB2224339303F1090D /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA6FC8ECABC4BA1405C147623B9D2D9 /* UIViewController+NavigationBar.m */; };
 		1CADEFC79066CD360497A560931A7AA8 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ADCAAC5AE4D382CAA7720A98902430 /* success@2x.png */; };
 		1D24381DC2533C811F588D1F152A2E20 /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E66998CF198C0681864077FD29C85D /* success@3x.png */; };
-		225F00FF25666CAD0007F568 /* ModuleChildren.h in Headers */ = {isa = PBXBuildFile; fileRef = 225F00FD25666CAD0007F568 /* ModuleChildren.h */; };
-		225F010025666CAD0007F568 /* ModuleChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 225F00FE25666CAD0007F568 /* ModuleChildren.m */; };
-		225F0103256670DB0007F568 /* ModuleMustOverride.h in Headers */ = {isa = PBXBuildFile; fileRef = 225F0101256670DB0007F568 /* ModuleMustOverride.h */; };
-		225F0104256670DB0007F568 /* ModuleMustOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = 225F0102256670DB0007F568 /* ModuleMustOverride.m */; };
-		2A84B7300F048DCBB45C632E201FB695 /* ModuleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */; };
-		31C1F3394976828E6093C4EDB7A06235 /* NSObject+MLFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */; };
+		1E5A2FA1A39407C07F894A595CAA6CD8 /* NSObject+MLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 321260EED509E1935F973BF3247AC161 /* NSObject+MLFinder.m */; };
+		21554E060B837DA756632FB789DA81FD /* ModuleRAMExportViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0420FF34FB1F34DDAE4F69CBE121D4E7 /* ModuleRAMExportViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22A54D03DC0C78063F25C76B28239B33 /* TTTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF56D91B034AA0400607A31DBD18FB8 /* TTTT.m */; };
+		23CFA334D903699DF7DEA47FA6BE6B52 /* ModuleCenter+TT.h in Headers */ = {isa = PBXBuildFile; fileRef = 38080033BCD4A5A7E483B3A79160F689 /* ModuleCenter+TT.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25A2D6AF9674D9DB586DAA6C57FD1DC4 /* RAMExport.m in Sources */ = {isa = PBXBuildFile; fileRef = EB77FA2A33063A4141D5376D7D3C84F8 /* RAMExport.m */; };
+		2A84B7300F048DCBB45C632E201FB695 /* ModuleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D50CF9AA9CEACD6182E2892030654 /* ModuleTabBar.m */; };
+		2D9A4A098142E4A392445793A66ED76E /* ModuleCenter+TT.m in Sources */ = {isa = PBXBuildFile; fileRef = F5614D90DC0485B767D74BD6AEAD0606 /* ModuleCenter+TT.m */; };
+		322E387E1303C0347AED4F9F0EA82F1C /* ModuleHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822025397887B4C7E6A2B1C3CACFD1A8 /* ModuleHomeController.m */; };
+		35E3EE3D269831C8D39EA62E15E6496B /* ModuleEmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC74DFEEA685E59208F8747CB60F08D9 /* ModuleEmptyViewController.m */; };
 		38ABB60E1A0A70A31D9FCDB9C8A3A7E0 /* UIView+UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4103A13F8CFD35FAC4428BEF3878BF /* UIView+UIViewUtils.m */; };
-		3E82E626348D68639F5D08F818DE1118 /* ModuleHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4DE8B86E12E2A7AC2E2CD3FBF571E9 /* ModuleHomeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42F29B71B235F7A0E5234800666CFEE6 /* ModuleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0203A2BFD87177E9175AE606B489CE /* ModuleCollectionViewController.m */; };
-		4469418540D85259D19DB2CF858C4B51 /* ModuleAppMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */; };
-		45C6C79AF0A215D40D4E1CF7FC7EE401 /* ModuleTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4469418540D85259D19DB2CF858C4B51 /* ModuleAppMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 118527E6CE1D1FAF1E8420BFA5C7C85F /* ModuleAppMain-dummy.m */; };
+		45C6C79AF0A215D40D4E1CF7FC7EE401 /* ModuleTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0B95FB4B69B6B84E93AEB0BAF9E5CD /* ModuleTabBarButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		461BECAEEC3834F5E4E376F24A2416C7 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5FD5072ADF079F37FD9B42B687897 /* error@2x.png */; };
-		4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55B2722310022BC40137247EADEE51C8 /* NSObject+MLFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */; };
-		5AF5C34FAA2F7A3D769D94913AC6B2C1 /* ModuleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5EA9B96DF718EB457158183B83B5D358 /* ModuleBase64ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A7BAD8B9085A0DEAFD3FE3D11754 /* ModuleBase64ViewController.m */; };
-		5F9B0C751B3FE5064EA1B59913CEF818 /* ModuleCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 09315F40F4A1033CEAF4FD08BE281F81 /* ModuleCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4764022F9D975E1E18100DE5967ED5D5 /* ModuleMonitorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E65CA3FE0F1A9174D34EBF2C1C7C437F /* ModuleMonitorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADB934E2A1B6066651583AB35F3C5C6 /* ModuleMainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AFC1DD42B3F5EDD405E0D4464335ACD /* ModuleEmptyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8508344657221999B565816C180272AE /* ModuleEmptyViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B8DA9AF30A8685D590B8A8CAB76BE9B /* ModuleMustOverrideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83385DAFDDEA858CA27A9E7A7A85759E /* ModuleMustOverrideViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D9FC8F0D8686E089EF492B7CE3A219B /* ModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D76B3B688DD36F49EBFF0F33EB386F /* ModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E961733F5F4A39AF40C471FF83347C5 /* ModuleCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0747E8DB9CBA8B3F51EF6BA737E93B74 /* ModuleCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		574F4AE5393ABDB53E484488797FAF2D /* ModuleHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 132AC7284B70C0B025C57B9DE267AB0B /* ModuleHomeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		591B3DF702E47E2DEC539A696EEB01E9 /* ModuleMustOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D95478AA7834CF79B4A6C4EA962FA /* ModuleMustOverride.m */; };
+		5AF5C34FAA2F7A3D769D94913AC6B2C1 /* ModuleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 10854C16B0ECBC8A102887140160F3DE /* ModuleTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		603269A42E7C49AEA9EEE8242DFCD050 /* MSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C380195B81E93AF174EBC175E75D6 /* MSProgressHUD.m */; };
-		692679377526AD4B3AB24E6839E20C8D /* ModuleHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ACB0744FF27C15F7344D5535022D50 /* ModuleHomeController.m */; };
-		6C87B8B36F89CDB2318478167FEF3B2A /* ModuleGitInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C64178A180FBBBFD86D1878F372BAD6 /* ModuleGitInfoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		618562F478A6680D49F42F1E37E1402D /* ModuleHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0CA9A028EE4B0C9C82D35D3F40A9CA /* ModuleHome-dummy.m */; };
+		63CDDE31FFD1AA0DF05A79D5B1FF9282 /* UITableView+ModuleSwipeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D75407EFE3B73A3807B7A1A2D0CE16 /* UITableView+ModuleSwipeCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CD223E0FFB5381932082A2B9E7591F1 /* ModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8BC4FF9D62F48DD394BB6E6238626 /* ModuleCenter.m */; };
+		70532C21504B6DA7A9C8993DABEF944A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20BD3E5804D40B21E8E4006CFD3BCF /* NSData+Base64.m */; };
+		7293008A6F416AAA4560805829A15010 /* ModulePerson.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC3C512080B6170275D5155BC1B4BC8 /* ModulePerson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7453E086384ADF3AA8F68CE8582F0199 /* ModulePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1427ACA85A21C1995F26E383D93FE /* ModulePerson.m */; };
+		752DD630212BE7C63CBAEA0E12C569B0 /* ModuleNavgationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D984AEA3D8B46F30FE5944D5737CCD35 /* ModuleNavgationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		76254FC560A58C08CD9FF940E9308E6F /* UIView+UIViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C79758785F990C82FE4E896693ED6D /* UIView+UIViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B55ABE343400E2294A13B39008EFD75 /* ModuleCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */; };
-		7DDC11833A2852CE5FF2E90031021909 /* ModuleRAMExportViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E71EF76CBCBCA721A6C7D028C8FCEB9E /* ModuleRAMExportViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		82329847D8CD406A66A4CF79EABFC4F1 /* ModuleMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */; };
-		90F84212F4E6055BE678514AFEEF5DE4 /* ModuleHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A206D714D18497638E1048D1B3325 /* ModuleHome-dummy.m */; };
-		9E0EA76F19AA3EB8C74AEC9B5FC7B738 /* RAMExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 473ABAEAA77C1A8FF17E9AD3B6B80F7B /* RAMExport.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */; };
-		A6E427F177217942131232EADEA23335 /* ModuleMustOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EBA9AAAB08A81F7AB54ACF9F46422 /* ModuleMustOverrideViewController.m */; };
-		A957C23BDF891E4E97E12D084A3B5693 /* ModuleTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */; };
-		AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */; };
-		B02C2601420575A4A0F85D6A02234585 /* ModuleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */; };
-		B6C4281839EF96D5AA721AD9F32FE94B /* ModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */; };
-		B9AFAA5D1B88D74F3CD72B9CC6421325 /* ModuleTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD422E8140A7F51C88741DC8E39EC948 /* ModulePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EAB6495EDF3ED49BFA311DB85B8773 /* ModulePerson.m */; };
-		C0D9C8E7090F46CAC59467F9A5354474 /* ModuleUIStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5B44772D630454FEA6BDE03C03AE735 /* ModuleNavgationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC1AE8824A44A159E74B681394526317 /* ModuleCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E98959F9A21C95E577043F94E6F2607 /* ModuleCollectionViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCA0A003481DD17C107E871BC1EAFD31 /* ModuleMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D2FF4DBA2DD97BA918667162290F44CB /* ModuleMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659676BDD4E4ADA61A62B6A460264AAF /* ModuleMonitorViewController.m */; };
-		D4E649CB09BACD228EFB89EF3965BBF9 /* ModuleTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */; };
+		7B55ABE343400E2294A13B39008EFD75 /* ModuleCommonUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FD67DBB59A309928BF44E9D6FE736 /* ModuleCommonUI-dummy.m */; };
+		82329847D8CD406A66A4CF79EABFC4F1 /* ModuleMine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7441E646B458942A3307D0FE9B85A54D /* ModuleMine-dummy.m */; };
+		826D5FE92BC23BD91443797FDF181E61 /* ModulEditTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3872B8B835537EBEB886BE8894F37276 /* ModulEditTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8304B9C1751C217C8AFCE7A00EF7C667 /* TTTT.h in Headers */ = {isa = PBXBuildFile; fileRef = 395711D9663064391A195AC8EDBCF41F /* TTTT.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86BBECCAEC0E6DC8138BBC2BA94E01D8 /* ModuleUIStack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7044CE946472CF02E8ECF0395CC434D9 /* ModuleUIStack-dummy.m */; };
+		8B3D1A3134B9070C505BE9EEF4EF0E50 /* ModuleMustOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E79B50556ACCFCD53E8D25B136584BD /* ModuleMustOverrideViewController.m */; };
+		93F3409A515B1F9CC642B77017D8906D /* ModuleChildren.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB65054C53D93A810AC6AC74E27984B /* ModuleChildren.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95EFC65DB9B497F64BB47508B7031E8C /* ModuleCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA547F1C456E110B3E7D00407FFC867 /* ModuleCenter-dummy.m */; };
+		9A005F8B1D183CAB1939F2517A560568 /* ModuleCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EAEBD0648FCD954C610CE0ECECD5D2 /* ModuleCollectionViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A80B4F1B8303996423001ED36BBB586 /* ModuleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8009083A7889A9A23CEF683212BCB3D /* ModuleCollectionViewController.m */; };
+		9C3B04B6E92FAEE2646B1611FE99A8EC /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A93EC048B16F778E69BD6A11E376F9 /* UIView+Addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5895BC7E0BFDF4983BE9CC7F2538F2B /* UIViewController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E501E100E2B3961DE0153832B637D3 /* UIViewController+NavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A957C23BDF891E4E97E12D084A3B5693 /* ModuleTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526144E462F5B77578D05570ADF77C96 /* ModuleTabbarViewController.m */; };
+		AF8236837019D5F1C42A7BFA5BAAFEBF /* ModuleUIStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4C2396E5637DF907B44E2C3D5ADADD /* ModuleUIStackManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B02C2601420575A4A0F85D6A02234585 /* ModuleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A4D7007817CF0FD5E7C68C6766A3C /* ModuleMainViewController.m */; };
+		B1BFB24B9D7659838D2709FA8ED4BA6B /* ModuleChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB95FA4042EBA9B0F44E83F71AC709 /* ModuleChildren.m */; };
+		B49547B692C05FB2C9727508CE8EA33D /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE728C01A450325C3F704A00654B130 /* UIView+Addition.m */; };
+		B8BB45080D0585BA30B632DB7CD113AF /* ModulScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B4B1A1427F7ED97B666C422430E05 /* ModulScrollViewController.m */; };
+		B9AFAA5D1B88D74F3CD72B9CC6421325 /* ModuleTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A4DEA3FDDE0064F387573C0825DC8F /* ModuleTabbarViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAE1B6F1DE8E5599B7C91805249D065D /* ModuleNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ADB1DEB204538E6F8B2BCA3C0E1E8E /* ModuleNavgationController.m */; };
+		BDB6918F4A30D0B6AEF19ED7C865822B /* UITableView+ModuleSwipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C82AC4144810E802C81DA1DDD84EA0 /* UITableView+ModuleSwipeCell.m */; };
+		BFD9A2F33B004D196A08B1C32E587EB5 /* ModuleRAMExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EDC6C1B99B944CA5E505CE8B854BF0 /* ModuleRAMExportViewController.m */; };
+		C4A97A373EFE10478C24720A56D03E60 /* ModulEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DA522CD8DFA03020D1E2AEA3D58B94 /* ModulEditTableViewController.m */; };
+		CCA0A003481DD17C107E871BC1EAFD31 /* ModuleMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5331644C8FA9AEEC3188F4B38DB992 /* ModuleMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2232FDA396329BB625802D292181A67 /* ModuleGitInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C2B9C28A0109D09194587BA854B05 /* ModuleGitInfoViewController.m */; };
+		D4E649CB09BACD228EFB89EF3965BBF9 /* ModuleTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2616743C949774CED06DBDA23FC06CC6 /* ModuleTabBarButton.m */; };
 		D59D223116373A567A16834E8A79B31E /* MSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D029BC02039FD5625E8E50DB65A26F /* MSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DD3D8C3E3DD5625B0EEB5D33FB6931FF /* MSProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C52B60E0ED8B0940A25D905565D6F /* MSProgress-dummy.m */; };
-		E1E9940029F3055AE98D51AF2FC39890 /* ModuleCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */; };
-		E2E6E2B36448674A48D64BB3EEA3A777 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FD393A30C0124B546FEA7F4B3E84C5 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3C425006A8908EC8E913E030C8AFFC2 /* ModuleSwipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4781D113E2B2D596D6B752C8A1D6B794 /* ModuleSwipeCell.m */; };
+		E43DEF3F810C40BEDD22DC368987F5DA /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 44ABB1A8354BB3E773CF490606FA1CFC /* BaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E4A1E2B242352A17A9DF525131F15561 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3B79A7F40F22C17FB116EE8C4BC78F /* error@3x.png */; };
+		E4D2EEFCA1274E000AF5618A497B404B /* ModuleBase64ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3B8AB1842B2466C851FAF9F2E2C29 /* ModuleBase64ViewController.m */; };
 		E56AEB26B800348C7114B156B1720D25 /* jiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF48B414D851397EBB725DFD1364B27 /* jiazai.png */; };
-		E8E93C50D854764C592D8D01919826E1 /* ModuleMustOverrideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FDBB0467CC93BC7E247DD5D9D3BA0F /* ModuleMustOverrideViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EAB728F1C743ED25CE964EE8AC52AA8B /* ModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB0B34191EFBBE1C32837DE1F216382D /* ModuleMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */; };
-		EB0F16D1C905F108CE629452813D3257 /* ModuleHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC9B235B4505706916D1DFDE14A84F /* ModuleHomeHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ECFB95C06781B6C129A9E31C24260071 /* ModuleMonitorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F3C7A7768A65B28FB10D0F2B5C9A8F /* ModuleMonitorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3009E9C9AFA754F72F749D3AD455863 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */; };
+		E7CE0E313A73B2FDCC697EA653A48DF2 /* ModulScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EAA52DCB54B4A8CC790FEEB3C6E106C /* ModulScrollViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E847A8676B4E7100836DBBA61CD866B1 /* TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBB9785B2CBBF4996DB044A8B62971E /* TableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E852C7AA95569F46200AD3929E7240BE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117D91C743094171402B5415E7AE2BC5 /* BaseViewController.m */; };
+		EA7C7510368C13ECD6086F2087473F6D /* ModuleMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E794469DBDCB591C3EC9E221F19ABA50 /* ModuleMonitorViewController.m */; };
+		EB0B34191EFBBE1C32837DE1F216382D /* ModuleMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7322694D797EC3837A202061EBB85428 /* ModuleMineViewController.m */; };
+		F13D12919514F6E18B0A92ADE10ABF74 /* ModuleGitInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0193F026408F07404BD3240AC3D2336 /* ModuleGitInfoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F340649BAB853291DDD4510847475DC5 /* Pods-ModuleBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41480A20F415F9916BF44F88BB595963 /* Pods-ModuleBox-dummy.m */; };
-		FB38E4D54E31055EA04E8D08841E4958 /* ModuleGitInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1C60B6D1D4739BF5D282FC6502BD24 /* ModuleGitInfoViewController.m */; };
-		FE4F9439256E80F4B5088C32989EB91F /* ModulePerson.h in Headers */ = {isa = PBXBuildFile; fileRef = A77ED669BC24AC2C4D8F4EAC14704584 /* ModulePerson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F637097BA2354D0C07BCA3C147B1ACF1 /* ModuleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5AFE616813E4128C62780CD8D746FA /* ModuleCollectionViewCell.m */; };
+		F77D8FE741D299D5BCCD430E60FBA65B /* ModuleSwipeCellAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F0FEF8F8D51CAB3D93CDEEC64785D /* ModuleSwipeCellAction.m */; };
+		F97DBDB78A128690FFCCBDE2DA79B9DB /* ModuleSwipeActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D63E2EE43D67A87CD2EC147F1210CC /* ModuleSwipeActionButton.m */; };
+		FD08D8C9BAE90EF91E636AB84E2B13BE /* ModuleSwipeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DC575D048746123317AC14647382C8FA /* ModuleSwipeCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDF526146425CA1914660D6678D5FF6F /* RAMExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C00E61247320DC38E3304179A2CEFD0 /* RAMExport.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0B6967E648FA8638FD2A30ADE828848D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118C32AE6E42ACAC372650D54A4B3746;
+			remoteInfo = ModuleUIStack;
+		};
 		1F4795C572E8D0CCC70687A11453A7FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -108,6 +140,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 50341D3698DD5052B0FA1558C13DF34D;
 			remoteInfo = ModuleAppMain;
+		};
+		82C8116AAF260CFF1D75A108326F7CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118C32AE6E42ACAC372650D54A4B3746;
+			remoteInfo = ModuleUIStack;
 		};
 		93899683A8055EB77EECD1C609B43310 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -168,113 +207,138 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleUIStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		034A206D714D18497638E1048D1B3325 /* ModuleHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleHome-dummy.m"; sourceTree = "<group>"; };
-		042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleAppMain-dummy.m"; sourceTree = "<group>"; };
+		00BDB20F609B4B5AD4F2CECD13C9A426 /* libModuleUIStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleUIStack.a; path = libModuleUIStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E501E100E2B3961DE0153832B637D3 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NavigationBar.h"; path = "Classes/UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		0420FF34FB1F34DDAE4F69CBE121D4E7 /* ModuleRAMExportViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleRAMExportViewController.h; sourceTree = "<group>"; };
 		04D543E81B6F254AE62A80ECF760B71B /* MSProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.debug.xcconfig; sourceTree = "<group>"; };
-		0599672B5897E32B7E279CFFFED5B573 /* ModuleMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleMine-prefix.pch"; sourceTree = "<group>"; };
-		09315F40F4A1033CEAF4FD08BE281F81 /* ModuleCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleCollectionViewCell.h; sourceTree = "<group>"; };
-		0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.release.xcconfig; sourceTree = "<group>"; };
-		0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCenter.h; path = Classes/ModuleCenter.h; sourceTree = "<group>"; };
-		1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLFinder.m"; path = "Classes/NSObject+MLFinder.m"; sourceTree = "<group>"; };
-		17ACB0744FF27C15F7344D5535022D50 /* ModuleHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleHomeController.m; path = Classes/ModuleHomeController.m; sourceTree = "<group>"; };
+		06A93EC048B16F778E69BD6A11E376F9 /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "Classes/UIView+Addition.h"; sourceTree = "<group>"; };
+		0747E8DB9CBA8B3F51EF6BA737E93B74 /* ModuleCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleCollectionViewCell.h; sourceTree = "<group>"; };
+		0B08996819DA573DFE5B5C646608A9A7 /* ModuleCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.release.xcconfig; sourceTree = "<group>"; };
+		10854C16B0ECBC8A102887140160F3DE /* ModuleTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBar.h; path = Classes/ModuleTabBar.h; sourceTree = "<group>"; };
+		116391ECD32F461C65C2E66765CDD0AE /* ModuleHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeHeader.h; path = Classes/ModuleHomeHeader.h; sourceTree = "<group>"; };
+		117D91C743094171402B5415E7AE2BC5 /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Classes/BaseViewController.m; sourceTree = "<group>"; };
+		118527E6CE1D1FAF1E8420BFA5C7C85F /* ModuleAppMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleAppMain-dummy.m"; sourceTree = "<group>"; };
+		132AC7284B70C0B025C57B9DE267AB0B /* ModuleHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeController.h; path = Classes/ModuleHomeController.h; sourceTree = "<group>"; };
+		1AA547F1C456E110B3E7D00407FFC867 /* ModuleCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCenter-dummy.m"; sourceTree = "<group>"; };
+		1CA99C1DE1D73D138146549ACFB4A919 /* ModuleMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.debug.xcconfig; sourceTree = "<group>"; };
 		1D6C52B60E0ED8B0940A25D905565D6F /* MSProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProgress-dummy.m"; sourceTree = "<group>"; };
-		1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleNavgationController.m; path = Classes/ModuleNavgationController.m; sourceTree = "<group>"; };
-		1E89DDB62991A0B5144EE569B9A5851E /* ModuleHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ModuleHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		225F00FD25666CAD0007F568 /* ModuleChildren.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleChildren.h; sourceTree = "<group>"; };
-		225F00FE25666CAD0007F568 /* ModuleChildren.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleChildren.m; sourceTree = "<group>"; };
-		225F0101256670DB0007F568 /* ModuleMustOverride.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleMustOverride.h; sourceTree = "<group>"; };
-		225F0102256670DB0007F568 /* ModuleMustOverride.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleMustOverride.m; sourceTree = "<group>"; };
+		1F1BB1174E5FA7ADB6FBDEE5A7D7D00F /* ModuleAppMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleAppMain-prefix.pch"; sourceTree = "<group>"; };
+		1FCDD84E8E51748A256E1B234A4F4CCA /* ModuleMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2616743C949774CED06DBDA23FC06CC6 /* ModuleTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBarButton.m; path = Classes/ModuleTabBarButton.m; sourceTree = "<group>"; };
+		27C82AC4144810E802C81DA1DDD84EA0 /* UITableView+ModuleSwipeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ModuleSwipeCell.m"; sourceTree = "<group>"; };
+		27D75407EFE3B73A3807B7A1A2D0CE16 /* UITableView+ModuleSwipeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+ModuleSwipeCell.h"; sourceTree = "<group>"; };
 		290C8C19656D9434D1961F5E22C6D5EA /* Pods-ModuleBox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleBox-acknowledgements.plist"; sourceTree = "<group>"; };
-		2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMineViewController.m; path = Classes/ModuleMineViewController.m; sourceTree = "<group>"; };
 		29D029BC02039FD5625E8E50DB65A26F /* MSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProgressHUD.h; path = MSProgress/Classes/MSProgressHUD.h; sourceTree = "<group>"; };
-		2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleUIStackManager.h; path = Classes/ModuleUIStackManager.h; sourceTree = "<group>"; };
+		2BD8BC4FF9D62F48DD394BB6E6238626 /* ModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCenter.m; path = Classes/ModuleCenter.m; sourceTree = "<group>"; };
+		2E23D81048FE380A54F582179ADCD363 /* ModuleMine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleMine-prefix.pch"; sourceTree = "<group>"; };
 		2F4103A13F8CFD35FAC4428BEF3878BF /* UIView+UIViewUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewUtils.m"; path = "MSProgress/Classes/UIView+UIViewUtils.m"; sourceTree = "<group>"; };
-		30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.release.xcconfig; sourceTree = "<group>"; };
-		30EC9B235B4505706916D1DFDE14A84F /* ModuleHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeHeader.h; path = Classes/ModuleHomeHeader.h; sourceTree = "<group>"; };
-		3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.release.xcconfig; sourceTree = "<group>"; };
-		3954501A7B7A6943A0BD8478EDAD51F8 /* ModuleBase64ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleBase64ViewController.h; sourceTree = "<group>"; };
-		3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.debug.xcconfig; sourceTree = "<group>"; };
+		2FF56D91B034AA0400607A31DBD18FB8 /* TTTT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTT.m; path = Classes/TTTT.m; sourceTree = "<group>"; };
+		30D40BC023D870A8BF7CE0C88963611F /* ModuleCommonUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCommonUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31D63E2EE43D67A87CD2EC147F1210CC /* ModuleSwipeActionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleSwipeActionButton.m; sourceTree = "<group>"; };
+		321260EED509E1935F973BF3247AC161 /* NSObject+MLFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLFinder.m"; path = "Classes/NSObject+MLFinder.m"; sourceTree = "<group>"; };
+		3283770ECED1C727EE7715FD9CF60707 /* ModuleCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.debug.xcconfig; sourceTree = "<group>"; };
+		38080033BCD4A5A7E483B3A79160F689 /* ModuleCenter+TT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ModuleCenter+TT.h"; path = "Classes/ModuleCenter+TT.h"; sourceTree = "<group>"; };
+		3872B8B835537EBEB886BE8894F37276 /* ModulEditTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModulEditTableViewController.h; path = Classes/ModulEditTableViewController.h; sourceTree = "<group>"; };
+		395711D9663064391A195AC8EDBCF41F /* TTTT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTT.h; path = Classes/TTTT.h; sourceTree = "<group>"; };
+		3B5331644C8FA9AEEC3188F4B38DB992 /* ModuleMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMineViewController.h; path = Classes/ModuleMineViewController.h; sourceTree = "<group>"; };
+		3C3D50CF9AA9CEACD6182E2892030654 /* ModuleTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBar.m; path = Classes/ModuleTabBar.m; sourceTree = "<group>"; };
 		3F393D63691CD0A405B5F64EF849D484 /* Pods-ModuleBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleBox.debug.xcconfig"; sourceTree = "<group>"; };
 		41480A20F415F9916BF44F88BB595963 /* Pods-ModuleBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModuleBox-dummy.m"; sourceTree = "<group>"; };
-		4192E302F388B223FB15420028AC02FA /* libModuleCommonUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleCommonUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMainViewController.h; path = Classes/ModuleMainViewController.h; sourceTree = "<group>"; };
+		414D04CE4D38B50BA576F429F2CC0873 /* ModuleHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4192E302F388B223FB15420028AC02FA /* libModuleCommonUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleCommonUI.a; path = libModuleCommonUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		446C380195B81E93AF174EBC175E75D6 /* MSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSProgressHUD.m; path = MSProgress/Classes/MSProgressHUD.m; sourceTree = "<group>"; };
-		466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.release.xcconfig; sourceTree = "<group>"; };
-		46EAB6495EDF3ED49BFA311DB85B8773 /* ModulePerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModulePerson.m; sourceTree = "<group>"; };
-		473ABAEAA77C1A8FF17E9AD3B6B80F7B /* RAMExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RAMExport.h; sourceTree = "<group>"; };
+		44ABB1A8354BB3E773CF490606FA1CFC /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Classes/BaseViewController.h; sourceTree = "<group>"; };
+		46A4DEA3FDDE0064F387573C0825DC8F /* ModuleTabbarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabbarViewController.h; path = Classes/ModuleTabbarViewController.h; sourceTree = "<group>"; };
+		4781D113E2B2D596D6B752C8A1D6B794 /* ModuleSwipeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleSwipeCell.m; sourceTree = "<group>"; };
+		4A45B0691D6D7B12745F6BD6BA4071A1 /* ModuleUIStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.debug.xcconfig; sourceTree = "<group>"; };
+		4ADB934E2A1B6066651583AB35F3C5C6 /* ModuleMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMainViewController.h; path = Classes/ModuleMainViewController.h; sourceTree = "<group>"; };
 		4B257F2C37D3A1308FF782603F7FD789 /* Pods-ModuleBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleBox.release.xcconfig"; sourceTree = "<group>"; };
-		4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBarButton.m; path = Classes/ModuleTabBarButton.m; sourceTree = "<group>"; };
-		4C64178A180FBBBFD86D1878F372BAD6 /* ModuleGitInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleGitInfoViewController.h; sourceTree = "<group>"; };
-		4F1C60B6D1D4739BF5D282FC6502BD24 /* ModuleGitInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleGitInfoViewController.m; sourceTree = "<group>"; };
-		4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCenter-dummy.m"; sourceTree = "<group>"; };
-		528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.release.xcconfig; sourceTree = "<group>"; };
-		5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleUIStack-dummy.m"; sourceTree = "<group>"; };
-		572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBar.h; path = Classes/ModuleTabBar.h; sourceTree = "<group>"; };
-		5B06AFE8CE48B1E036864395F7046F9E /* libModuleHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E79B50556ACCFCD53E8D25B136584BD /* ModuleMustOverrideViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleMustOverrideViewController.m; sourceTree = "<group>"; };
+		501C2A1E4831B9E48FBCA18DE322B93A /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		50A4DD760596EF1E63189B6B8E9CBD0C /* NSObject+MLFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLFinder.h"; path = "Classes/NSObject+MLFinder.h"; sourceTree = "<group>"; };
+		526144E462F5B77578D05570ADF77C96 /* ModuleTabbarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabbarViewController.m; path = Classes/ModuleTabbarViewController.m; sourceTree = "<group>"; };
+		5A0CA9A028EE4B0C9C82D35D3F40A9CA /* ModuleHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleHome-dummy.m"; sourceTree = "<group>"; };
+		5B06AFE8CE48B1E036864395F7046F9E /* libModuleHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleHome.a; path = libModuleHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4C2396E5637DF907B44E2C3D5ADADD /* ModuleUIStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleUIStackManager.h; path = Classes/ModuleUIStackManager.h; sourceTree = "<group>"; };
+		5D7153438AC21AEAC8F07863132DBD65 /* ModuleSwipeActionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleSwipeActionButton.h; sourceTree = "<group>"; };
+		5E4A4D7007817CF0FD5E7C68C6766A3C /* ModuleMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMainViewController.m; path = Classes/ModuleMainViewController.m; sourceTree = "<group>"; };
+		5EA6FC8ECABC4BA1405C147623B9D2D9 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NavigationBar.m"; path = "Classes/UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		5EAA52DCB54B4A8CC790FEEB3C6E106C /* ModulScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModulScrollViewController.h; path = Classes/ModulScrollViewController.h; sourceTree = "<group>"; };
+		5F837DCAE91F02FE71FC8BE4A41A3F4C /* ModuleAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.release.xcconfig; sourceTree = "<group>"; };
 		60C79758785F990C82FE4E896693ED6D /* UIView+UIViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewUtils.h"; path = "MSProgress/Classes/UIView+UIViewUtils.h"; sourceTree = "<group>"; };
-		62B9747F888B5D4042B2EAEFEF6CA5F4 /* ModuleCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCommonUI-prefix.pch"; sourceTree = "<group>"; };
-		646998EB36B872AD2AA0C7CE85804895 /* ModuleAppMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleAppMain-prefix.pch"; sourceTree = "<group>"; };
-		659676BDD4E4ADA61A62B6A460264AAF /* ModuleMonitorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleMonitorViewController.m; sourceTree = "<group>"; };
-		6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabbarViewController.m; path = Classes/ModuleTabbarViewController.m; sourceTree = "<group>"; };
-		6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "Classes/UIView+Addition.m"; sourceTree = "<group>"; };
-		6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleTabBar.m; path = Classes/ModuleTabBar.m; sourceTree = "<group>"; };
+		67EDC6C1B99B944CA5E505CE8B854BF0 /* ModuleRAMExportViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleRAMExportViewController.m; sourceTree = "<group>"; };
+		6976C8DAF117E2A2626F855BA6E9A4E5 /* ModuleHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.release.xcconfig; sourceTree = "<group>"; };
+		6ADF3BB8A05CF4BB014BEEB40FBE33DA /* ModuleCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.debug.xcconfig; sourceTree = "<group>"; };
+		6B6FD67DBB59A309928BF44E9D6FE736 /* ModuleCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCommonUI-dummy.m"; sourceTree = "<group>"; };
+		6C2F6B0E29A97E8B214EFF5B88281039 /* ModuleHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleHome-prefix.pch"; sourceTree = "<group>"; };
 		6CD5FD5072ADF079F37FD9B42B687897 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "MSProgress/Assets/error@2x.png"; sourceTree = "<group>"; };
 		6E62687E476E17E16BAFEA3B6564F9A5 /* ResourceBundle-MSProgress-MSProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProgress-MSProgress-Info.plist"; sourceTree = "<group>"; };
-		6E99E6F5429B08C3EC0418E2A525C257 /* ModuleUIStack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ModuleUIStack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7044CE946472CF02E8ECF0395CC434D9 /* ModuleUIStack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleUIStack-dummy.m"; sourceTree = "<group>"; };
 		70ADCAAC5AE4D382CAA7720A98902430 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@2x.png"; path = "MSProgress/Assets/success@2x.png"; sourceTree = "<group>"; };
-		71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleCommonUI-dummy.m"; sourceTree = "<group>"; };
-		79A9F46F517CC22C11F7EA5C848D957E /* ModuleMine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ModuleMine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		79C1A7BAD8B9085A0DEAFD3FE3D11754 /* ModuleBase64ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleBase64ViewController.m; sourceTree = "<group>"; };
-		79F3C7A7768A65B28FB10D0F2B5C9A8F /* ModuleMonitorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleMonitorViewController.h; sourceTree = "<group>"; };
-		7A8C3339E09B57A3059F628210E2602B /* ModuleCommonUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ModuleCommonUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71DA522CD8DFA03020D1E2AEA3D58B94 /* ModulEditTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModulEditTableViewController.m; path = Classes/ModulEditTableViewController.m; sourceTree = "<group>"; };
+		72C1E0CA493C7F4014146322EFFB67ED /* ModuleSwipeHead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleSwipeHead.h; sourceTree = "<group>"; };
+		7322694D797EC3837A202061EBB85428 /* ModuleMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMineViewController.m; path = Classes/ModuleMineViewController.m; sourceTree = "<group>"; };
+		7441E646B458942A3307D0FE9B85A54D /* ModuleMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleMine-dummy.m"; sourceTree = "<group>"; };
+		7A3652D49E9300B4ADCF28DA0188305F /* ModuleUIStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.release.xcconfig; sourceTree = "<group>"; };
 		7AF48B414D851397EBB725DFD1364B27 /* jiazai.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jiazai.png; path = MSProgress/Assets/jiazai.png; sourceTree = "<group>"; };
-		7D8EBA9AAAB08A81F7AB54ACF9F46422 /* ModuleMustOverrideViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleMustOverrideViewController.m; sourceTree = "<group>"; };
-		800502762CE70565D7D914274B64CD79 /* ModuleHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.debug.xcconfig; sourceTree = "<group>"; };
-		84158A00EEB172E8E6960F6E387604ED /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7D95478AA7834CF79B4A6C4EA962FA /* ModuleMustOverride.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleMustOverride.m; sourceTree = "<group>"; };
+		7E20BD3E5804D40B21E8E4006CFD3BCF /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		809F0FEF8F8D51CAB3D93CDEEC64785D /* ModuleSwipeCellAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleSwipeCellAction.m; sourceTree = "<group>"; };
+		822025397887B4C7E6A2B1C3CACFD1A8 /* ModuleHomeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleHomeController.m; path = Classes/ModuleHomeController.m; sourceTree = "<group>"; };
+		83385DAFDDEA858CA27A9E7A7A85759E /* ModuleMustOverrideViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleMustOverrideViewController.h; sourceTree = "<group>"; };
+		84158A00EEB172E8E6960F6E387604ED /* libPods-ModuleBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ModuleBox.a"; path = "libPods-ModuleBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8508344657221999B565816C180272AE /* ModuleEmptyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleEmptyViewController.h; sourceTree = "<group>"; };
 		85E66998CF198C0681864077FD29C85D /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "success@3x.png"; path = "MSProgress/Assets/success@3x.png"; sourceTree = "<group>"; };
-		8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.debug.xcconfig; sourceTree = "<group>"; };
-		884CC9D331BB36522DA90A29EB2DCF81 /* ModuleHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleHome-prefix.pch"; sourceTree = "<group>"; };
-		8D0203A2BFD87177E9175AE606B489CE /* ModuleCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleCollectionViewController.m; sourceTree = "<group>"; };
-		8E98959F9A21C95E577043F94E6F2607 /* ModuleCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleCollectionViewController.h; sourceTree = "<group>"; };
-		905610E36EE7DB37AB40E16EE3D2881B /* ModuleCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleCollectionViewCell.m; sourceTree = "<group>"; };
-		92C60CE9742ECCEE563A9660051AD9CC /* ModuleRAMExportViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleRAMExportViewController.m; sourceTree = "<group>"; };
-		95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBarButton.h; path = Classes/ModuleTabBarButton.h; sourceTree = "<group>"; };
-		99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleMineViewController.h; path = Classes/ModuleMineViewController.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		879AFA9F4335E28751E2576FB96373FF /* ModuleMustOverride.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleMustOverride.h; sourceTree = "<group>"; };
+		8BDB95FA4042EBA9B0F44E83F71AC709 /* ModuleChildren.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleChildren.m; sourceTree = "<group>"; };
+		8C00E61247320DC38E3304179A2CEFD0 /* RAMExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RAMExport.h; sourceTree = "<group>"; };
+		8C3820833D0B222A19A762E693889A32 /* ModuleMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleMine.release.xcconfig; sourceTree = "<group>"; };
+		8EA107AA823F6CE231A24D06815461D0 /* ModuleUIStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleUIStackManager.m; path = Classes/ModuleUIStackManager.m; sourceTree = "<group>"; };
+		8EBB9785B2CBBF4996DB044A8B62971E /* TableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = Classes/TableViewCell.h; sourceTree = "<group>"; };
+		96F137B79746DA9B28EEB775D76357DD /* TableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = Classes/TableViewCell.m; sourceTree = "<group>"; };
+		9AE728C01A450325C3F704A00654B130 /* UIView+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addition.m"; path = "Classes/UIView+Addition.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1142503CBEA35585F1BD01BE9498601 /* MSProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProgress.release.xcconfig; sourceTree = "<group>"; };
-		A1947C27B7C9D28F9ED35D52555B855B /* ModuleHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.release.xcconfig; sourceTree = "<group>"; };
 		A2B5EE508B888BAA4D87321A150DB441 /* Pods-ModuleBox-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuleBox-resources.sh"; sourceTree = "<group>"; };
-		A52DA29737CB142F8840961708305357 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		A77ED669BC24AC2C4D8F4EAC14704584 /* ModulePerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModulePerson.h; sourceTree = "<group>"; };
-		A9FDBB0467CC93BC7E247DD5D9D3BA0F /* ModuleMustOverrideViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleMustOverrideViewController.h; sourceTree = "<group>"; };
-		AB170718E24F09BAD928223CE52C7B15 /* libModuleAppMain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleAppMain.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC113FF349F55C4EDAEA5B804BCC40DC /* ModuleCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ModuleCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B00CD10B8451CDF4C78018AFCCABD30C /* ModuleAppMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ModuleAppMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "Classes/UIView+Addition.h"; sourceTree = "<group>"; };
-		B72FDF8DA6D8F289C4DF0F438DDCBC0F /* libModuleMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA1935BA7499E9BEF3E605FC8311D26F /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSProgress.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE4DE8B86E12E2A7AC2E2CD3FBF571E9 /* ModuleHomeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleHomeController.h; path = Classes/ModuleHomeController.h; sourceTree = "<group>"; };
-		C362B625BD2B9E45F1F26752A3CD1E01 /* ModuleCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCenter-prefix.pch"; sourceTree = "<group>"; };
-		C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleMainViewController.m; path = Classes/ModuleMainViewController.m; sourceTree = "<group>"; };
-		CD6A8953EC2BEE80CDD112A058E0B77A /* libModuleCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleUIStackManager.m; path = Classes/ModuleUIStackManager.m; sourceTree = "<group>"; };
-		D5FD393A30C0124B546FEA7F4B3E84C5 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleNavgationController.h; path = Classes/ModuleNavgationController.h; sourceTree = "<group>"; };
-		D7043178299269F1B2818E12430FBABB /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC4B41DDDD611ACB338DE4B0E69BB84D /* RAMExport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RAMExport.m; sourceTree = "<group>"; };
-		DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleCenter.m; path = Classes/ModuleCenter.m; sourceTree = "<group>"; };
-		DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleUIStack.debug.xcconfig; sourceTree = "<group>"; };
-		E71EF76CBCBCA721A6C7D028C8FCEB9E /* ModuleRAMExportViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleRAMExportViewController.h; sourceTree = "<group>"; };
-		E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCenter.debug.xcconfig; sourceTree = "<group>"; };
-		EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleMine-dummy.m"; sourceTree = "<group>"; };
+		A8ADB1DEB204538E6F8B2BCA3C0E1E8E /* ModuleNavgationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleNavgationController.m; path = Classes/ModuleNavgationController.m; sourceTree = "<group>"; };
+		A9D76B3B688DD36F49EBFF0F33EB386F /* ModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCenter.h; path = Classes/ModuleCenter.h; sourceTree = "<group>"; };
+		AB170718E24F09BAD928223CE52C7B15 /* libModuleAppMain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleAppMain.a; path = libModuleAppMain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4BD1A0C269B0C5F49763FDA37D8A8C /* ModuleCommonUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCommonUI-prefix.pch"; sourceTree = "<group>"; };
+		B72FDF8DA6D8F289C4DF0F438DDCBC0F /* libModuleMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleMine.a; path = libModuleMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1935BA7499E9BEF3E605FC8311D26F /* MSProgress.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MSProgress.bundle; path = "MSProgress-MSProgress.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3C07F8AD52525472E92641DCD8269F /* ModuleCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleCenter-prefix.pch"; sourceTree = "<group>"; };
+		BBF34030D3B095CE9AF60DC12AAD9414 /* ModuleAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleAppMain.debug.xcconfig; sourceTree = "<group>"; };
+		C0193F026408F07404BD3240AC3D2336 /* ModuleGitInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleGitInfoViewController.h; sourceTree = "<group>"; };
+		C26B4B1A1427F7ED97B666C422430E05 /* ModulScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModulScrollViewController.m; path = Classes/ModulScrollViewController.m; sourceTree = "<group>"; };
+		C7EAEBD0648FCD954C610CE0ECECD5D2 /* ModuleCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleCollectionViewController.h; sourceTree = "<group>"; };
+		CA378D154384734A3BC8E349EA0E8A7C /* ModuleBase64ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleBase64ViewController.h; sourceTree = "<group>"; };
+		CD6A8953EC2BEE80CDD112A058E0B77A /* libModuleCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleCenter.a; path = libModuleCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B611A41E046E81BD4A2E547D02021A /* ModuleUIStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleUIStack-prefix.pch"; sourceTree = "<group>"; };
+		D7043178299269F1B2818E12430FBABB /* libMSProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSProgress.a; path = libMSProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91C2B9C28A0109D09194587BA854B05 /* ModuleGitInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleGitInfoViewController.m; sourceTree = "<group>"; };
+		D984AEA3D8B46F30FE5944D5737CCD35 /* ModuleNavgationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleNavgationController.h; path = Classes/ModuleNavgationController.h; sourceTree = "<group>"; };
+		DAB65054C53D93A810AC6AC74E27984B /* ModuleChildren.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleChildren.h; sourceTree = "<group>"; };
+		DB5AFE616813E4128C62780CD8D746FA /* ModuleCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleCollectionViewCell.m; sourceTree = "<group>"; };
+		DC575D048746123317AC14647382C8FA /* ModuleSwipeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleSwipeCell.h; sourceTree = "<group>"; };
+		DF0B95FB4B69B6B84E93AEB0BAF9E5CD /* ModuleTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabBarButton.h; path = Classes/ModuleTabBarButton.h; sourceTree = "<group>"; };
+		E1325A40CB3A43E1CFC3CB4453A6B8EF /* ModuleHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleHome.debug.xcconfig; sourceTree = "<group>"; };
+		E65CA3FE0F1A9174D34EBF2C1C7C437F /* ModuleMonitorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleMonitorViewController.h; sourceTree = "<group>"; };
+		E794469DBDCB591C3EC9E221F19ABA50 /* ModuleMonitorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleMonitorViewController.m; sourceTree = "<group>"; };
+		E8009083A7889A9A23CEF683212BCB3D /* ModuleCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleCollectionViewController.m; sourceTree = "<group>"; };
+		EB77FA2A33063A4141D5376D7D3C84F8 /* RAMExport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RAMExport.m; sourceTree = "<group>"; };
+		EC74DFEEA685E59208F8747CB60F08D9 /* ModuleEmptyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleEmptyViewController.m; sourceTree = "<group>"; };
+		ED025B3A94CF549889AE738CF7938C77 /* ModuleUIStack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleUIStack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF508B1297DC8C7524EADF8AD1D8674D /* MSProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProgress-prefix.pch"; sourceTree = "<group>"; };
-		EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleTabbarViewController.h; path = Classes/ModuleTabbarViewController.h; sourceTree = "<group>"; };
 		F1C4AE52C9AEB4E08CE34E57DF5C7955 /* Pods-ModuleBox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModuleBox-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6E6BD210CB8A493E4D17369C0D94815 /* ModuleUIStack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleUIStack-prefix.pch"; sourceTree = "<group>"; };
+		F1F0A4DCFE6BF76D05A1D48D2AC4BC09 /* ModuleSwipeCellAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleSwipeCellAction.h; sourceTree = "<group>"; };
+		F5614D90DC0485B767D74BD6AEAD0606 /* ModuleCenter+TT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ModuleCenter+TT.m"; path = "Classes/ModuleCenter+TT.m"; sourceTree = "<group>"; };
+		F6C1427ACA85A21C1995F26E383D93FE /* ModulePerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModulePerson.m; sourceTree = "<group>"; };
+		F943CB17A04DBB328B25D97307F942E1 /* ModuleCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleCenter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA22DE9B0B437D3556E7F30547E96F52 /* ModuleAppMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleAppMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FAC3C512080B6170275D5155BC1B4BC8 /* ModulePerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModulePerson.h; sourceTree = "<group>"; };
+		FAE3B8AB1842B2466C851FAF9F2E2C29 /* ModuleBase64ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleBase64ViewController.m; sourceTree = "<group>"; };
+		FC306583F4C7450E855B821A6A00BD53 /* ModuleCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.release.xcconfig; sourceTree = "<group>"; };
 		FC3B79A7F40F22C17FB116EE8C4BC78F /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "MSProgress/Assets/error@3x.png"; sourceTree = "<group>"; };
-		FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLFinder.h"; path = "Classes/NSObject+MLFinder.h"; sourceTree = "<group>"; };
-		FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleCommonUI.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,10 +408,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E6E3C36E97380DB8B798C2C0FF1D683 /* Pod */ = {
+		0C7C9DC32142FB8D075C01B9F5311DFB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6E99E6F5429B08C3EC0418E2A525C257 /* ModuleUIStack.podspec */,
+				1FCDD84E8E51748A256E1B234A4F4CCA /* ModuleMine.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0FA1B638FED3C6EDAB88A0A6994F587E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				414D04CE4D38B50BA576F429F2CC0873 /* ModuleHome.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -366,40 +438,6 @@
 			path = "Target Support Files/Pods-ModuleBox";
 			sourceTree = "<group>";
 		};
-		1917725FFEA1D6E116BD3D2F78CD0D9A /* ModuleUIStack */ = {
-			isa = PBXGroup;
-			children = (
-				D6341B54D381DF4FB2BE6515E735EEF1 /* ModuleNavgationController.h */,
-				1E1E880E4010826EA44F601499A59AFC /* ModuleNavgationController.m */,
-				2ECB5AD7E7D6152FE8A6B8838632E256 /* ModuleUIStackManager.h */,
-				D2C5A1E0E4B3D5FC83B43F8CE41D6219 /* ModuleUIStackManager.m */,
-				0E6E3C36E97380DB8B798C2C0FF1D683 /* Pod */,
-				D227682926C715038A97934102C03CC9 /* Support Files */,
-			);
-			name = ModuleUIStack;
-			path = ../ModuleUIStack;
-			sourceTree = "<group>";
-		};
-		1AB1C99D9CE43B966A8F7BBA6A34ABE7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				042B166AB125F03497D5221CC9BC3EA4 /* ModuleAppMain-dummy.m */,
-				646998EB36B872AD2AA0C7CE85804895 /* ModuleAppMain-prefix.pch */,
-				3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */,
-				0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleAppMain";
-			sourceTree = "<group>";
-		};
-		22783A7231DDF1383A827904E8283AB3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1E89DDB62991A0B5144EE569B9A5851E /* ModuleHome.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		23918CC696B07D69A24935466734E9F2 /* MSProgress */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +448,7 @@
 				600CFA40443CAFFD730F50E612D3FCED /* Resources */,
 				EC66A8EC89235C36CFACCF28C01DB9CE /* Support Files */,
 			);
+			name = MSProgress;
 			path = MSProgress;
 			sourceTree = "<group>";
 		};
@@ -421,66 +460,145 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39F0C6609E9033E42CA41BC2A541E00E /* RAMExport */ = {
+		2F95A8BE7E22908F0EDB2A815F72126B /* ModuleCommonUI */ = {
 			isa = PBXGroup;
 			children = (
-				473ABAEAA77C1A8FF17E9AD3B6B80F7B /* RAMExport.h */,
-				DC4B41DDDD611ACB338DE4B0E69BB84D /* RAMExport.m */,
+				10854C16B0ECBC8A102887140160F3DE /* ModuleTabBar.h */,
+				3C3D50CF9AA9CEACD6182E2892030654 /* ModuleTabBar.m */,
+				DF0B95FB4B69B6B84E93AEB0BAF9E5CD /* ModuleTabBarButton.h */,
+				2616743C949774CED06DBDA23FC06CC6 /* ModuleTabBarButton.m */,
+				46A4DEA3FDDE0064F387573C0825DC8F /* ModuleTabbarViewController.h */,
+				526144E462F5B77578D05570ADF77C96 /* ModuleTabbarViewController.m */,
+				EEAE7BCE14F3DE7475FBC246719F2955 /* Pod */,
+				78BC7258FC3C1ADDB6B142E5A67A0ED7 /* Support Files */,
 			);
-			name = RAMExport;
-			path = Classes/RAMExport;
+			name = ModuleCommonUI;
+			path = ../ModuleCommonUI;
 			sourceTree = "<group>";
 		};
-		3C9F028AEE13E3A033B3BA99C8E428F0 /* Pod */ = {
+		357816BC3A85CAF4292373D9F73C3A5D /* ModuleHome */ = {
 			isa = PBXGroup;
 			children = (
-				B00CD10B8451CDF4C78018AFCCABD30C /* ModuleAppMain.podspec */,
+				3872B8B835537EBEB886BE8894F37276 /* ModulEditTableViewController.h */,
+				71DA522CD8DFA03020D1E2AEA3D58B94 /* ModulEditTableViewController.m */,
+				132AC7284B70C0B025C57B9DE267AB0B /* ModuleHomeController.h */,
+				822025397887B4C7E6A2B1C3CACFD1A8 /* ModuleHomeController.m */,
+				116391ECD32F461C65C2E66765CDD0AE /* ModuleHomeHeader.h */,
+				5EAA52DCB54B4A8CC790FEEB3C6E106C /* ModulScrollViewController.h */,
+				C26B4B1A1427F7ED97B666C422430E05 /* ModulScrollViewController.m */,
+				8EBB9785B2CBBF4996DB044A8B62971E /* TableViewCell.h */,
+				96F137B79746DA9B28EEB775D76357DD /* TableViewCell.m */,
+				395711D9663064391A195AC8EDBCF41F /* TTTT.h */,
+				2FF56D91B034AA0400607A31DBD18FB8 /* TTTT.m */,
+				5162FCADA8986C0EE7E58D24EEDBDF29 /* GitInfoViewController */,
+				0FA1B638FED3C6EDAB88A0A6994F587E /* Pod */,
+				6579E8271B5B80983B6D128CDE6BEE6E /* RAMExport */,
+				B6661334C214A629F21207A11D97893B /* Support Files */,
+				A1EBA676E81C862BDCA9FDF2DA08FF10 /* SwipCellAction */,
 			);
-			name = Pod;
+			name = ModuleHome;
+			path = ../ModuleHome;
 			sourceTree = "<group>";
 		};
-		4381CBB55D3E32D6E731B3AB26749EC1 /* GitInfoViewController */ = {
+		3A7AE2C39CA09B56D028F61C92F06766 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3954501A7B7A6943A0BD8478EDAD51F8 /* ModuleBase64ViewController.h */,
-				79C1A7BAD8B9085A0DEAFD3FE3D11754 /* ModuleBase64ViewController.m */,
-				09315F40F4A1033CEAF4FD08BE281F81 /* ModuleCollectionViewCell.h */,
-				905610E36EE7DB37AB40E16EE3D2881B /* ModuleCollectionViewCell.m */,
-				8E98959F9A21C95E577043F94E6F2607 /* ModuleCollectionViewController.h */,
-				8D0203A2BFD87177E9175AE606B489CE /* ModuleCollectionViewController.m */,
-				4C64178A180FBBBFD86D1878F372BAD6 /* ModuleGitInfoViewController.h */,
-				4F1C60B6D1D4739BF5D282FC6502BD24 /* ModuleGitInfoViewController.m */,
-				79F3C7A7768A65B28FB10D0F2B5C9A8F /* ModuleMonitorViewController.h */,
-				659676BDD4E4ADA61A62B6A460264AAF /* ModuleMonitorViewController.m */,
-				E71EF76CBCBCA721A6C7D028C8FCEB9E /* ModuleRAMExportViewController.h */,
-				92C60CE9742ECCEE563A9660051AD9CC /* ModuleRAMExportViewController.m */,
-				D5FD393A30C0124B546FEA7F4B3E84C5 /* NSData+Base64.h */,
-				A52DA29737CB142F8840961708305357 /* NSData+Base64.m */,
-				660EDE23628F7A6FCE2804049977BB6E /* mustOverride */,
+				118527E6CE1D1FAF1E8420BFA5C7C85F /* ModuleAppMain-dummy.m */,
+				1F1BB1174E5FA7ADB6FBDEE5A7D7D00F /* ModuleAppMain-prefix.pch */,
+				BBF34030D3B095CE9AF60DC12AAD9414 /* ModuleAppMain.debug.xcconfig */,
+				5F837DCAE91F02FE71FC8BE4A41A3F4C /* ModuleAppMain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleAppMain";
+			sourceTree = "<group>";
+		};
+		4D8D2EC6AD4B4745782F3F959D19490B /* mustOverride */ = {
+			isa = PBXGroup;
+			children = (
+				DAB65054C53D93A810AC6AC74E27984B /* ModuleChildren.h */,
+				8BDB95FA4042EBA9B0F44E83F71AC709 /* ModuleChildren.m */,
+				879AFA9F4335E28751E2576FB96373FF /* ModuleMustOverride.h */,
+				7B7D95478AA7834CF79B4A6C4EA962FA /* ModuleMustOverride.m */,
+				83385DAFDDEA858CA27A9E7A7A85759E /* ModuleMustOverrideViewController.h */,
+				4E79B50556ACCFCD53E8D25B136584BD /* ModuleMustOverrideViewController.m */,
+				FAC3C512080B6170275D5155BC1B4BC8 /* ModulePerson.h */,
+				F6C1427ACA85A21C1995F26E383D93FE /* ModulePerson.m */,
+			);
+			name = mustOverride;
+			path = mustOverride;
+			sourceTree = "<group>";
+		};
+		5162FCADA8986C0EE7E58D24EEDBDF29 /* GitInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA378D154384734A3BC8E349EA0E8A7C /* ModuleBase64ViewController.h */,
+				FAE3B8AB1842B2466C851FAF9F2E2C29 /* ModuleBase64ViewController.m */,
+				0747E8DB9CBA8B3F51EF6BA737E93B74 /* ModuleCollectionViewCell.h */,
+				DB5AFE616813E4128C62780CD8D746FA /* ModuleCollectionViewCell.m */,
+				C7EAEBD0648FCD954C610CE0ECECD5D2 /* ModuleCollectionViewController.h */,
+				E8009083A7889A9A23CEF683212BCB3D /* ModuleCollectionViewController.m */,
+				8508344657221999B565816C180272AE /* ModuleEmptyViewController.h */,
+				EC74DFEEA685E59208F8747CB60F08D9 /* ModuleEmptyViewController.m */,
+				C0193F026408F07404BD3240AC3D2336 /* ModuleGitInfoViewController.h */,
+				D91C2B9C28A0109D09194587BA854B05 /* ModuleGitInfoViewController.m */,
+				E65CA3FE0F1A9174D34EBF2C1C7C437F /* ModuleMonitorViewController.h */,
+				E794469DBDCB591C3EC9E221F19ABA50 /* ModuleMonitorViewController.m */,
+				0420FF34FB1F34DDAE4F69CBE121D4E7 /* ModuleRAMExportViewController.h */,
+				67EDC6C1B99B944CA5E505CE8B854BF0 /* ModuleRAMExportViewController.m */,
+				501C2A1E4831B9E48FBCA18DE322B93A /* NSData+Base64.h */,
+				7E20BD3E5804D40B21E8E4006CFD3BCF /* NSData+Base64.m */,
+				4D8D2EC6AD4B4745782F3F959D19490B /* mustOverride */,
 			);
 			name = GitInfoViewController;
 			path = Classes/GitInfoViewController;
 			sourceTree = "<group>";
 		};
-		4DE26B1EBA8AB8C1222D6997A3E2DE24 /* Development Pods */ = {
+		55E55DC0EFA1430965DC5C766D81AA76 /* ModuleUIStack */ = {
 			isa = PBXGroup;
 			children = (
-				CD27E18DA133BAF9267C5F94056650FA /* ModuleAppMain */,
-				A13692A8C9D92E5CA9C1A286A57979D7 /* ModuleCenter */,
-				76392B801EDA0D2CA1A8E2F98CAB5438 /* ModuleCommonUI */,
-				6BDD7F5C26F2F0E291EA6204299F6F44 /* ModuleHome */,
-				7B7A724FB4DD473A2197133AF8398433 /* ModuleMine */,
-				1917725FFEA1D6E116BD3D2F78CD0D9A /* ModuleUIStack */,
+				44ABB1A8354BB3E773CF490606FA1CFC /* BaseViewController.h */,
+				117D91C743094171402B5415E7AE2BC5 /* BaseViewController.m */,
+				D984AEA3D8B46F30FE5944D5737CCD35 /* ModuleNavgationController.h */,
+				A8ADB1DEB204538E6F8B2BCA3C0E1E8E /* ModuleNavgationController.m */,
+				5D4C2396E5637DF907B44E2C3D5ADADD /* ModuleUIStackManager.h */,
+				8EA107AA823F6CE231A24D06815461D0 /* ModuleUIStackManager.m */,
+				01E501E100E2B3961DE0153832B637D3 /* UIViewController+NavigationBar.h */,
+				5EA6FC8ECABC4BA1405C147623B9D2D9 /* UIViewController+NavigationBar.m */,
+				FA1ACC443711DDAE10787ABEC688E054 /* Pod */,
+				599A0C8F85EA1FC3C6384D86835FBE5A /* Support Files */,
 			);
-			name = "Development Pods";
+			name = ModuleUIStack;
+			path = ../ModuleUIStack;
 			sourceTree = "<group>";
 		};
-		5176E14EAB95114FBABC42375E4D93CF /* Pod */ = {
+		57FE636308218592416B7CA18625689B /* ModuleCenter */ = {
 			isa = PBXGroup;
 			children = (
-				7A8C3339E09B57A3059F628210E2602B /* ModuleCommonUI.podspec */,
+				A9D76B3B688DD36F49EBFF0F33EB386F /* ModuleCenter.h */,
+				2BD8BC4FF9D62F48DD394BB6E6238626 /* ModuleCenter.m */,
+				38080033BCD4A5A7E483B3A79160F689 /* ModuleCenter+TT.h */,
+				F5614D90DC0485B767D74BD6AEAD0606 /* ModuleCenter+TT.m */,
+				50A4DD760596EF1E63189B6B8E9CBD0C /* NSObject+MLFinder.h */,
+				321260EED509E1935F973BF3247AC161 /* NSObject+MLFinder.m */,
+				06A93EC048B16F778E69BD6A11E376F9 /* UIView+Addition.h */,
+				9AE728C01A450325C3F704A00654B130 /* UIView+Addition.m */,
+				E4B58141CF8CD13F0B6950B948DCA81B /* Pod */,
+				FF1161E74C5143587436DEF59A42624B /* Support Files */,
 			);
-			name = Pod;
+			name = ModuleCenter;
+			path = ../ModuleCenter;
+			sourceTree = "<group>";
+		};
+		599A0C8F85EA1FC3C6384D86835FBE5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7044CE946472CF02E8ECF0395CC434D9 /* ModuleUIStack-dummy.m */,
+				D0B611A41E046E81BD4A2E547D02021A /* ModuleUIStack-prefix.pch */,
+				4A45B0691D6D7B12745F6BD6BA4071A1 /* ModuleUIStack.debug.xcconfig */,
+				7A3652D49E9300B4ADCF28DA0188305F /* ModuleUIStack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleUIStack";
 			sourceTree = "<group>";
 		};
 		600CFA40443CAFFD730F50E612D3FCED /* Resources */ = {
@@ -495,130 +613,88 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		660EDE23628F7A6FCE2804049977BB6E /* mustOverride */ = {
+		62EED7B24A1836A9055B3491DCADBC57 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9FDBB0467CC93BC7E247DD5D9D3BA0F /* ModuleMustOverrideViewController.h */,
-				7D8EBA9AAAB08A81F7AB54ACF9F46422 /* ModuleMustOverrideViewController.m */,
-				A77ED669BC24AC2C4D8F4EAC14704584 /* ModulePerson.h */,
-				46EAB6495EDF3ED49BFA311DB85B8773 /* ModulePerson.m */,
-				225F00FD25666CAD0007F568 /* ModuleChildren.h */,
-				225F00FE25666CAD0007F568 /* ModuleChildren.m */,
-				225F0101256670DB0007F568 /* ModuleMustOverride.h */,
-				225F0102256670DB0007F568 /* ModuleMustOverride.m */,
-			);
-			path = mustOverride;
-			sourceTree = "<group>";
-		};
-		6BDD7F5C26F2F0E291EA6204299F6F44 /* ModuleHome */ = {
-			isa = PBXGroup;
-			children = (
-				BE4DE8B86E12E2A7AC2E2CD3FBF571E9 /* ModuleHomeController.h */,
-				17ACB0744FF27C15F7344D5535022D50 /* ModuleHomeController.m */,
-				30EC9B235B4505706916D1DFDE14A84F /* ModuleHomeHeader.h */,
-				4381CBB55D3E32D6E731B3AB26749EC1 /* GitInfoViewController */,
-				22783A7231DDF1383A827904E8283AB3 /* Pod */,
-				39F0C6609E9033E42CA41BC2A541E00E /* RAMExport */,
-				A2522022B360DC8A98A2A9634CFC0C5C /* Support Files */,
-			);
-			name = ModuleHome;
-			path = ../ModuleHome;
-			sourceTree = "<group>";
-		};
-		6D77A9AC7676095FBE8F7A173BF075AD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				71F9B23F694CE4B2F8A21E7582013813 /* ModuleCommonUI-dummy.m */,
-				62B9747F888B5D4042B2EAEFEF6CA5F4 /* ModuleCommonUI-prefix.pch */,
-				FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */,
-				30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleCommonUI";
-			sourceTree = "<group>";
-		};
-		76392B801EDA0D2CA1A8E2F98CAB5438 /* ModuleCommonUI */ = {
-			isa = PBXGroup;
-			children = (
-				572B34D44A5D17DEFCB83EF9BE16FDDF /* ModuleTabBar.h */,
-				6C292F56983665BEFE98F51C15B39DA1 /* ModuleTabBar.m */,
-				95489DA1E226360F035D5F18BC2D6CCC /* ModuleTabBarButton.h */,
-				4BA9323EF76D25ADFE45F9119CAC8942 /* ModuleTabBarButton.m */,
-				EFE6E75A15420B6D4E1296B383DEE2B2 /* ModuleTabbarViewController.h */,
-				6B0FB8905524DC745528E7BE24CFDADB /* ModuleTabbarViewController.m */,
-				5176E14EAB95114FBABC42375E4D93CF /* Pod */,
-				6D77A9AC7676095FBE8F7A173BF075AD /* Support Files */,
-			);
-			name = ModuleCommonUI;
-			path = ../ModuleCommonUI;
-			sourceTree = "<group>";
-		};
-		7B7A724FB4DD473A2197133AF8398433 /* ModuleMine */ = {
-			isa = PBXGroup;
-			children = (
-				99D75BB74AABC1EF55933BDA82CBBC05 /* ModuleMineViewController.h */,
-				2961B4A13E499318AEB5F5AA8BF0E469 /* ModuleMineViewController.m */,
-				94143177F1B2CD102BD481048F087286 /* Pod */,
-				AB338835FDAE7C65C2B44EDAA38DAD87 /* Support Files */,
-			);
-			name = ModuleMine;
-			path = ../ModuleMine;
-			sourceTree = "<group>";
-		};
-		94143177F1B2CD102BD481048F087286 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				79A9F46F517CC22C11F7EA5C848D957E /* ModuleMine.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A13692A8C9D92E5CA9C1A286A57979D7 /* ModuleCenter */ = {
-			isa = PBXGroup;
-			children = (
-				0D33CE0703FFF2BEE56C9052D90B988B /* ModuleCenter.h */,
-				DDBFCBA392629EB4C4A2615FC0C9AA2B /* ModuleCenter.m */,
-				FE9123FF8DC2C6B201BDB9788F08B148 /* NSObject+MLFinder.h */,
-				1450D6C426A04F79CA0DCDC743FCD80C /* NSObject+MLFinder.m */,
-				B52BAF35CFBF4453B35A598F7F414FAF /* UIView+Addition.h */,
-				6BC31C0792BA19D9C2BF23345FAD3AC8 /* UIView+Addition.m */,
-				ABCF6B3D825CF391588F09C897A41FBB /* Pod */,
-				CCEEBC8D475C06DF665F0CF8AFAA6955 /* Support Files */,
-			);
-			name = ModuleCenter;
-			path = ../ModuleCenter;
-			sourceTree = "<group>";
-		};
-		A2522022B360DC8A98A2A9634CFC0C5C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				034A206D714D18497638E1048D1B3325 /* ModuleHome-dummy.m */,
-				884CC9D331BB36522DA90A29EB2DCF81 /* ModuleHome-prefix.pch */,
-				800502762CE70565D7D914274B64CD79 /* ModuleHome.debug.xcconfig */,
-				A1947C27B7C9D28F9ED35D52555B855B /* ModuleHome.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleHome";
-			sourceTree = "<group>";
-		};
-		AB338835FDAE7C65C2B44EDAA38DAD87 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAB775CCB1A71167F505FE68F085BEF9 /* ModuleMine-dummy.m */,
-				0599672B5897E32B7E279CFFFED5B573 /* ModuleMine-prefix.pch */,
-				8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */,
-				466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */,
+				7441E646B458942A3307D0FE9B85A54D /* ModuleMine-dummy.m */,
+				2E23D81048FE380A54F582179ADCD363 /* ModuleMine-prefix.pch */,
+				1CA99C1DE1D73D138146549ACFB4A919 /* ModuleMine.debug.xcconfig */,
+				8C3820833D0B222A19A762E693889A32 /* ModuleMine.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/ModuleMine";
 			sourceTree = "<group>";
 		};
-		ABCF6B3D825CF391588F09C897A41FBB /* Pod */ = {
+		6579E8271B5B80983B6D128CDE6BEE6E /* RAMExport */ = {
 			isa = PBXGroup;
 			children = (
-				AC113FF349F55C4EDAEA5B804BCC40DC /* ModuleCenter.podspec */,
+				8C00E61247320DC38E3304179A2CEFD0 /* RAMExport.h */,
+				EB77FA2A33063A4141D5376D7D3C84F8 /* RAMExport.m */,
+			);
+			name = RAMExport;
+			path = Classes/RAMExport;
+			sourceTree = "<group>";
+		};
+		78BC7258FC3C1ADDB6B142E5A67A0ED7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FD67DBB59A309928BF44E9D6FE736 /* ModuleCommonUI-dummy.m */,
+				AB4BD1A0C269B0C5F49763FDA37D8A8C /* ModuleCommonUI-prefix.pch */,
+				3283770ECED1C727EE7715FD9CF60707 /* ModuleCommonUI.debug.xcconfig */,
+				FC306583F4C7450E855B821A6A00BD53 /* ModuleCommonUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleCommonUI";
+			sourceTree = "<group>";
+		};
+		8AAF515703EE93773CE854689C4E1C0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7EF0E63EB112F907F1DAEA58319F7 /* ModuleAppMain */,
+				57FE636308218592416B7CA18625689B /* ModuleCenter */,
+				2F95A8BE7E22908F0EDB2A815F72126B /* ModuleCommonUI */,
+				357816BC3A85CAF4292373D9F73C3A5D /* ModuleHome */,
+				FC223B1A298A25EB1DD24C5F8D4FFC81 /* ModuleMine */,
+				55E55DC0EFA1430965DC5C766D81AA76 /* ModuleUIStack */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90560C34AC65E67F609347FC76D8179B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FA22DE9B0B437D3556E7F30547E96F52 /* ModuleAppMain.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		A1EBA676E81C862BDCA9FDF2DA08FF10 /* SwipCellAction */ = {
+			isa = PBXGroup;
+			children = (
+				5D7153438AC21AEAC8F07863132DBD65 /* ModuleSwipeActionButton.h */,
+				31D63E2EE43D67A87CD2EC147F1210CC /* ModuleSwipeActionButton.m */,
+				DC575D048746123317AC14647382C8FA /* ModuleSwipeCell.h */,
+				4781D113E2B2D596D6B752C8A1D6B794 /* ModuleSwipeCell.m */,
+				F1F0A4DCFE6BF76D05A1D48D2AC4BC09 /* ModuleSwipeCellAction.h */,
+				809F0FEF8F8D51CAB3D93CDEEC64785D /* ModuleSwipeCellAction.m */,
+				72C1E0CA493C7F4014146322EFFB67ED /* ModuleSwipeHead.h */,
+				27D75407EFE3B73A3807B7A1A2D0CE16 /* UITableView+ModuleSwipeCell.h */,
+				27C82AC4144810E802C81DA1DDD84EA0 /* UITableView+ModuleSwipeCell.m */,
+			);
+			name = SwipCellAction;
+			path = Classes/SwipCellAction;
+			sourceTree = "<group>";
+		};
+		B6661334C214A629F21207A11D97893B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A0CA9A028EE4B0C9C82D35D3F40A9CA /* ModuleHome-dummy.m */,
+				6C2F6B0E29A97E8B214EFF5B88281039 /* ModuleHome-prefix.pch */,
+				E1325A40CB3A43E1CFC3CB4453A6B8EF /* ModuleHome.debug.xcconfig */,
+				6976C8DAF117E2A2626F855BA6E9A4E5 /* ModuleHome.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleHome";
 			sourceTree = "<group>";
 		};
 		B996A5596445B1B00C072406E3DA6E30 /* Products */ = {
@@ -637,25 +713,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCEEBC8D475C06DF665F0CF8AFAA6955 /* Support Files */ = {
+		C1E7EF0E63EB112F907F1DAEA58319F7 /* ModuleAppMain */ = {
 			isa = PBXGroup;
 			children = (
-				4F7DE061AE631B1B19ABCA79481505CE /* ModuleCenter-dummy.m */,
-				C362B625BD2B9E45F1F26752A3CD1E01 /* ModuleCenter-prefix.pch */,
-				E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */,
-				528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleCenter";
-			sourceTree = "<group>";
-		};
-		CD27E18DA133BAF9267C5F94056650FA /* ModuleAppMain */ = {
-			isa = PBXGroup;
-			children = (
-				4270505ACF7A9D06884845DC0C1D24BA /* ModuleMainViewController.h */,
-				C3FFA0CEDB8D1E6D180D2FB663C68DBF /* ModuleMainViewController.m */,
-				3C9F028AEE13E3A033B3BA99C8E428F0 /* Pod */,
-				1AB1C99D9CE43B966A8F7BBA6A34ABE7 /* Support Files */,
+				4ADB934E2A1B6066651583AB35F3C5C6 /* ModuleMainViewController.h */,
+				5E4A4D7007817CF0FD5E7C68C6766A3C /* ModuleMainViewController.m */,
+				90560C34AC65E67F609347FC76D8179B /* Pod */,
+				3A7AE2C39CA09B56D028F61C92F06766 /* Support Files */,
 			);
 			name = ModuleAppMain;
 			path = ../ModuleAppMain;
@@ -665,24 +729,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4DE26B1EBA8AB8C1222D6997A3E2DE24 /* Development Pods */,
+				8AAF515703EE93773CE854689C4E1C0D /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				D52891D6D3F390AC70D85E82212DC64C /* Pods */,
 				B996A5596445B1B00C072406E3DA6E30 /* Products */,
 				2AB46018D05DA7E25C80D3F00848699D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D227682926C715038A97934102C03CC9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5529FC557E5515C5AC37270375342224 /* ModuleUIStack-dummy.m */,
-				F6E6BD210CB8A493E4D17369C0D94815 /* ModuleUIStack-prefix.pch */,
-				DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */,
-				3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/ModuleUIStack";
 			sourceTree = "<group>";
 		};
 		D52891D6D3F390AC70D85E82212DC64C /* Pods */ = {
@@ -700,6 +752,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E4B58141CF8CD13F0B6950B948DCA81B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F943CB17A04DBB328B25D97307F942E1 /* ModuleCenter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		EC66A8EC89235C36CFACCF28C01DB9CE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -713,16 +773,77 @@
 			path = "../Target Support Files/MSProgress";
 			sourceTree = "<group>";
 		};
+		EEAE7BCE14F3DE7475FBC246719F2955 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30D40BC023D870A8BF7CE0C88963611F /* ModuleCommonUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FA1ACC443711DDAE10787ABEC688E054 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED025B3A94CF549889AE738CF7938C77 /* ModuleUIStack.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FC223B1A298A25EB1DD24C5F8D4FFC81 /* ModuleMine */ = {
+			isa = PBXGroup;
+			children = (
+				3B5331644C8FA9AEEC3188F4B38DB992 /* ModuleMineViewController.h */,
+				7322694D797EC3837A202061EBB85428 /* ModuleMineViewController.m */,
+				0C7C9DC32142FB8D075C01B9F5311DFB /* Pod */,
+				62EED7B24A1836A9055B3491DCADBC57 /* Support Files */,
+			);
+			name = ModuleMine;
+			path = ../ModuleMine;
+			sourceTree = "<group>";
+		};
+		FF1161E74C5143587436DEF59A42624B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA547F1C456E110B3E7D00407FFC867 /* ModuleCenter-dummy.m */,
+				BA3C07F8AD52525472E92641DCD8269F /* ModuleCenter-prefix.pch */,
+				6ADF3BB8A05CF4BB014BEEB40FBE33DA /* ModuleCenter.debug.xcconfig */,
+				0B08996819DA573DFE5B5C646608A9A7 /* ModuleCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/ModuleCenter";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15E64A37DB070F1136B9D9FA142E013F /* Headers */ = {
+		18B8EF4348906FF8AD31B2F3F67D2EF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB728F1C743ED25CE964EE8AC52AA8B /* ModuleCenter.h in Headers */,
-				31C1F3394976828E6093C4EDB7A06235 /* NSObject+MLFinder.h in Headers */,
-				01215BFE627CAB29779027E35150F7B4 /* UIView+Addition.h in Headers */,
+				07358E2939274FFE62255B21102FD0AB /* ModuleBase64ViewController.h in Headers */,
+				93F3409A515B1F9CC642B77017D8906D /* ModuleChildren.h in Headers */,
+				4E961733F5F4A39AF40C471FF83347C5 /* ModuleCollectionViewCell.h in Headers */,
+				9A005F8B1D183CAB1939F2517A560568 /* ModuleCollectionViewController.h in Headers */,
+				826D5FE92BC23BD91443797FDF181E61 /* ModulEditTableViewController.h in Headers */,
+				4AFC1DD42B3F5EDD405E0D4464335ACD /* ModuleEmptyViewController.h in Headers */,
+				F13D12919514F6E18B0A92ADE10ABF74 /* ModuleGitInfoViewController.h in Headers */,
+				574F4AE5393ABDB53E484488797FAF2D /* ModuleHomeController.h in Headers */,
+				0913EBCAA5913141381C0C2A6D8EF204 /* ModuleHomeHeader.h in Headers */,
+				4764022F9D975E1E18100DE5967ED5D5 /* ModuleMonitorViewController.h in Headers */,
+				1A0AAF75E80CABA2C1F18C458CB033F7 /* ModuleMustOverride.h in Headers */,
+				4B8DA9AF30A8685D590B8A8CAB76BE9B /* ModuleMustOverrideViewController.h in Headers */,
+				7293008A6F416AAA4560805829A15010 /* ModulePerson.h in Headers */,
+				21554E060B837DA756632FB789DA81FD /* ModuleRAMExportViewController.h in Headers */,
+				0131EF9360850D6C5612260B8D7C1AC3 /* ModuleSwipeActionButton.h in Headers */,
+				FD08D8C9BAE90EF91E636AB84E2B13BE /* ModuleSwipeCell.h in Headers */,
+				0713759453C36C887235C7D1946F13E3 /* ModuleSwipeCellAction.h in Headers */,
+				141338780B2E258558B80E3542456540 /* ModuleSwipeHead.h in Headers */,
+				E7CE0E313A73B2FDCC697EA653A48DF2 /* ModulScrollViewController.h in Headers */,
+				14F6845E7EA2342D2904DC8D17FD4CBA /* NSData+Base64.h in Headers */,
+				FDF526146425CA1914660D6678D5FF6F /* RAMExport.h in Headers */,
+				E847A8676B4E7100836DBBA61CD866B1 /* TableViewCell.h in Headers */,
+				8304B9C1751C217C8AFCE7A00EF7C667 /* TTTT.h in Headers */,
+				63CDDE31FFD1AA0DF05A79D5B1FF9282 /* UITableView+ModuleSwipeCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +864,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		686D0A2BC8E5E02C901BE77E68CD04DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CFA334D903699DF7DEA47FA6BE6B52 /* ModuleCenter+TT.h in Headers */,
+				4D9FC8F0D8686E089EF492B7CE3A219B /* ModuleCenter.h in Headers */,
+				061E60C1E41B595F383016A971A124A5 /* NSObject+MLFinder.h in Headers */,
+				9C3B04B6E92FAEE2646B1611FE99A8EC /* UIView+Addition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76F677364FEC61F6B279C39EE5AD25BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -760,12 +892,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B464F043386D51106CB1F89AF1A1545 /* Headers */ = {
+		8F1A14E5A7C0E0205A79CDC851E426AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B44772D630454FEA6BDE03C03AE735 /* ModuleNavgationController.h in Headers */,
-				C0D9C8E7090F46CAC59467F9A5354474 /* ModuleUIStackManager.h in Headers */,
+				E43DEF3F810C40BEDD22DC368987F5DA /* BaseViewController.h in Headers */,
+				752DD630212BE7C63CBAEA0E12C569B0 /* ModuleNavgationController.h in Headers */,
+				AF8236837019D5F1C42A7BFA5BAAFEBF /* ModuleUIStackManager.h in Headers */,
+				A5895BC7E0BFDF4983BE9CC7F2538F2B /* UIViewController+NavigationBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,27 +908,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7472AD8829CE9FBBE30EA5AD69711D /* ModuleMainViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7DEAA224F54EF6D992ABCE58780C915 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09681DD2CA2C1600AD98AF77115E6462 /* ModuleBase64ViewController.h in Headers */,
-				225F00FF25666CAD0007F568 /* ModuleChildren.h in Headers */,
-				5F9B0C751B3FE5064EA1B59913CEF818 /* ModuleCollectionViewCell.h in Headers */,
-				CC1AE8824A44A159E74B681394526317 /* ModuleCollectionViewController.h in Headers */,
-				6C87B8B36F89CDB2318478167FEF3B2A /* ModuleGitInfoViewController.h in Headers */,
-				3E82E626348D68639F5D08F818DE1118 /* ModuleHomeController.h in Headers */,
-				EB0F16D1C905F108CE629452813D3257 /* ModuleHomeHeader.h in Headers */,
-				ECFB95C06781B6C129A9E31C24260071 /* ModuleMonitorViewController.h in Headers */,
-				E8E93C50D854764C592D8D01919826E1 /* ModuleMustOverrideViewController.h in Headers */,
-				FE4F9439256E80F4B5088C32989EB91F /* ModulePerson.h in Headers */,
-				7DDC11833A2852CE5FF2E90031021909 /* ModuleRAMExportViewController.h in Headers */,
-				E2E6E2B36448674A48D64BB3EEA3A777 /* NSData+Base64.h in Headers */,
-				9E0EA76F19AA3EB8C74AEC9B5FC7B738 /* RAMExport.h in Headers */,
-				225F0103256670DB0007F568 /* ModuleMustOverride.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,8 +936,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A6A4CE254FBCB305ECA789394B90D2A /* Build configuration list for PBXNativeTarget "ModuleUIStack" */;
 			buildPhases = (
-				9B464F043386D51106CB1F89AF1A1545 /* Headers */,
-				D329A74877B4CF6CF10E1847F08E5E51 /* Sources */,
+				8F1A14E5A7C0E0205A79CDC851E426AB /* Headers */,
+				F27970310DA8992D4BF0D20E86834E34 /* Sources */,
 				FAF6BF3640321395F4AF04C1C1EB5B13 /* Frameworks */,
 			);
 			buildRules = (
@@ -847,6 +960,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				15E46F3A40A8EF42A998CD95903D68BC /* PBXTargetDependency */,
 			);
 			name = ModuleMine;
 			productName = ModuleMine;
@@ -857,13 +971,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91CDE71A92AE8F895D37538C118A0128 /* Build configuration list for PBXNativeTarget "ModuleHome" */;
 			buildPhases = (
-				F7DEAA224F54EF6D992ABCE58780C915 /* Headers */,
-				CA00A3B568ADA608D4A50FE82654270C /* Sources */,
+				18B8EF4348906FF8AD31B2F3F67D2EF7 /* Headers */,
+				F6B7F410C7A6F1FEEC052AE39F60B102 /* Sources */,
 				C3F55FAA89E393197C7F0250489CCC25 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B998EDFFE8651CCE0228A16A3BFE0AA3 /* PBXTargetDependency */,
 			);
 			name = ModuleHome;
 			productName = ModuleHome;
@@ -918,8 +1033,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F38C129B75381CD57DD36401B0FBA8CB /* Build configuration list for PBXNativeTarget "ModuleCenter" */;
 			buildPhases = (
-				15E64A37DB070F1136B9D9FA142E013F /* Headers */,
-				1291404A223BB5C45EAC00F40DB91CC3 /* Sources */,
+				686D0A2BC8E5E02C901BE77E68CD04DE /* Headers */,
+				37F326BFE67EACD098F139DD658DA13C /* Sources */,
 				3E95FAC7DBC2DF6F198D3DC2BBB7A4E5 /* Frameworks */,
 			);
 			buildRules = (
@@ -1018,14 +1133,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1291404A223BB5C45EAC00F40DB91CC3 /* Sources */ = {
+		37F326BFE67EACD098F139DD658DA13C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E9940029F3055AE98D51AF2FC39890 /* ModuleCenter-dummy.m in Sources */,
-				B6C4281839EF96D5AA721AD9F32FE94B /* ModuleCenter.m in Sources */,
-				55B2722310022BC40137247EADEE51C8 /* NSObject+MLFinder.m in Sources */,
-				F3009E9C9AFA754F72F749D3AD455863 /* UIView+Addition.m in Sources */,
+				2D9A4A098142E4A392445793A66ED76E /* ModuleCenter+TT.m in Sources */,
+				95EFC65DB9B497F64BB47508B7031E8C /* ModuleCenter-dummy.m in Sources */,
+				6CD223E0FFB5381932082A2B9E7591F1 /* ModuleCenter.m in Sources */,
+				1E5A2FA1A39407C07F894A595CAA6CD8 /* NSObject+MLFinder.m in Sources */,
+				B49547B692C05FB2C9727508CE8EA33D /* UIView+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1074,34 +1190,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA00A3B568ADA608D4A50FE82654270C /* Sources */ = {
+		F27970310DA8992D4BF0D20E86834E34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA9B96DF718EB457158183B83B5D358 /* ModuleBase64ViewController.m in Sources */,
-				1981159EB6C9CF6454CEBD2CBC76BB4D /* ModuleCollectionViewCell.m in Sources */,
-				42F29B71B235F7A0E5234800666CFEE6 /* ModuleCollectionViewController.m in Sources */,
-				FB38E4D54E31055EA04E8D08841E4958 /* ModuleGitInfoViewController.m in Sources */,
-				90F84212F4E6055BE678514AFEEF5DE4 /* ModuleHome-dummy.m in Sources */,
-				692679377526AD4B3AB24E6839E20C8D /* ModuleHomeController.m in Sources */,
-				D2FF4DBA2DD97BA918667162290F44CB /* ModuleMonitorViewController.m in Sources */,
-				A6E427F177217942131232EADEA23335 /* ModuleMustOverrideViewController.m in Sources */,
-				225F010025666CAD0007F568 /* ModuleChildren.m in Sources */,
-				BD422E8140A7F51C88741DC8E39EC948 /* ModulePerson.m in Sources */,
-				225F0104256670DB0007F568 /* ModuleMustOverride.m in Sources */,
-				1C1A261682C4B3CA3ECD79406E92D857 /* ModuleRAMExportViewController.m in Sources */,
-				04D9AE26728044D4A500E98DEDB3A54C /* NSData+Base64.m in Sources */,
-				15C95099B538A2D926956DC611D7CE23 /* RAMExport.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D329A74877B4CF6CF10E1847F08E5E51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35F6406FBAE32A0DF30E8DC10E4DBECB /* ModuleNavgationController.m in Sources */,
-				A53114AC30CC49D18D7C9624CEA60D3A /* ModuleUIStack-dummy.m in Sources */,
-				AEC614359D51BD4614935ADDA74D14C8 /* ModuleUIStackManager.m in Sources */,
+				E852C7AA95569F46200AD3929E7240BE /* BaseViewController.m in Sources */,
+				BAE1B6F1DE8E5599B7C91805249D065D /* ModuleNavgationController.m in Sources */,
+				86BBECCAEC0E6DC8138BBC2BA94E01D8 /* ModuleUIStack-dummy.m in Sources */,
+				0B587AF7311CDB76DAEF1C69C38CDCB1 /* ModuleUIStackManager.m in Sources */,
+				1A6BED68CF6538FB2224339303F1090D /* UIViewController+NavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1211,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6B7F410C7A6F1FEEC052AE39F60B102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2EEFCA1274E000AF5618A497B404B /* ModuleBase64ViewController.m in Sources */,
+				B1BFB24B9D7659838D2709FA8ED4BA6B /* ModuleChildren.m in Sources */,
+				F637097BA2354D0C07BCA3C147B1ACF1 /* ModuleCollectionViewCell.m in Sources */,
+				9A80B4F1B8303996423001ED36BBB586 /* ModuleCollectionViewController.m in Sources */,
+				C4A97A373EFE10478C24720A56D03E60 /* ModulEditTableViewController.m in Sources */,
+				35E3EE3D269831C8D39EA62E15E6496B /* ModuleEmptyViewController.m in Sources */,
+				D2232FDA396329BB625802D292181A67 /* ModuleGitInfoViewController.m in Sources */,
+				618562F478A6680D49F42F1E37E1402D /* ModuleHome-dummy.m in Sources */,
+				322E387E1303C0347AED4F9F0EA82F1C /* ModuleHomeController.m in Sources */,
+				EA7C7510368C13ECD6086F2087473F6D /* ModuleMonitorViewController.m in Sources */,
+				591B3DF702E47E2DEC539A696EEB01E9 /* ModuleMustOverride.m in Sources */,
+				8B3D1A3134B9070C505BE9EEF4EF0E50 /* ModuleMustOverrideViewController.m in Sources */,
+				7453E086384ADF3AA8F68CE8582F0199 /* ModulePerson.m in Sources */,
+				BFD9A2F33B004D196A08B1C32E587EB5 /* ModuleRAMExportViewController.m in Sources */,
+				F97DBDB78A128690FFCCBDE2DA79B9DB /* ModuleSwipeActionButton.m in Sources */,
+				E3C425006A8908EC8E913E030C8AFFC2 /* ModuleSwipeCell.m in Sources */,
+				F77D8FE741D299D5BCCD430E60FBA65B /* ModuleSwipeCellAction.m in Sources */,
+				B8BB45080D0585BA30B632DB7CD113AF /* ModulScrollViewController.m in Sources */,
+				70532C21504B6DA7A9C8993DABEF944A /* NSData+Base64.m in Sources */,
+				25A2D6AF9674D9DB586DAA6C57FD1DC4 /* RAMExport.m in Sources */,
+				0D0C68910F94ADCD1AC38AB55629C69F /* TableViewCell.m in Sources */,
+				22A54D03DC0C78063F25C76B28239B33 /* TTTT.m in Sources */,
+				BDB6918F4A30D0B6AEF19ED7C865822B /* UITableView+ModuleSwipeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1122,6 +1249,12 @@
 			name = ModuleCommonUI;
 			target = B96C4FC8611055D1B30AA0A0B50B5B37 /* ModuleCommonUI */;
 			targetProxy = 5E08D8F88F98765982DDB02D779B51D0 /* PBXContainerItemProxy */;
+		};
+		15E46F3A40A8EF42A998CD95903D68BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleUIStack;
+			target = 118C32AE6E42ACAC372650D54A4B3746 /* ModuleUIStack */;
+			targetProxy = 0B6967E648FA8638FD2A30ADE828848D /* PBXContainerItemProxy */;
 		};
 		2323798DCBC9C94D4CB31E0D5AED717E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1177,6 +1310,12 @@
 			target = 1A487119C0AFDD3C9E75677D4FFC1649 /* ModuleMine */;
 			targetProxy = B595832E3231F355E0A6B37E2FAB9505 /* PBXContainerItemProxy */;
 		};
+		B998EDFFE8651CCE0228A16A3BFE0AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleUIStack;
+			target = 118C32AE6E42ACAC372650D54A4B3746 /* ModuleUIStack */;
+			targetProxy = 82C8116AAF260CFF1D75A108326F7CBF /* PBXContainerItemProxy */;
+		};
 		D06962CF2A4751E8E03F48E048CD5612 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ModuleHome;
@@ -1200,7 +1339,7 @@
 /* Begin XCBuildConfiguration section */
 		2BE7AD86FBCE7D2BD43B5C88871180F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30E4A597564B77A87B3DF9880AFB9F1A /* ModuleCommonUI.release.xcconfig */;
+			baseConfigurationReference = FC306583F4C7450E855B821A6A00BD53 /* ModuleCommonUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1217,9 +1356,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1254,7 +1393,7 @@
 		};
 		395DC2338F42A00CA9760933FAE3802D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB4CD61A78A263A7CC5F9781E4B6779 /* ModuleUIStack.debug.xcconfig */;
+			baseConfigurationReference = 4A45B0691D6D7B12745F6BD6BA4071A1 /* ModuleUIStack.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1271,9 +1410,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1290,7 +1429,7 @@
 		};
 		3FDEE72B5FE8E0866058EE3CE6AA0477 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 800502762CE70565D7D914274B64CD79 /* ModuleHome.debug.xcconfig */;
+			baseConfigurationReference = E1325A40CB3A43E1CFC3CB4453A6B8EF /* ModuleHome.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1307,9 +1446,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1473,7 +1612,7 @@
 		};
 		910B030E3AC0B15076B4B7A2D375B9BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEC84388F2307E34687E3F6681635E30 /* ModuleCommonUI.debug.xcconfig */;
+			baseConfigurationReference = 3283770ECED1C727EE7715FD9CF60707 /* ModuleCommonUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1490,9 +1629,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1509,7 +1648,7 @@
 		};
 		93BD82B048D37B9AA368790723121E40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D2736E2A88EFEDCD06E14482037B950 /* ModuleAppMain.release.xcconfig */;
+			baseConfigurationReference = 5F837DCAE91F02FE71FC8BE4A41A3F4C /* ModuleAppMain.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1526,9 +1665,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1563,7 +1702,7 @@
 		};
 		A8F04363A9610BF4C0B85830F64E2A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8812D26D0AF2C48247763DF555828CBD /* ModuleMine.debug.xcconfig */;
+			baseConfigurationReference = 1CA99C1DE1D73D138146549ACFB4A919 /* ModuleMine.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1580,9 +1719,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1599,7 +1738,7 @@
 		};
 		A8FEBA3E4401730E9610F8C7238B5107 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3420C4773EC3CCAABC6BE9EE345E1334 /* ModuleUIStack.release.xcconfig */;
+			baseConfigurationReference = 7A3652D49E9300B4ADCF28DA0188305F /* ModuleUIStack.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1616,9 +1755,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1658,7 +1797,7 @@
 		};
 		CE8A54D87E687CAEEAE5ADD97A01FECF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 466FC740167A6AA5A6EC518A1386291A /* ModuleMine.release.xcconfig */;
+			baseConfigurationReference = 8C3820833D0B222A19A762E693889A32 /* ModuleMine.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1675,9 +1814,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1695,7 +1834,7 @@
 		};
 		D2645EDDAD83CC0240E11A63CCF7A87D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1947C27B7C9D28F9ED35D52555B855B /* ModuleHome.release.xcconfig */;
+			baseConfigurationReference = 6976C8DAF117E2A2626F855BA6E9A4E5 /* ModuleHome.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1712,9 +1851,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1756,7 +1895,7 @@
 		};
 		DCC2DD30C40FD86FB87F871E78A02B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DBF2E429ED9286EE3D20300D2702DFC /* ModuleAppMain.debug.xcconfig */;
+			baseConfigurationReference = BBF34030D3B095CE9AF60DC12AAD9414 /* ModuleAppMain.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1773,9 +1912,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1792,7 +1931,7 @@
 		};
 		E124841B924023EF6B04CAE53D8A762F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 528C548B8F72FACC219207D09672654F /* ModuleCenter.release.xcconfig */;
+			baseConfigurationReference = 0B08996819DA573DFE5B5C646608A9A7 /* ModuleCenter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1809,9 +1948,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1852,7 +1991,7 @@
 		};
 		FA143B65F0C9022B27799B832FB5BA9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8FEBD1502FE058136E4D2382170BC15 /* ModuleCenter.debug.xcconfig */;
+			baseConfigurationReference = 6ADF3BB8A05CF4BB014BEEB40FBE33DA /* ModuleCenter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1869,9 +2008,9 @@
 					"-DGZC_BUILD_DATE=\\@\\\"TODAY\\\"",
 					"-DGZ_PACKAGE_BUILDER=\\@\\\"wanghuizhou\\\"",
 					"-DGZ_PACKAGE_ENV=\\@\\\"main\\\"",
-					"-DGZ_PACKAGE_ID=\\@\\\"master_55a6235\\\"",
+					"-DGZ_PACKAGE_ID=\\@\\\"master_48b2dc9\\\"",
 					"-DGZ_PACKAGE_DESC=\\@\\\"\\\"",
-					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_55a6235\\\"",
+					"-DGZ_CODE_IDENTIFIER=\\@\\\"master_48b2dc9\\\"",
 				);
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";

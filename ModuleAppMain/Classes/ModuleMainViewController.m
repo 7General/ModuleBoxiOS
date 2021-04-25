@@ -24,6 +24,12 @@
     [self customTabBar];
     [self addSubViewController];
     
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:view];
+    
+    NSLog(@"frame:%@",NSStringFromCGRect(view.frame));
+    NSLog(@"bounds:%@",NSStringFromCGRect(view.bounds));
+    
 }
 
 

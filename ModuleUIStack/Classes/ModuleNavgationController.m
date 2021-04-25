@@ -15,8 +15,8 @@
 
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     if (self = [super initWithRootViewController:rootViewController]) {
-        self.navigationBar.translucent = NO;
-        self.interactivePopGestureRecognizer.enabled = YES;
+//        self.navigationBar.translucent = NO;
+//        self.interactivePopGestureRecognizer.enabled = YES;
      }
     
     return self;
@@ -25,16 +25,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
+//    self.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
 }
 
-- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
-    if (self.viewControllers.count == 1) {
-        return NO;
-    } else {
-        return YES;
-    }
-}
+//- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+//    if (self.viewControllers.count == 1) {
+//        return NO;
+//    } else {
+//        return YES;
+//    }
+//}
 
 - (BOOL)shouldAutorotate {
     return [self.topViewController shouldAutorotate];

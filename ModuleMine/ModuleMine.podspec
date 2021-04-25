@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.source_files = "Classes", "Classes/**/*.{h,m}"
   spec.platform     = :ios,'8.0'
   spec.pod_target_xcconfig = {'USE_HEADERMAP' => false}
-
+  spec.dependency    'ModuleUIStack'
 end

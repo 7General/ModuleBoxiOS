@@ -8,6 +8,14 @@
 #import "ModuleHomeController.h"
 #import "ModuleCollectionViewCell.h"
 #import "ModuleGitInfoViewController.h"
+#import "TTTT.h"
+#import "ModulScrollViewController.h"
+#import "ModuleEmptyViewController.h"
+
+
+#define GZCMTI(schemem,positon) [NSString stringWithFormat:@"%@.%@",schemem,positon]
+
+static NSString *const GZCMTI_HOME_GOLD_FIXED_BESEEN = @"c2c.ios.10.index.gold_fixed-fixed";
 
 @interface ModuleFuncation : NSObject
 
@@ -28,13 +36,20 @@
 
 @property (nonatomic, strong) UIImage *images;
 
+@property (nonatomic, strong) NSMutableArray *tempArray;
+
 @end
 
 @implementation ModuleHomeController
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setHidden:YES];
+//    [self.navigationController.navigationBar setHidden:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+//    [self.navigationController.navigationBar setHidden:NO];
 }
 
 - (void)viewDidLoad {
@@ -50,6 +65,8 @@
     self.homeTableView.dataSource = self;
     [self.view addSubview:self.homeTableView];
     
+    
+    self.tempArray = [NSMutableArray array];
     self.images = [UIImage imageNamed:@"tab_pressed_icon2"];
     
     
@@ -86,15 +103,65 @@
     overrideInfo.cellText = @"子类必须重写-MustOverride";
     [self.dataSource addObject:overrideInfo];
     
+    ModuleFuncation *scrollView = [[ModuleFuncation alloc] init];
+    scrollView.viewControllerName = @"ModulScrollViewController";
+    scrollView.cellText = @"无限轮播";
+    [self.dataSource addObject:scrollView];
+    
+    ModuleFuncation *editTableView = [[ModuleFuncation alloc] init];
+    editTableView.viewControllerName = @"ModulEditTableViewController";
+    editTableView.cellText = @"table编辑";
+    [self.dataSource addObject:editTableView];
+    
+    [self.tempArray addObject:@"1"];
+    NSLog(@"-----%@",self.tempArray);
+    [self.tempArray addObject:@"2"];
+    NSLog(@"-----%@",self.tempArray);
+//
+//    NSString *tt = [NSString stringWithFormat:@"%d",12];
+//    NSString * mti = GZCMTI(GZCMTI_HOME_GOLD_FIXED_BESEEN, tt);
+//    NSLog(@"--mti:%@",mti);
     
     
-    NSMutableString * str1 = [[NSMutableString alloc] initWithString:@"123"];
-    NSMutableString * str2 = [[NSMutableString alloc] initWithString:@"456"];
-    NSArray * array = @[str1,str2];
-    NSLog(@"----%@",array);
-    [str1 appendString:@"55555"];
-    [str2 appendString:@"9999999"];
-    NSLog(@"----%@",array);
+//    TTTT *ts = [[TTTT alloc] init];
+////    [ts setCloseHandler:^{
+////        NSLog(@"=======");
+////    }];
+//    [ts eeeeeeee:^{
+//        NSLog(@"=======");
+//    }];
+    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 100, 100);
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+
+}
+
+- (void)btnClick {
+    ModuleEmptyViewController * scroll = [[ModuleEmptyViewController alloc] init];
+    [self.navigationController pushViewController:scroll animated:YES];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+        [self test3];
+}
+
+
+- (void)test3 {
+    dispatch_queue_t queue = dispatch_get_global_queue(0, 0);
+    for (int i = 0; i < 100; i++) {
+        dispatch_async(queue, ^{
+            NSLog(@"%d",i);
+        });
+    }
+    dispatch_barrier_async(queue, ^{
+        NSLog(@"102");
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"103");
+    });
 }
 
 

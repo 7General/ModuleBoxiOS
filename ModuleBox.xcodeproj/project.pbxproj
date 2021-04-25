@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22023ECC25C17D9C00922259 /* InterViewScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22023ECB25C17D9C00922259 /* InterViewScrollView.m */; };
 		225562BA246BFBB8000B3D8F /* env in Resources */ = {isa = PBXBuildFile; fileRef = 225562B9246BFBB8000B3D8F /* env */; };
 		22EA10322458048600EA23F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA10312458048600EA23F2 /* AppDelegate.m */; };
 		22EA10382458048600EA23F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA10372458048600EA23F2 /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22023ECA25C17D9C00922259 /* InterViewScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterViewScrollView.h; sourceTree = "<group>"; };
+		22023ECB25C17D9C00922259 /* InterViewScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterViewScrollView.m; sourceTree = "<group>"; };
 		225562B9246BFBB8000B3D8F /* env */ = {isa = PBXFileReference; lastKnownFileType = folder; path = env; sourceTree = "<group>"; };
 		22EA102D2458048600EA23F2 /* ModuleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EA10302458048600EA23F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				22F73D73247E718D00A002B8 /* SecViewController.m */,
 				22F73D75247E719A00A002B8 /* IndexViewController.h */,
 				22F73D76247E719A00A002B8 /* IndexViewController.m */,
+				22023ECA25C17D9C00922259 /* InterViewScrollView.h */,
+				22023ECB25C17D9C00922259 /* InterViewScrollView.m */,
 			);
 			path = ModuleBox;
 			sourceTree = "<group>";
@@ -379,6 +384,7 @@
 				22F73D70247E704600A002B8 /* BoxOpenApiCore.m in Sources */,
 				22EA10432458048700EA23F2 /* main.m in Sources */,
 				22EA10672458050400EA23F2 /* MainViewController.m in Sources */,
+				22023ECC25C17D9C00922259 /* InterViewScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

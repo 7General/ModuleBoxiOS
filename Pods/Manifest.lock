@@ -7,8 +7,10 @@ PODS:
   - ModuleCommonUI (1.0):
     - ModuleCenter
     - ModuleUIStack
-  - ModuleHome (1.0)
-  - ModuleMine (1.0)
+  - ModuleHome (1.0):
+    - ModuleUIStack
+  - ModuleMine (1.0):
+    - ModuleUIStack
   - ModuleUIStack (1.0)
   - MSProgress (0.0.2)
 
@@ -43,8 +45,8 @@ SPEC CHECKSUMS:
   ModuleAppMain: 6e738ba4ac03bdafe815f46828d63df1e129052a
   ModuleCenter: a1d9944d062975863c46bb0cab4f05ccae2a8617
   ModuleCommonUI: e1b2c5f4b8a276d36f5eb77dcbeff7bd0281d978
-  ModuleHome: ad301f8cb7f3187cd2af8e05669bffe0b3e801b0
-  ModuleMine: 2fe3c9c7583f6fbf5b87c87fd5b02b1847886c4d
+  ModuleHome: 5c2d454d7a66cb52e3cd2d3d093fb7e142aa4036
+  ModuleMine: 75f25240c7f85849b70002a708b137e28ea0eceb
   ModuleUIStack: 5132a3ebf579526451e8a6c5516ef7d29d92e8ba
   MSProgress: ccacd50da0bed4fc3e5f3dc88dc1b0a091c09798
 

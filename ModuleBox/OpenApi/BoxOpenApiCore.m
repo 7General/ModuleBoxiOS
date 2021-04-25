@@ -29,7 +29,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self cacheModuleProrocolClasses];
+//        [self cacheModuleProrocolClasses];
     }
     return self;
 }

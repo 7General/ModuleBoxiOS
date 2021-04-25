@@ -22,5 +22,10 @@
   "pod_target_xcconfig": {
     "USE_HEADERMAP": false
   },
-  "prefix_header_contents": "#import \"ModuleHomeHeader.h\""
+  "prefix_header_contents": "#import \"ModuleHomeHeader.h\"",
+  "dependencies": {
+    "ModuleUIStack": [
+
+    ]
+  }
 }

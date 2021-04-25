@@ -7,6 +7,7 @@
 
 #import "ModuleGitInfoViewController.h"
 
+
 @interface GITINFOMODULE : NSObject
 
 @property (nonatomic, strong) NSString *title;
@@ -41,13 +42,20 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setHidden:NO];
+    //    [self.navigationController.navigationBar setHidden:NO];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"读取git信息";
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:self action:@selector(goBack)];
+    self.navigationItem.leftBarButtonItem = leftButton;
+    
+    
     
     self.GITTABLEVIEW = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.GITTABLEVIEW.delegate = self;
@@ -84,6 +92,10 @@
     cell.textLabel.text = module.title;
     cell.detailTextLabel.text = module.value;
     return cell;
+}
+
+- (void)goBack {
+    NSLog(@"---");
 }
 
 

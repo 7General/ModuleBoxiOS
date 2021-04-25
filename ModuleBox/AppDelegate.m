@@ -26,13 +26,14 @@
     
     ModuleMainViewController * tabbar = [[ModuleMainViewController alloc] init];
     [[ModuleUIStackManager shareInstance] setTabBarController:tabbar];
-    
-    
     NSLog(@"DBAIDUMAPKEYDBAIDUMAPKEY->%@",BAIDUMAPKEY);
     self.window.rootViewController = tabbar;
     [self.window makeKeyAndVisible];
     
-   
+//    MainViewController * main = [[MainViewController alloc] init];
+//    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:main];
+//    self.window.rootViewController = nav;
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }

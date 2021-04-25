@@ -21,5 +21,10 @@
   },
   "pod_target_xcconfig": {
     "USE_HEADERMAP": false
+  },
+  "dependencies": {
+    "ModuleUIStack": [
+
+    ]
   }
 }

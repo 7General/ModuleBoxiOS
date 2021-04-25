@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {'USE_HEADERMAP' => false}
   # 添加头文件
   spec.prefix_header_contents = '#import "ModuleHomeHeader.h"'
+  spec.dependency    'ModuleUIStack'
 end
